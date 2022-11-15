@@ -1,0 +1,285 @@
+\documentclass{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[margin=2cm, includefoot]{geometry}
+\setlength{\parindent}{0cm}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{scalerel,amssymb}
+\def\csquare{{\Large $\boxtimes$}}
+\def\msquare{{\Large $\square$}}
+\usepackage[normalem]{ulem}
+
+\input{"../../header_exam"}
+
+% -----------------------------------------------------------------------
+\begin{document}
+\maketitle
+\thispagestyle{empty}\small
+
+<<naming, echo = FALSE>>=
+## libraries
+pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi)
+student_name <- "templateName"
+student_file <- str_replace_all(str_replace(student_name, ", ", "_"), " ", "_")
+## back to umlaute
+student_name %<>% stri_replace_all_fixed(c("ae", "oe", "ue", "Ae", "Oe", "Ue"), 
+                                         c("{\"a}", "{\"o}", "{\"u}", "{\"A}", "{\"O}", "{\"U}"), 
+                                         vectorize_all = FALSE)
+
+@
+
+\section*{Name, Vorname: \Sexpr{student_name}}
+
+\textbf{Das Pr{\"u}fungsgespr{\"a}ch dauert 30 Minuten.} \uline{Planen Sie f{\"u}r Ihre Pr{\"a}sentation
+also 20 bis 25 Minuten ein.} Wenn es Ihrer Pr{\"a}sentation nutzt, k{\"o}nnen Sie
+die Aufgaben neu sortieren und entsprechend markieren.
+
+<<data, echo = FALSE>>=
+
+
+## data generation
+def <- defData(varname = "age", dist = "normal", formula = "60", variance = 20)
+def <- defData(def, varname = "gender", formula = "0.2;0.8", dist = "categorical")
+def <- defData(def, varname = "pet", formula = "0.8;0.2", dist = "categorical")
+def <- defData(def, varname = "clinic", formula = "0.3;0.05;0.1;0.4;0.1;0.05",
+               dist = "categorical")
+def <- defData(def, varname = "activity", formula = "100 + 20 * gender + 10 * pet", variance = 40)
+def <- defData(def, varname = "frailty", formula = "0.5;0.35;0.15", dist = "categorical")
+def <- defData(def, varname = "surgery", formula = "0.3;0.6;0.1", dist = "categorical")
+def <- defData(def, varname = "bloodpressure", formula = "60 + 20 * gender + 5 * clinic", variance = 20)
+def <- defData(def, varname = "height", formula = "140 + 20 * gender", variance = 10)
+def <- defData(def, varname = "weight", formula = "60 + 0.1 * height - 10 * gender" , variance = 10)
+def <- defData(def, varname = "creatinin", formula = "5", variance = 2)
+def <- defData(def, varname = "ISCED", formula = "0.3;0.2;0.1;0.3;0.1",
+               dist = "categorical")
+def <- defData(def, varname = "CRP", dist = "poisson", formula = "25")
+def <- defData(def, varname = "ASA", formula = "0.3;0.55;0.1;0.03;0.02",
+               dist = "categorical")
+def <- defData(def, varname = "anae_time", formula = "10 + 10 * frailty + 20 * ASA - 0.1 * age",
+               variance = 20)
+def <- defData(def, varname = "complication", formula = "10 + 5 * ASA + 3 * frailty - 0.5 * age",
+               variance = 30)
+def <- defData(def, varname = "days_without_comp", formula = "-50 + 5 * gender + 0.5 * age + surgery + pet + 0.2 * anae_time",
+               variance = 30)
+def <- defData(def, varname = "POD", formula = "-10 + 0.5 * gender +
+0.5 * frailty + 0.1 * CRP + 0.05 * creatinin + 0.2 * bloodpressure - 0.2 * pet - 0.175 * ISCED + 0.01 * weight + 5 * anae_time", 
+dist = "normal", variance = 10)
+
+
+## data mutating
+dt <- genData(rpois(1, 400), def)
+data_tbl <- dt %>%
+  as_tibble %>%
+  mutate(gender = factor(gender, labels = c("man", "woman")),
+         age = round(age),
+         activity = round(activity),
+         weight = round(weight),
+         height = round(height),
+         creatinin = round(creatinin),
+         frailty = factor(frailty, labels = c("robuts", "pre-frail", "frail")),
+         ISCED = factor(ISCED, labels = c("II", "III", "IV", "V", "VI")),
+         ASA = factor(ASA, labels = c("II", "III", "IV", "V", "VI")),
+         pet = factor(pet, labels = c("no", "yes")),
+         anae_time = round(anae_time),
+         without_complication = round(ifelse(days_without_comp <= 0, 0, days_without_comp)),
+         surgery = factor(surgery, labels = c("abdominal", "thorax", "other")),
+         complication = ifelse(complication > 2, 1, 0),
+         clinic = factor(clinic, labels = c("UKE", "CVK", "CBF", "LMU", "MHH", "UKL"))) %>%
+  arrange(clinic) %>% 
+  select(-id, -days_without_comp)
+##
+data_tbl$POD <- data_tbl$POD + mapply(FUN = rnorm, n = table(data_tbl$clinic),
+                                      mean = c(0, 4, 2, -2, 0, 5), sd = 1) %>% unlist
+## get anae_start and anae_end
+origin_date <- str_c("2018",
+                     sample(1:12, nrow(data_tbl), replace = TRUE) %>%
+                     str_pad("0", side = "left", width = 2),
+                     sample(1:28, nrow(data_tbl), replace = TRUE) %>%
+                     str_pad("0", side = "left", width = 2),
+                     sep = "-")
+anae_tbl <- ldply(1:nrow(data_tbl), function(i) {
+  start_time <- -sample(1:10, 1)*sample(1:60, 1)*sample(1:60, 1)
+  anae_time_tmp <- data_tbl$anae_time[i]*sample(1:60, 1)
+  anae_start <- as.POSIXlt(start_time, origin = origin_date[i], tz = "America/New_York")
+  anae_end <- as.POSIXlt(start_time + anae_time_tmp, origin = origin_date[i],
+                         tz = "America/New_York")
+  return(data.frame(anae_start, anae_end))
+}) %>% as_tibble
+##
+data_out_tbl <- bind_cols(data_tbl, anae_tbl) %>%
+  mutate(POD = ifelse(POD < 350, 0, 1)) %>%
+  select(-anae_time)
+
+## require("survival")
+## require(survminer)
+## fit <- survfit(Surv(anae_time, complication) ~ gender, 
+##   data = data_tbl)
+## # Drawing survival curves
+## ggsurvplot(fit)
+
+get_topics <- function(...) {
+endpoint_tbl <- tibble(endpoint = c("bloodpressure", ## normal
+                                    "fraility", ## ordered
+                                    "surgery", ## multinominal
+                                    "POD", ## binary
+                                    "without_complication", ## Poisson
+                                    "anae_start, anae_end und complication", ## survival
+                                    "bloodpressure genestet in clinic" ## mixed
+                                    ),
+                       tag = c("normal",
+                               "ordered",
+                               "multinomial",
+                               "binary",
+                               "poisson",
+                               "survival",
+                               "mixed"),
+                       points = c(1, 2, 2, 1, 2, 3, 3)) %>%
+  sample_n(1)
+part2_tbl <- tibble(tag = c("anova",
+                            "samplesize",
+                            "meta",
+                            "prediction",
+                            "bayes",
+                            "multcomp"),
+                    points = c(1, 1, 2, 1, 3, 2)) %>%
+  sample_n(1)
+return(list(endpoint = endpoint_tbl,
+            part2 = part2_tbl,
+            points = endpoint_tbl$points + part2_tbl$points))
+}
+
+topic_lst <- llply(1:10, function(...) {
+  topic_lst <- get_topics()
+  if(topic_lst$points < 5)
+    return(topic_lst)
+}) %>% compact() %>%
+  sample(1) 
+
+endpoint_tbl <- topic_lst[[1]]$endpoint
+part2_tbl <- topic_lst[[1]]$part2
+  
+## add missing
+if(endpoint_tbl$endpoint %in% c("bloodpressure", "POD",
+                                "without_complication", "surgery", "fraility")) {
+  data_out_tbl %<>% missForest::prodNA(noNA = sample(c(0.01, 0.025, 0.05, 0.075))) 
+}
+
+endpoint <- endpoint_tbl %>% pull(endpoint) %>% 
+  str_replace_all("_", "\\\\_")
+
+
+## data writing
+write_csv(data_out_tbl, str_c(student_file, ".csv"))
+
+@
+
+\subsection*{Teil 1: Datenanalyse in R}
+
+In einer klinischen Studie wurden verschiedenste Variablen an Patienten
+w{\"a}hrend einer Operation erhoben. Durch wechselnde Zust{\"a}ndigkeiten und der
+ung{\"u}nstigen Projektlaufzeit der Studie, ist niemand mehr aus den Anfangstagen der
+Planung aufzufinden. Dies sollte Sie aber nicht davon abhalten, den Auftrag
+diese Daten zu analysieren anzunehmen! Der Endpunkt der Studie ist
+als einziges noch bekannt:
+\begin{center}
+  \large\textbf{$\mbox{\Sexpr{endpoint}}$}.
+\end{center}
+Interpretieren Sie die Covariaten eigenst{\"a}ndig im Kontext der Studie und
+dem Endpunkt in einem kausalen Modell.  
+
+\subsubsection*{Kausales Modell}
+
+\begin{itemize}
+\item Erstellen Sie sich eine Fragestellung passend zum Endpunkt!
+\item Erstellen Sie eine univariate, nach dem Endpunkt stratifizierte
+  {\"U}bersichts\textbf{tabelle} mit allen Variablen! Beachten Sie f{\"u}r die
+  Tabellendarstellung das jeweilige Skalenniveau und die deskriptiven
+  Beschreibung der Variable! \textit{Es kann sein, dass Sie daf{\"u}r den
+    Endpunkt \uline{einzig und alleine f{\"u}r die Tabellendarstellung}
+    transformieren m{\"u}ssen.}
+\item \textit{\uline{Wenn vorhanden}}, imputieren Sie die fehlenden Werte!
+\item F{\"u}hren Sie eine \textbf{sinnvolle} und \textbf{begrenzte} EDA durch!
+\item Rechnen Sie eine multiple lineare Regression \textbf{passend zum
+    Endpunkt!} Begr{\"u}nden Sie die Selektion ihrer Variablen! \textit{Wenn}
+    Sie eine Variablenselektion w{\"a}hlen, erkl{\"a}ren Sie die Selektionsmethode.
+\item Interpretieren Sie das Ergebnis im Bezug auf die Signifikanz und die
+  Effektsch{\"a}tzer f{\"u}r alle im Modell vorhanden Variablen! Geben Sie die
+  passenden 95\% Konfidenzintervalle f{\"u}r die Effektsch{\"a}tzer an!
+\end{itemize}
+
+\subsubsection*{Vertiefendes Thema}
+
+<<part2, echo = FALSE>>=
+
+## tag <- c("anova", "samplesize", "meta", "prediction", "bayes") %>% sample(1)
+## part 2
+part2 <- str_c("../", part2_tbl$tag, ".tex")
+
+remove_tags <- c(part2_tbl$tag, endpoint_tbl$tag)
+
+@ 
+
+\input{\Sexpr{part2}}
+
+
+\subsection*{Teil 2}
+
+<<questions, echo = FALSE>>=
+
+question_tbl <- read_excel(file.path("C:/Users/kruppajo/myTeaching/FU_Berlin/StatistikII_BSc/SoSe 2021/Klausur_Hauptpruefung/organisation",
+                                     "fragen_liste_tag.xlsx"))  %>%
+  na.omit
+
+wanted_tags <- tibble(tags = unique(question_tbl$tag)) %>%
+  filter(!tags %in% remove_tags) %>%
+  pull(tags)
+
+quest_tbl <- ldply(wanted_tags, function(x) {
+  tmp_tbl <- filter(question_tbl, tag == x) %>%
+    ## pull(question) %>%
+    sample_n(1)
+  return(tmp_tbl)
+}) %>%
+  sample_n(5)
+
+quest_vec <- quest_tbl %>%
+  pull(question)
+
+tag_vec <- quest_tbl %>%
+  pull(tag)
+
+## non used topics
+non_used_tag <- unique(question_tbl$tag)[!unique(question_tbl$tag) %in% c(remove_tags, tag_vec)] %>%
+  sort %>%
+  str_to_title %>%
+  str_c(collapse = ", \\msquare ")
+non_used_tag <- str_c("\\msquare ", non_used_tag)
+
+used_tag <- c(remove_tags, tag_vec) %>%
+  sort %>%
+  str_to_title %>%
+  str_c(collapse = ", \\csquare ")
+used_tag <- str_c("\\csquare ", used_tag)
+
+used_nonused_tags <- str_c(used_tag, ", ", non_used_tag)
+
+@
+
+Bearbeiten Sie folgende Aufgaben! Die Aufgaben dienen als Einstieg in das
+abschlie{\ss}ende Pr{\"u}fungsgespr{\"a}ch, in dem auch Ihr Verst{\"a}ndnis des
+weiterreichenden Kontextes bzw. des {\"u}bergeordneten Themas gepr{\"u}ft werden.
+
+\begin{itemize}
+\item \Sexpr{quest_vec[1]}
+\item \Sexpr{quest_vec[2]}
+\item \Sexpr{quest_vec[3]}
+\item \Sexpr{quest_vec[4]}
+\item \Sexpr{quest_vec[5]}
+\end{itemize}
+
+\noindent\rule[0.5ex]{\linewidth}{1pt} {\tiny \textbf{Informationen
+    f{\"u}r die Pr{\"u}fer*innen:} Folgende Themenfelder wurden in der Klausur
+  ber{\"u}cksichtigt bzw. sind noch offen. Gewisse Themen{\"u}berschneidungen
+  lassen sich nicht vermeiden und sind gewollt: \Sexpr{used_nonused_tags}}
+
+\end{document}
