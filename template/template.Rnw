@@ -1,7 +1,12 @@
 \documentclass{scrartcl}
 %\usepackage[ngerman]{babel}
 \usepackage[margin=2cm, includefoot]{geometry}
-\input{../init}
+<<init, echo = FALSE>>=
+pacman::p_load(fs)
+init_file <- file.path(path_home(), "Documents/GitHub/project/init")
+@
+
+\input{\Sexpr{init_file}}
 
 % -----------------------------------------------------------------------
 \begin{document}
@@ -12,10 +17,11 @@
 pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi)
 student_name <- "templateName"
 student_file <- str_replace_all(str_replace(student_name, ", ", "_"), " ", "_")
-student_out_file <- str_c(student_file, ".csv")
+student_out_file <- file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, ".csv"))
+student_out_basename_file <- str_c("data_", basename(student_out_file))
 ## back to umlaute
 student_name %<>% stri_replace_all_fixed(c("ae", "oe", "ue", "Ae", "Oe", "Ue"), 
-                                         c("{\"a}", "{\"o}", "{\"u}", "{\"A}", "{\"O}", "{\"U}"), 
+                                         c("ä", "ö", "ü", "Ä", "Ö", "Ü"), 
                                          vectorize_all = FALSE)
 
 @
@@ -36,6 +42,11 @@ chamber_file <- c("log.series.000.1124.1.txt", "log.series.zhzt.11022.txt") %>% 
 text_vec <- lst(field = c(str_c("Sie führen ein Feldexperiment mit einer landwirtschaftlich bedeutenden Pflanze durch. Das Feld befindet sich unter den Koordinaten ", field_coords, " in der Nähe von Osnabrück. Das war das beste Feld was Sie für Ihren Versuch kriegen konnten. Nehmen Sie dieses Feld als Ausgangspunkt für Ihre Versuchsplanung. Beachten Sie eventuelle Einflüsse durch die Umwelt anhand der Koordinaten in Ihrer Einleitung und Diskussion.")),
                 chamber = c(str_c("Sie führen ein Gewächshausexperiment mit einer gartenbaulich bedeutenden Pflanze durch. Sie haben insgesamt vier Tische in dem Gewächshaus zu Verfügung. Auf die Tische passen bis zu sechzig Töpfe. Ihnen Stand eine automatische Klimasteuerung zu Verfügung der Sie blind vertraut haben. Mit der Datei \\texttt{", chamber_file, "} wurde Ihnen am Ende des Versuches noch der Status der Anlage zur Klimasteuerung während des Versuches mitgeteilt. Berücksichtigen Sie Informationen in Ihrer Diskussion."))) %>%
   pluck(location_vec)
+
+if(location_vec == "chamber"){
+  file.copy(file.path(path_home(), "Documents/GitHub/project/template", chamber_file),
+            file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, "_", chamber_file)))
+}
 
 endpoint <- c("drymatter", "greenfly", "infected") %>% sample(1)
 
@@ -78,14 +89,14 @@ Im Folgenden ist ein Ausschnitt aus der Datentabelle gegeben.
 
 \begin{center}
 <<print, echo = FALSE>>=
-data_tbl %>% head(n = 9) %>% kable(align = "c",
+data_tbl %>% head(n = 9) %>% kable(align = "c", "latex",
   booktabs = TRUE, position = "h")
 @
 \end{center}
 
 \vspace{1Ex}
 
-Sie finden die vollständigen Daten in der Datei \texttt{\Sexpr{student_out_file}}. Laden Sie die vollständigen Daten in R und rechnen Sie auf den vollständigen Daten Ihre Analysen.
+Sie finden die vollständigen Daten in der Datei \verb|\Sexpr{student_out_basename_file}|. Laden Sie die vollständigen Daten in R und rechnen Sie auf den vollständigen Daten Ihre Analysen.
 
 \subsubsection*{Formalia}
 
