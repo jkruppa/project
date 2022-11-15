@@ -16,9 +16,6 @@ students_tbl <- read_table(file.path(project_path, semester_path, "2022_students
          Nachname_str = str_replace_all(nachname, " ", "_"),
          Vorname_str = str_replace_all(vorname, " ", "_")) 
 
-  
-
-##
 ## loop over the students
 l_ply(1:nrow(students_tbl), function(i) {
   student_tbl <- students_tbl[i, ]
@@ -46,7 +43,6 @@ l_ply(1:nrow(students_tbl), function(i) {
   zip(file.path(project_path, semester_path, str_c(student_file_str, ".zip")),
       dir(copy_dir, full.names = TRUE, pattern = student_file_str), extras = "-j")
   unlink(file.path(project_path, "template", "tmp"), recursive=TRUE)
-  
   dir(file.path(project_path, semester_path), pattern = student_file_str, full.names = TRUE) %>% 
     str_subset(".zip", negate = TRUE) %>% 
     unlink()
