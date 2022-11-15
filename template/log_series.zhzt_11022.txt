@@ -1,0 +1,29 @@
+--- climate.log --- series.zhzt_11022 ---
+>>> run checking fan ...
+... checking left ventilation [ok]
+... checking right ventilation [failed] ... retry ...
+... checking right ventilation [failed] ... retry ...
+... checking right ventilation [failed] ... retry ...
+... checking right ventilation [ok]
+... checking lower ventilation [ok]
+... checking upper ventilation [ok] 
+... finished check
+>>> run checking thermostat
+... checking left temperature to 21° [ok]
+... checking right temperature to 21° [failed]
+>>> run right ventilation [failed] ... set temp to 25° ... 
+>>> run right ventilation [failed] ... set temp to 26° ... 
+>>> run right ventilation [failed] ... set temp to 27° ... [ok]
+... finished check
+>>> run checking water flow
+... check flow right [ok]
+... check flow left [ok]
+... finished check
+>>> run checking nitrate concentration
+... check N conc. right [ok]
+... check N conc. left [ok]
+... finished check
+... finished
+>>> write log to log.txt [ok]
+
+

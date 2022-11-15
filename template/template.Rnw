@@ -1,0 +1,81 @@
+\documentclass{scrartcl}
+%\usepackage[ngerman]{babel}
+\usepackage[margin=2cm, includefoot]{geometry}
+\input{../init}
+
+% -----------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+<<naming, echo = FALSE>>=
+## libraries
+pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi)
+student_name <- "templateName"
+student_file <- str_replace_all(str_replace(student_name, ", ", "_"), " ", "_")
+## back to umlaute
+student_name %<>% stri_replace_all_fixed(c("ae", "oe", "ue", "Ae", "Oe", "Ue"), 
+                                         c("{\"a}", "{\"o}", "{\"u}", "{\"A}", "{\"O}", "{\"U}"), 
+                                         vectorize_all = FALSE)
+
+@
+
+\section*{Name, Vorname: \Sexpr{student_name}}
+
+
+
+<<intro, echo = FALSE>>=
+
+location_vec <- c("field", "chamber")  %>% sample(1)
+
+field_coords <- c("52.318123, 8.102339", "52.319599, 8.049495",
+                  "52.325898, 7.983396", "52.257219, 8.155912")
+
+chamber_file <- c("log_series.000.1124.1.txt", "log_series.zhzt_11022.txt")
+
+
+text_vec <- lst(field = c("Sie führen ein Feldexperiment durch."),
+                chamber = c("Sie führen ein Gewächshausexperiment durch.")) %>%
+  pluck(location_vec)
+
+
+@ 
+
+
+<<data, echo = FALSE>>=
+
+n_trt <- c(3, 4) %>% sample(1)
+n_block <- c(3, 4) %>% sample(1)
+n_rep <- c(3, 4, 5) %>% sample(1)
+
+expand_grid(1:n_trt, 1:n_block, 1:n_rep)
+
+tibble(drymatter = NULL,
+       greenfly = NULL,
+       infected = NULL)
+
+
+@
+
+
+
+\subsection*{Teil 1: Datenanalyse in R}
+
+In einer klinischen
+
+\Sexpr{location_vec}
+
+\Sexpr{text_vec}
+
+\subsubsection*{Formalia}
+
+\begin{enumerate}
+\item Die Auswertung der Daten und die Erstellung des Berichts findet in
+  \textit{R Notebook} oder \textit{Quatro} statt. Sie geben daher ein PDF und das dazugehörige Rmd File ab!
+\item Ihre Hausarbeit folgt dem IMRaD Schema und ist acht bis zwölf Seiten lang. 
+\item Ihre Hausarbeit beinhaltet zwischen fünf und zehn
+  wissenschaftliche Referenzen. \textit{Als Referenzen zählen ausdrücklich nicht die genutzen R
+    Pakete oder etwaige Internetseiten.}  
+\end{enumerate}
+
+
+\end{document}
