@@ -67,24 +67,75 @@
 
 
 
-\subsection*{Teil 1: Datenanalyse in R}
 
-In einer klinischen
 
-field
 
-Sie führen ein Feldexperiment durch.
+\textit{Sie führen ein Feldexperiment mit einer landwirtschaftlich bedeutenden Pflanze durch. Das Feld befindet sich unter den Koordinaten 52.257219, 8.155912 in der Nähe von Osnabrück. Das war das beste Feld was Sie für Ihren Versuch kriegen konnten. Nehmen Sie dieses Feld als Ausgangspunkt für Ihre Versuchsplanung. Beachten Sie eventuelle Einflüsse durch die Umwelt anhand der Koordinaten in Ihrer Einleitung und Diskussion.}
+
+\vspace{1Ex}
+
+Im Folgenden ist ein Ausschnitt aus der Datentabelle gegeben.
+
+\vspace{1Ex}
+
+\begin{center}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\begin{tabular}{ccccccc}
+\toprule
+trt & block & water & N & drymatter & greenfly & infected\\
+\midrule
+A & I & 12.11 & 5.53 & 22.02 & 12 & 1\\
+A & I & 14.13 & 5.57 & 22.17 & 13 & 0\\
+A & I & 25.45 & 3.69 & 21.20 & 19 & 0\\
+A & II & 12.35 & 4.28 & 21.92 & 12 & 0\\
+A & II & 13.18 & 7.20 & 22.07 & 14 & 1\\
+\addlinespace
+A & II & 18.26 & 5.64 & 22.47 & 11 & 0\\
+A & III & 28.78 & 5.19 & 20.98 & 16 & 0\\
+A & III & 24.53 & 5.93 & 21.43 & 16 & 0\\
+A & III & 10.63 & 5.51 & 21.90 & 12 & 1\\
+\bottomrule
+\end{tabular}
+
+\end{knitrout}
+\end{center}
+
+\vspace{1Ex}
+
+Sie finden die vollständigen Daten in der Datei \texttt{templateName.csv}. Laden Sie die vollständigen Daten in R und rechnen Sie auf den vollständigen Daten Ihre Analysen.
 
 \subsubsection*{Formalia}
 
 \begin{enumerate}
 \item Die Auswertung der Daten und die Erstellung des Berichts findet in
-  \textit{R Notebook} oder \textit{Quatro} statt. Sie geben daher ein PDF und das dazugehörige Rmd File ab!
+  \textit{R Notebook} oder \textit{Quatro} statt. \textbf{Sie geben daher ein PDF und die dazugehörige Rmd bzw. qmd Datei ab!}
 \item Ihre Hausarbeit folgt dem IMRaD Schema und ist acht bis zwölf Seiten lang. 
 \item Ihre Hausarbeit beinhaltet zwischen fünf und zehn
   wissenschaftliche Referenzen. \textit{Als Referenzen zählen ausdrücklich nicht die genutzen R
     Pakete oder etwaige Internetseiten.}  
+\item Beachten Sie auch die Tipps in dem \href{https://jkruppa.github.io/app-how-to-write.html}{Appendix C — Writing principles} in dem Skript Bio Data Science.   
 \end{enumerate}
 
+\subsubsection*{Datenanlyse in R}
+
+In Ihrer Analyse ist der Endpunkt $y$ die Spalte \textbf{greenfly}. Diese Festlegung des Endpunktes auf \textbf{greenfly} ist für die folgenden Aufgabenteile bindend. 
+
+\begin{enumerate}
+\item Entwickeln Sie anhand der vorliegenden Daten eine Fragestellung!
+\item Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
+\item Lesen die Daten in R ein und transformieren Sie die Variablen entsprechend!
+\item Visualisieren Sie Ihre Daten in \texttt{ggplot} im Kontext der Fragestellung!
+\item Rechen Sie die statistische Analyse in R entsprechend Ihres Endpunktes \textbf{greenfly}! Beachten Sie dabei folgende Fragen.
+\begin{enumerate}
+\item Liegen in Ihren Daten Ausreißer vor? Wie gehen Sie mit potenziellen Ausreißern um? Erläutern Sie Ihr Vorgehen!
+\item Liegen in Ihren Daten fehlende Beobachtungen vor? Wie gehen Sie mit den fehlenden Daten um? Erläutern Sie Ihr Vorgehen!
+\item Rechen Sie einen multiplen Gruppenvergleich! Gehen Sie dabei auch auf die Adjustierung für multiple Vergleiche ein. Begründen Sie Ihr Vorgehen!
+\item Berichten Sie die Effekte der Behandlung im Kontext der Fragestellung! 
+\item Visualisieren Sie die Ergebnisse des multiplen Vergleiches! Begründen Sie Ihr Vorgehen!
+\end{enumerate}
+\item Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung und möglicher Komplikationen!
+\item Geben Sie einen Ausblick auf mögliche weitere Experimente!
+\end{enumerate}
 
 \end{document}

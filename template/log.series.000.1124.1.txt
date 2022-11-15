@@ -6,7 +6,7 @@
 ... checking upper ventilation [ok] 
 ... finished check
 >>> run checking thermostat
-... checking left temperature to 21° [ok]
+... checking left temperature to 21 [ok]
 ... finished check
 >>> run checking water flow
 ... check flow right [failed] ... retry ...
@@ -18,7 +18,7 @@
 >>> run checking nitrate concentration
 ... check N conc. right to standard [failed] ... retry ...
 ... check N conc. right to standard [failed] ... set to 10 ...
-... check N conc. righ to 10 [ok]
+... check N conc. right to 10 [ok]
 ... check N conc. left [ok]
 ... finished check
 ... finished
