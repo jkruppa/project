@@ -14,7 +14,8 @@ init_file <- file.path(path_home(), "Documents/GitHub/project/init")
 
 <<naming, echo = FALSE>>=
 ## libraries
-pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi)
+pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi,
+               missRanger)
 student_name <- "templateName"
 student_file <- str_replace_all(str_replace(student_name, ", ", "_"), " ", "_")
 student_out_file <- file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, ".csv"))
@@ -72,7 +73,8 @@ data_tbl <- expand_grid(trt = 1:n_trt, block = 1:n_block, rep = 1:n_rep) %>%
                 infected = ifelse(infected <= 25, 0, 1),
                 trt = factor(trt, labels = trt_str[1:n_trt]),
                 block = factor(block, labels = block_str[1:n_block])) %>% 
-  select(-rep)
+  select(-rep) %>% 
+  generateNA(p = c(0, 0, 0.05, 0.1, 0, 0, 0))
 
 ## data writing
 write_csv2(data_tbl, student_out_file)
