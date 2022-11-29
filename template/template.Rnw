@@ -45,8 +45,8 @@ text_vec <- lst(field = c(str_c("Sie führen ein Feldexperiment mit einer landwi
   pluck(location_vec)
 
 if(location_vec == "chamber"){
-  file.copy(file.path(path_home(), "Documents/GitHub/project/template", chamber_file),
-            file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, "_", chamber_file)))
+  invisible(file.copy(file.path(path_home(), "Documents/GitHub/project/template", chamber_file),
+            file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, "_", chamber_file))))
 }
 
 endpoint <- c("drymatter", "greenfly", "infected") %>% sample(1)
