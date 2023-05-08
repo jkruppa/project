@@ -109,7 +109,7 @@ data_tbl %>% head(n = 9) %>% kable(align = "c", "latex",
 
 Sie finden die vollst{\"a}ndigen Daten in der Datei \verb|\Sexpr{student_out_basename_file}|. Laden Sie die vollst{\"a}ndigen Daten in R und rechnen Sie auf den vollst{\"a}ndigen Daten Ihre Analysen.
 
-\subsubsection*{Formalia}
+\subsubsection*{Formalia f{\"u}r den Bericht}
 
 \begin{enumerate}
 \item Die Auswertung der Daten und die Erstellung des Berichts findet in
@@ -120,6 +120,14 @@ Sie finden die vollst{\"a}ndigen Daten in der Datei \verb|\Sexpr{student_out_bas
   wissenschaftliche Referenzen. \textit{Als Referenzen z{\"a}hlen ausdr{\"u}cklich nicht die genutzen R
     Pakete oder etwaige Internetseiten.}  
 \item Beachten Sie auch die Tipps in dem \href{https://jkruppa.github.io/app-how-to-write.html}{Appendix C — Writing principles} in dem Skript Bio Data Science.   
+\end{enumerate}
+
+\subsubsection*{Formalia die Pr{\"a}sentation}
+
+\begin{enumerate}
+\item Ihre Pr{\"a}sentation ist maximal 10 Folien lang.
+\item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erdachte Fragestellung und die
+  Ergebnisse Ihrer Auswertung vor. 
 \end{enumerate}
 
 \subsubsection*{Datenanlyse in R}
