@@ -115,11 +115,11 @@ Sie finden die vollst{\"a}ndigen Daten in der Datei \verb|\Sexpr{student_out_bas
 \subsubsection*{... f{\"u}r den Bericht}
 
 \begin{enumerate}
-\item Die Auswertung der Daten und die Erstellung des Berichts findet in
+\item Die Datenanalyse in R und die Erstellung des Berichts findet in
   \textit{Quatro} statt. 
-\item Ihre Hausarbeit folgt dem IMRaD Schema und ist acht bis
+\item Ihr Bericht folgt dem IMRaD Schema und ist acht bis
   \textbf{maximal} zehn Seiten lang.
-\item Ihre Hausarbeit beinhaltet zwischen f{\"u}nf und zehn wissenschaftliche
+\item Ihr Bericht beinhaltet zwischen f{\"u}nf und zehn wissenschaftliche
   Referenzen. \textit{Als Referenzen z{\"a}hlen ausdr{\"u}cklich nicht die genutzen
     R Pakete oder etwaige Internetseiten.}
 \end{enumerate}
@@ -127,9 +127,11 @@ Sie finden die vollst{\"a}ndigen Daten in der Datei \verb|\Sexpr{student_out_bas
 \subsubsection*{... f{\"u}r die Pr{\"a}sentation}
 
 \begin{enumerate}
-\item Ihre Pr{\"a}sentation ist maximal 10 Folien lang.
 \item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erdachte Fragestellung
-  und die Ergebnisse Ihrer Auswertung vor.
+  und die Ergebnisse Ihrer Datananalyse in R vor.
+\item Ihre Pr{\"a}sentation der Datenanalyse in R ist maximal 10 Folien lang.
+\item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erstellte R Shiny Web
+  App vor. 
 \end{enumerate}
 
 \subsection*{Datenanlyse in R}
@@ -147,8 +149,6 @@ folgenden Aufgabenteile bindend.
   der Fragen an \texttt{ChatGPT}!
 \item Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche
   Annahmen haben Sie getroffen? Erl{\"a}utern Sie Ihr Vorgehen.
-\item Lesen die Daten in R ein und transformieren Sie die Variablen
-  entsprechend!
 \item Visualisieren Sie Ihre Daten in \texttt{ggplot} im Kontext der
   Fragestellung!
 \item Rechen Sie die statistische Analyse in R entsprechend Ihres
@@ -172,6 +172,17 @@ folgenden Aufgabenteile bindend.
   {\"U}bersicht der Fragen an \texttt{ChatGPT}!
 \end{enumerate}
 
+\subsection*{R Shiny Web App}
+
+Besuchen Sie die Internetseite https://ourworldindata.org/ und laden sich
+einen Datensatz von Ihrem Interesse runter.
+
+\begin{enumerate}
+\item Erstellen Sie eine R Shiny Web App aus den Daten.
+\item Sie geben die R Shiny Web App als ZIP-Datei beinhaltend alle
+  notwendigen Dateien um die App laufen zu lassen. 
+\end{enumerate}
+
 \subsection*{Zerforschung I}
 
 \begin{enumerate}
@@ -181,7 +192,34 @@ folgenden Aufgabenteile bindend.
   Sch{\"a}tzen Sie daf{\"u}r grob die Zahlen aus der fotografierten Abbildung ab.
 \item Bauen Sie aus den selbst erstellten Daten die fotografierte Abbildung in
   \texttt{ggplot()} nach!
+\item Geben Sie den Code und die Abbildung in R Quarto ab!
 \end{enumerate}
+
+\subsection*{Zerforschung II}
+
+\begin{enumerate}
+\item Begeben Sie sich in die Bibliothek in Haste. Suchen Sie sich drei
+  Abschlussarbeiten aus.
+\item Erstellen Sie eine deskriptive {\"U}bersicht {\"u}ber den Umfang der drei
+  Abschlussarbeiten!
+\item Sehen Sie folgende Fragen als Inspiration. Wie viele Referenzen
+  finden Sie? Welche Art sind die Referenzen? Wie lang ist die Einleitung?
+  Wie viele Abschnitte haben die einzelnen Teile? Welche statistischen
+  Tests werden verwendet? Welche Abschnitte gibt es {\"u}berhaupt? Wie viele
+  Referenzen stammen von dem Betreuenden?
+\item Fasse Sie Ihre {\"U}bersicht in maximal drei Seiten zusammen.
+\end{enumerate}
+
+\subsection*{Reflexion I}
+
+Besuchen Sie die Internetseite https://www.bigbookofr.com/ und w{\"a}hlen Sie
+eines der {\"u}ber 300 B{\"u}cher aus.
+
+\begin{enumerate}
+\item Schreiben Sie eine zweiseitige Zusammenfassung {\"u}ber das Buch!
+\end{enumerate}
+
+
 
 
 \end{document}
