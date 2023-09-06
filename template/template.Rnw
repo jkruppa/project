@@ -27,7 +27,7 @@ student_name %<>% stri_replace_all_fixed(c("ae", "oe", "ue", "Ae", "Oe", "Ue"),
 
 @
 
-\section*{Name, Vorname: \Sexpr{student_name}}
+\section*{Portfoliopr{\"u}fung von Name, Vorname: \Sexpr{student_name}}
 
 
 
@@ -210,7 +210,22 @@ einen Datensatz von Ihrem Interesse runter.
 \item Fasse Sie Ihre {\"U}bersicht in maximal drei Seiten zusammen.
 \end{enumerate}
 
-\subsection*{Reflexion I}
+\subsection*{Erforschen \& Erkunden}
+
+Besuchen Sie den Hasefriedhof oder den Johannisfriedhof in
+Osnabr{\"u}ck. Finden Sie eine Pers{\"o}nlichkeit, die dort ruht und
+inspiriert. Die Pers{\"o}nlichkeit sollte im weitesten Sinne eine Verbindung zur
+Wissenschaft haben. Anfang des letzten Jahrhunderts ist die Trennung der
+Disziplinen aber sehr unscharf.
+
+\begin{enumerate}
+\item Machen Sie ein Foto von der Grabst{\"a}tte!
+\item F{\"u}gen Sie das Foto in ein Dokument ein und schreiben Sie ein bis zwei
+  Seiten {\"u}ber die Pers{\"o}nlichkeit und deren wissenschaftliches Wirken!
+\item Warum haben Sie diese Pers{\"o}nlichkeit gew{\"a}hlt?
+\end{enumerate}
+
+\subsection*{Reflexion}
 
 Besuchen Sie die Internetseite https://www.bigbookofr.com/ und w{\"a}hlen Sie
 eines der {\"u}ber 300 B{\"u}cher aus.
