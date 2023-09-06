@@ -39,8 +39,8 @@ field_coords <- c("52.318123, 8.102339", "52.319599, 8.049495",
 
 chamber_file <- c("log.series.000.1124.1.txt", "log.series.zhzt.11022.txt") %>% sample(1)
 
-text_vec <- lst(field = c(str_c("Sie f{\"u}hren ein Feldexperiment mit einer landwirtschaftlich bedeutenden Pflanze durch. Das Feld befindet sich unter den Koordinaten ", field_coords, " in der N{\"a}he von Osnabr{\"u}ck. Das war das beste Feld was Sie f{\"u}r Ihren Versuch kriegen konnten. Nehmen Sie dieses Feld als Ausgangspunkt f{\"u}r Ihre Versuchsplanung. Beachten Sie eventuelle Einfl{\"u}sse durch die Umwelt anhand der Koordinaten in Ihrer Einleitung und Diskussion.")),
-                chamber = c(str_c("Sie f{\"u}hren ein Gew{\"a}chshausexperiment mit einer gartenbaulich bedeutenden Pflanze durch. Sie haben insgesamt vier Tische in dem Gew{\"a}chshaus zu Verf{\"u}gung. Auf die Tische passen bis zu sechzig T{\"o}pfe. Ihnen Stand eine automatische Klimasteuerung zu Verf{\"u}gung der Sie blind vertraut haben. Mit der Datei \\texttt{", chamber_file, "} wurde Ihnen am Ende des Versuches noch der Status der Anlage zur Klimasteuerung w{\"a}hrend des Versuches mitgeteilt. Ber{\"u}cksichtigen Sie Informationen in Ihrer Diskussion."))) %>%
+text_vec <- lst(field = c(str_c("Sie führen ein Feldexperiment mit einer landwirtschaftlich bedeutenden Pflanze durch. Das Feld befindet sich unter den Koordinaten ", field_coords, " in der Nähe von Osnabrück. Das war das beste Feld was Sie für Ihren Versuch kriegen konnten. Nehmen Sie dieses Feld als Ausgangspunkt für Ihre Versuchsplanung. Beachten Sie eventuelle Einflüsse durch die Umwelt anhand der Koordinaten in Ihrer Einleitung und Diskussion.")),
+                chamber = c(str_c("Sie führen ein Gewächshausexperiment mit einer gartenbaulich bedeutenden Pflanze durch. Sie haben insgesamt vier Tische in dem Gewächshaus zu Verfügung. Auf die Tische passen bis zu sechzig Töpfe. Ihnen Stand eine automatische Klimasteuerung zu Verfügung der Sie blind vertraut haben. Mit der Datei \\texttt{", chamber_file, "} wurde Ihnen am Ende des Versuches noch der Status der Anlage zur Klimasteuerung während des Versuches mitgeteilt. Berücksichtigen Sie Informationen in Ihrer Diskussion."))) %>%
   pluck(location_vec)
 
 if(location_vec == "chamber"){
@@ -52,10 +52,10 @@ endpoint <- c("drymatter", "greenfly", "infected") %>% sample(1)
 
 species <- c("Basilikum", "Raps", "Sellerie", "Wasserlinsen",
              "Agaven", "Bananen", "Vanille", "Pfeffer", "Nelken",
-             "Tonkabohnen", "{\"A}pfel", "Birnen", "Kartoffeln",
-             "Gr{\"u}nkohl", "Mais", "Muskatnuss", "Zuckerrohr",
+             "Tonkabohnen", "Birnen", "Kartoffeln",
+             "Grünkohl", "Mais", "Muskatnuss", "Zuckerrohr",
              "Oregano", "Mandarinen", "Papaya", "Wassermelone",
-             "Mango", "Durian", "G{\"o}tterbaum") %>% sample(1)
+             "Mango", "Durian", "Götterbaum") %>% sample(1)
 
 
 
@@ -255,8 +255,33 @@ interessiert. Nehmen Sie aber ein \textit{Buch}, keine verlinkte
 Internetseite oder Blogartikel.
 
 \begin{enumerate}
-\item Schreiben Sie eine zweiseitige Zusammenfassung {\"u}ber das Buch!
+\item Schreiben Sie eine maximal zweiseitige Zusammenfassung {\"u}ber das Buch!
+\item Warum haben Sie dieses Buch gewählt?
 \end{enumerate}
 
+\subsection*{Benotung}
+
+Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 27 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 13 Punkte. Themen mit Teilpunkten, die in \textbf{fett} gedruckt sind, müssen \textbf{mindestens} erreicht werden.
+
+\begin{center}
+  \begin{tabular}{lll}
+    \toprule
+    Thema & Teilpunkte & Punkte\\
+    \midrule
+    Datenanalyse in R & 0, \textbf{1}, 2, 3, 4 & & \\[1Ex]
+    R Shiny Web App & 0, 1, 2, 3, 4  & \\[1Ex]
+    Pr{\"a}sentation & 0, 1  & \\[1Ex]
+    Zerforschung I & 0, \textbf{1}, 2, 3, 4  & \\[1Ex]
+    Zerforschung II & 0, \textbf{1}, 2  & \\[1Ex]
+    Zerforschung III & 0, \textbf{1}, 2, 3, 4  & \\[1Ex]
+    Erforschen \& Erkunden & 0, 1, 2 & \\[1Ex]
+    Reflexion & 0, 1, 2 & \\
+    \midrule
+    & Summe & \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\subsubsection*{Die Abgabe des Portfolios ist - digital oder als Ausdruck - jederzeit möglich, spätestens zum 31. Januar 2024.}
 
 \end{document}
