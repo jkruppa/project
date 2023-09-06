@@ -109,28 +109,30 @@ data_tbl %>% head(n = 9) %>% kable(align = "c", "latex",
 
 Sie finden die vollst{\"a}ndigen Daten in der Datei \verb|\Sexpr{student_out_basename_file}|. Laden Sie die vollst{\"a}ndigen Daten in R und rechnen Sie auf den vollst{\"a}ndigen Daten Ihre Analysen.
 
-\subsubsection*{Formalia f{\"u}r den Bericht}
+
+\subsection*{Formalia}
+
+\subsubsection*{... f{\"u}r den Bericht}
 
 \begin{enumerate}
 \item Die Auswertung der Daten und die Erstellung des Berichts findet in
-  \textit{R Notebook} oder \textit{Quatro} statt. \textbf{Sie geben daher ein PDF und die dazugeh{\"o}rige Rmd bzw. qmd Datei ab!}
+  \textit{Quatro} statt. 
 \item Ihre Hausarbeit folgt dem IMRaD Schema und ist acht bis
-  \textbf{maximal} zehn Seiten lang. 
-\item Ihre Hausarbeit beinhaltet zwischen f{\"u}nf und zehn
-  wissenschaftliche Referenzen. \textit{Als Referenzen z{\"a}hlen ausdr{\"u}cklich nicht die genutzen R
-    Pakete oder etwaige Internetseiten.}  
-\item Beachten Sie auch die Tipps in dem \href{https://jkruppa.github.io/app-how-to-write.html}{Appendix C — Writing principles} in dem Skript Bio Data Science.   
+  \textbf{maximal} zehn Seiten lang.
+\item Ihre Hausarbeit beinhaltet zwischen f{\"u}nf und zehn wissenschaftliche
+  Referenzen. \textit{Als Referenzen z{\"a}hlen ausdr{\"u}cklich nicht die genutzen
+    R Pakete oder etwaige Internetseiten.}
 \end{enumerate}
 
-\subsubsection*{Formalia die Pr{\"a}sentation}
+\subsubsection*{... f{\"u}r die Pr{\"a}sentation}
 
 \begin{enumerate}
 \item Ihre Pr{\"a}sentation ist maximal 10 Folien lang.
-\item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erdachte Fragestellung und die
-  Ergebnisse Ihrer Auswertung vor. 
+\item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erdachte Fragestellung
+  und die Ergebnisse Ihrer Auswertung vor.
 \end{enumerate}
 
-\subsubsection*{Datenanlyse in R}
+\subsection*{Datenanlyse in R}
 
 In Ihrer Analyse ist der Endpunkt $y$ die Spalte
 \textbf{\Sexpr{endpoint}}. Ihre zu untersuchende Pflanze ist/sind
@@ -145,20 +147,41 @@ folgenden Aufgabenteile bindend.
   der Fragen an \texttt{ChatGPT}!
 \item Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche
   Annahmen haben Sie getroffen? Erl{\"a}utern Sie Ihr Vorgehen.
-\item Lesen die Daten in R ein und transformieren Sie die Variablen entsprechend!
-\item Visualisieren Sie Ihre Daten in \texttt{ggplot} im Kontext der Fragestellung!
-\item Rechen Sie die statistische Analyse in R entsprechend Ihres Endpunktes \textbf{\Sexpr{endpoint}}! Beachten Sie dabei folgende Fragen.
-\begin{enumerate}
-\item Liegen in Ihren Daten Ausrei{\ss}er vor? Wie gehen Sie mit potenziellen Ausrei{\ss}ern um? Erl{\"a}utern Sie Ihr Vorgehen!
-\item Liegen in Ihren Daten fehlende Beobachtungen vor? Wie gehen Sie mit den fehlenden Daten um? Erl{\"a}utern Sie Ihr Vorgehen!
-\item Rechen Sie einen multiplen Gruppenvergleich! Gehen Sie dabei auch auf die Adjustierung f{\"u}r multiple Vergleiche ein. Begr{\"u}nden Sie Ihr Vorgehen!
-\item Berichten Sie die Effekte der Behandlung im Kontext der Fragestellung! 
-\item Visualisieren Sie die Ergebnisse des multiplen Vergleiches! Begr{\"u}nden Sie Ihr Vorgehen!
-\end{enumerate}
+\item Lesen die Daten in R ein und transformieren Sie die Variablen
+  entsprechend!
+\item Visualisieren Sie Ihre Daten in \texttt{ggplot} im Kontext der
+  Fragestellung!
+\item Rechen Sie die statistische Analyse in R entsprechend Ihres
+  Endpunktes \textbf{\Sexpr{endpoint}}! Beachten Sie dabei folgende Fragen.
+  \begin{enumerate}
+  \item Liegen in Ihren Daten Ausrei{\ss}er vor? Wie gehen Sie mit potenziellen
+    Ausrei{\ss}ern um? Erl{\"a}utern Sie Ihr Vorgehen!
+  \item Liegen in Ihren Daten fehlende Beobachtungen vor? Wie gehen Sie mit
+    den fehlenden Daten um? Erl{\"a}utern Sie Ihr Vorgehen!
+  \item Rechen Sie einen multiplen Gruppenvergleich! Gehen Sie dabei auch
+    auf die Adjustierung f{\"u}r multiple Vergleiche ein. Begr{\"u}nden Sie Ihr
+    Vorgehen!
+  \item Berichten Sie die Effekte der Behandlung im Kontext der
+    Fragestellung!
+  \item Visualisieren Sie die Ergebnisse des multiplen Vergleiches!
+    Begr{\"u}nden Sie Ihr Vorgehen!
+  \end{enumerate}
 \item Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung und
-  m{\"o}glicher Komplikationen! Nutzen Sie auch hier Tool
+  m{\"o}glicher Komplikationen! Nutzen Sie auch hier das Tool
   \texttt{ChatGPT}. Geben Sie am Ende der Diskussion eine tabellarische
   {\"U}bersicht der Fragen an \texttt{ChatGPT}!
 \end{enumerate}
+
+\subsection*{Zerforschung I}
+
+\begin{enumerate}
+\item Suchen Sie sich auf dem Campus Haste ein Poster und Fotografieren
+  Sie eine der dortigen Abbildungen!
+\item Erstellen Sie den Datensatz auf dem die Abbildung basieren k{\"o}nnte!
+  Sch{\"a}tzen Sie daf{\"u}r grob die Zahlen aus der fotografierten Abbildung ab.
+\item Bauen Sie aus den selbst erstellten Daten die fotografierte Abbildung in
+  \texttt{ggplot()} nach!
+\end{enumerate}
+
 
 \end{document}
