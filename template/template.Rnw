@@ -140,7 +140,7 @@ in R und rechnen Sie auf den vollst{\"a}ndigen Daten Ihre Analysen.
 In Ihrer Analyse ist der Endpunkt $y$ die Spalte
 \textbf{\Sexpr{endpoint}}. Ihre zu untersuchende Pflanze ist/sind
 "`\Sexpr{species}"'. Diese Festlegung des Endpunktes auf
-\textbf{\Sexpr{endpoint}} und der zu untersuchenden Pflanze "`\Sexpr{species}"' ist f{\"u}r die
+\textbf{\Sexpr{endpoint}} und der zu untersuchenden Pflanze \Sexpr{species} ist f{\"u}r die
 folgenden Aufgabenteile bindend.
 
 \begin{enumerate}
