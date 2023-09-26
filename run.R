@@ -6,7 +6,7 @@ source(file.path(project_path, "source/runKnitr.R"))
 ## ------------------------------------------------------------
 
 semester_path <- "students"
-students_tbl <- read_table(file.path(project_path, semester_path, "2023_students.txt")) %>% 
+students_tbl <- read_csv(file.path(project_path, semester_path, "2023_students.txt")) %>% 
   clean_names %>% 
   mutate(nachname = str_replace(nachname, ",", ""),
          nachname = stri_replace_all_fixed(nachname, 
@@ -15,6 +15,9 @@ students_tbl <- read_table(file.path(project_path, semester_path, "2023_students
                                 vectorize_all = FALSE),
          Nachname_str = str_replace_all(nachname, " ", "_"),
          Vorname_str = str_replace_all(vorname, " ", "_")) 
+
+students_tbl %>% 
+  print(n = Inf)
 
 ## loop over the students
 l_ply(1:nrow(students_tbl), function(i) {
