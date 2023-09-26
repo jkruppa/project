@@ -131,7 +131,7 @@ in R und rechnen Sie auf den vollst{\"a}ndigen Daten Ihre Analysen.
 \item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erdachte Fragestellung
   und die Ergebnisse Ihrer Datananalyse in R vor.
 \item Ihre Pr{\"a}sentation der Datenanalyse in R ist maximal 10 Folien lang.
-\item Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erstellte R Shiny Web
+\item[Oder] Sie stellen in Ihrer Pr{\"a}sentation Ihre selbst erstellte R Shiny Web
   App vor. 
 \end{enumerate}
 
@@ -139,7 +139,7 @@ in R und rechnen Sie auf den vollst{\"a}ndigen Daten Ihre Analysen.
 
 In Ihrer Analyse ist der Endpunkt $y$ die Spalte
 \textbf{\Sexpr{endpoint}}. Ihre zu untersuchende Pflanze ist/sind
-"`\Sexpr{species}"'. Diese Festlegung des Endpunktes auf
+\Sexpr{species}. Diese Festlegung des Endpunktes auf
 \textbf{\Sexpr{endpoint}} und der zu untersuchenden Pflanze \Sexpr{species} ist f{\"u}r die
 folgenden Aufgabenteile bindend.
 
@@ -214,7 +214,7 @@ Abschlussarbeiten aus. Wir konzentrieren uns hier auf die Bachelorarbeit.
   Wie viele Abschnitte haben die einzelnen Teile? Welche statistischen
   Tests werden verwendet? Welche Abschnitte gibt es {\"u}berhaupt? Wie viele
   Referenzen stammen von dem Betreuenden?
-\item Fasse Sie Ihre {\"U}bersicht in maximal drei Seiten zusammen.
+\item Fassen Sie Ihre {\"U}bersicht in maximal drei Seiten zusammen.
 \end{enumerate}
 
 \subsection*{Zerforschung III}
@@ -249,7 +249,7 @@ Disziplinen aber sehr unscharf.
 
 \subsection*{Reflexion}
 
-Besuchen Sie die Internetseite \href{https://www.bigbookofr.com/} und w{\"a}hlen Sie
+Besuchen Sie die Internetseite https://www.bigbookofr.com/ und w{\"a}hlen Sie
 eines der {\"u}ber 300 B{\"u}cher aus. Sie d{\"u}rfen jedes Thema nehmen was Sie
 interessiert. Nehmen Sie aber ein \textit{Buch}, keine verlinkte
 Internetseite oder Blogartikel.
@@ -261,19 +261,19 @@ Internetseite oder Blogartikel.
 
 \subsection*{Benotung}
 
-Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 27 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 13 Punkte. Themen mit Teilpunkten, die in \textbf{fett} gedruckt sind, müssen \textbf{mindestens} erreicht werden.
+Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 23 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 12 Punkte. Themen mit Teilpunkten, die in \textcolor{red}{rot} gedruckt sind, müssen \textbf{mindestens} erreicht werden.
 
 \begin{center}
   \begin{tabular}{lll}
     \toprule
     Thema & Teilpunkte & Punkte\\
     \midrule
-    Datenanalyse in R & 0, \textbf{1}, 2, 3, 4 & & \\[1Ex]
+    Datenanalyse in R & 0, \textcolor{red}{1}, 2, 3, 4 &  \\[1Ex]
     R Shiny Web App & 0, 1, 2, 3, 4  & \\[1Ex]
     Pr{\"a}sentation & 0, 1  & \\[1Ex]
-    Zerforschung I & 0, \textbf{1}, 2, 3, 4  & \\[1Ex]
-    Zerforschung II & 0, \textbf{1}, 2  & \\[1Ex]
-    Zerforschung III & 0, \textbf{1}, 2, 3, 4  & \\[1Ex]
+    Zerforschung I & 0, \textcolor{red}{1}, 2, 3, 4  & \\[1Ex]
+    Zerforschung II & 0, \textcolor{red}{1}, 2  & \\[1Ex]
+    Zerforschung III & 0, \textcolor{red}{1}, 2, 3, 4  & \\[1Ex]
     Erforschen \& Erkunden & 0, 1, 2 & \\[1Ex]
     Reflexion & 0, 1, 2 & \\
     \midrule
