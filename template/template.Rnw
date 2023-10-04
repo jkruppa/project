@@ -3,7 +3,7 @@
 \usepackage[margin=2cm, includefoot]{geometry}
 <<init, echo = FALSE>>=
 pacman::p_load(fs)
-init_file <- file.path(path_home(), "Documents/GitHub/project/init")
+init_file <- file.path(path_home(), "work/GitHub/project/init")
 @
 
 \input{\Sexpr{init_file}}
@@ -18,7 +18,7 @@ pacman::p_load(tidyverse, simstudy, knitr, plyr, readxl, magrittr, stringi,
                missRanger)
 student_name <- "templateName"
 student_file <- str_replace_all(str_replace(student_name, ", ", "_"), " ", "_")
-student_out_file <- file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, ".csv"))
+student_out_file <- file.path(path_home(), "work/GitHub/project/template/tmp", str_c(student_file, ".csv"))
 student_out_basename_file <- str_c("data_", basename(student_out_file))
 ## back to umlaute
 student_name %<>% stri_replace_all_fixed(c("ae", "oe", "ue", "Ae", "Oe", "Ue"), 
@@ -44,8 +44,8 @@ text_vec <- lst(field = c(str_c("Sie führen ein Feldexperiment mit einer landwi
   pluck(location_vec)
 
 if(location_vec == "chamber"){
-  invisible(file.copy(file.path(path_home(), "Documents/GitHub/project/template", chamber_file),
-            file.path(path_home(), "Documents/GitHub/project/template/tmp", str_c(student_file, "_", chamber_file))))
+  invisible(file.copy(file.path(path_home(), "work/GitHub/project/template", chamber_file),
+            file.path(path_home(), "work/GitHub/project/template/tmp", str_c(student_file, "_", chamber_file))))
 }
 
 endpoint <- c("drymatter", "greenfly", "infected") %>% sample(1)

@@ -1,12 +1,12 @@
 ## ------------------------------------------------------------
 pacman::p_load(tidyverse, readxl, plyr, stringi, janitor,
                magrittr, fs)
-project_path <- file.path(path_home(), "Documents/GitHub/project")
+project_path <- file.path(path_home(), "work/GitHub/project")
 source(file.path(project_path, "source/runKnitr.R"))
 ## ------------------------------------------------------------
 
 semester_path <- "students"
-students_tbl <- read_csv(file.path(project_path, semester_path, "2023_students.txt")) %>% 
+students_tbl <- read_csv(file.path(project_path, semester_path, "2023_students_2.txt")) %>% 
   clean_names %>% 
   mutate(nachname = str_replace(nachname, ",", ""),
          nachname = stri_replace_all_fixed(nachname, 
