@@ -7,33 +7,26 @@ format:
     embed-resources: true
 ---
 
-## Formalia
+## Datenanalyse in R (verpflichtend)
 
-### ... für den Bericht
+### Formalia
 
 -   Die Datenanalyse in R und die Erstellung des Berichts findet in *Quatro* statt. *MS Word oder andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
 -   Ihr Bericht folgt dem IMRaD Schema und ist acht bis **maximal** zehn Seiten lang.
 -   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. *Als Referenzen zählen ausdrücklich nicht die genutzten R Pakete oder etwaige Internetseiten.*
 
-### ... für die Präsentation
+### Daten
 
--   Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor.
+- Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
 
-## Datenanalyse in R (verpflichtend)
-
-In Ihrer Analyse ist der Endpunkt $y$ die Spalte. Ihre zu untersuchende Pflanze ist/sind. Diese Festlegung des Endpunktes auf und der zu untersuchenden Pflanze ist für die folgenden Aufgabenteile bindend.
+### Inhalte der Auswertung
 
 -   Entwickeln Sie anhand der vorliegenden Daten eine Fragestellung!
--   Nutzen Sie das Tool ChatGPT um die Einleitung zu schreiben. Geben Sie am Ende der Einleitung eine tabellarische Übersicht der Fragen an ChatGPT!
+-   Nutzen Sie das Tool ChatGPT/HAWKI  um die Einleitung zu schreiben. Geben Sie am Ende der Einleitung eine tabellarische Übersicht der Fragen an ChatGPT/HAWKI!
 -   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
 -   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung!
--   Rechen Sie die statistische Analyse in R entsprechend Ihres Endpunktes! Beachten Sie dabei folgende Fragen.
-    -   Liegen in Ihren Daten Ausreißer vor? Wie gehen Sie mit potenziellen Ausreißern um? Erläutern Sie Ihr Vorgehen!
-    -   Liegen in Ihren Daten fehlende Beobachtungen vor? Wie gehen Sie mit den fehlenden Daten um? Erläutern Sie Ihr Vorgehen!
-    -   Rechen Sie einen multiplen Gruppenvergleich! Gehen Sie dabei auch auf die Adjustierung für multiple Vergleiche ein. Begründen Sie Ihr Vorgehen!
-    -   Berichten Sie die Effekte der Behandlung im Kontext der Fragestellung!
-    -   Visualisieren Sie die Ergebnisse des multiplen Vergleiches! Begründen Sie Ihr Vorgehen!
--   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung und möglicher Komplikationen! Nutzen Sie auch hier das Tool ChatGPT. Geben Sie am Ende der Diskussion eine tabellarische Übersicht der Fragen an ChatGPT!
+-   Rechen Sie die statistische Analyse in R entsprechend Ihres Endpunktes! 
+-   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung und möglicher Komplikationen! Nutzen Sie auch hier das Tool ChatGPT/HAWKI. Geben Sie am Ende der Diskussion eine tabellarische Übersicht der Fragen an ChatGPT!
 
 ## R Shiny Web App (optional)
 
@@ -42,6 +35,13 @@ Besuchen Sie die Internetseite https://ourworldindata.org/ und laden sich einen 
 -   Überlegen Sie sich eine Fragestellung zu den Daten.
 -   Erstellen Sie eine R Shiny Web App aus den Daten, die bei der Beantwortung der Fragestellung hilfreich ist.
 -   Sie geben die R Shiny Web App als ZIP-Datei ab. Die ZIP-Datei beinhaltend alle notwendigen Dateien um die App laufen zu lassen.
+
+## Präsentation (optional)
+
+Was haben Sie in der Portfolioprüfung gemacht, was Sie besonders spannend oder herausfordernd fanden? Stellen Sie es doch uns allen einmal vor!
+
+-   Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor. 
+- Sie sind frei in dem Vortrag, der Form und dem Inhalt.
 
 ## Zerforschung I (verpflichtend)
 
@@ -83,7 +83,7 @@ Besuchen Sie die Internetseite https://www.bigbookofr.com/ und wählen Sie eines
 
 ## Benotung
 
-Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 23 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 12 Punkte. Themen mit Teilpunkten, die in **[fett]** gedruckt sind, müssen *mindestens* erreicht werden.
+Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 21 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 11 Punkte. Themen mit Teilpunkten, die in **[fett]** gedruckt sind, müssen *mindestens* erreicht werden.
 
 | Thema                 | Teilpunkte    | Punkte |
 |-----------------------|---------------|--------|
