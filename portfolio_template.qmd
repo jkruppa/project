@@ -2,18 +2,25 @@
 title: "Spezielle Statistik und Versuchswesen"
 subtitle: "Portfolioprüfung"
 author: "Jochen Kruppa-Scheetz"
-format:
-  html:
-    embed-resources: true
+date: "SoSe 2024"
+format: 
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
 ---
+
+Im Folgenden finden Sie die notwendigen Informationen zu der Portfolioprüfung für das Modul "Spezielle Statistik und Versuchswesen". Die einzelnen Aufgaben der Portfolioprüfung sind voneinander unabhängig. Die Portfolioprüfung wird gesammelt abgegeben und nachträgliche Ergänzungen sind nicht mehr möglich. Die Abgabe kann grundsätzlich im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments.
 
 ## Datenanalyse in R (verpflichtend)
 
 ### Formalia
 
--   Die Datenanalyse in R und die Erstellung des Berichts findet in *Quatro* statt. *MS Word oder andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
+-   Die Datenanalyse in R und die Erstellung des Berichts findet in *Quatro* statt. 
 -   Ihr Bericht folgt dem IMRaD Schema und ist acht bis **maximal** zehn Seiten lang.
 -   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. *Als Referenzen zählen ausdrücklich nicht die genutzten R Pakete oder etwaige Internetseiten.*
+
+*Die Verwendung von MS Word oder einem andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
 
 ### Daten
 
@@ -21,7 +28,7 @@ format:
 
 ### Inhalte der Auswertung
 
--   Entwickeln Sie anhand der vorliegenden Daten eine Fragestellung!
+-   Entwickeln Sie anhand der ausgewählten Daten eine Fragestellung!
 -   Nutzen Sie das Tool ChatGPT/HAWKI  um die Einleitung zu schreiben. Geben Sie am Ende der Einleitung eine tabellarische Übersicht der Fragen an ChatGPT/HAWKI!
 -   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
 -   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung!
@@ -40,8 +47,10 @@ Besuchen Sie die Internetseite https://ourworldindata.org/ und laden sich einen 
 
 Was haben Sie in der Portfolioprüfung gemacht, was Sie besonders spannend oder herausfordernd fanden? Stellen Sie es doch uns allen einmal vor!
 
--   Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor. 
+- Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor. 
 - Sie sind frei in dem Vortrag, der Form und dem Inhalt.
+
+*Die Präsentation ist am Ende der regulären Vorlesung im Januar möglich.* 
 
 ## Zerforschung I (verpflichtend)
 
@@ -50,6 +59,8 @@ Suchen Sie sich auf dem Campus Haste ein wissenschaftliches Poster und Fotografi
 -   Erstellen Sie den Datensatz auf dem die Abbildung basieren könnte! Schätzen Sie dafür grob die Zahlen aus der fotografierten Abbildung ab.
 -   Bauen Sie aus den selbst erstellten Daten die fotografierte Abbildung in `ggplot()` nach!
 -   Geben Sie den Code und die Abbildung in einem R Quarto erstellten Dokument ab!
+
+*Die Verwendung von MS Word oder einem andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
 
 ## Zerforschung II (verpflichtend)
 
@@ -76,7 +87,7 @@ Besuchen Sie den Hasefriedhof *oder* den Johannisfriedhof in Osnabrück. Finden 
 
 ## Reflexion (optional)
 
-Besuchen Sie die Internetseite https://www.bigbookofr.com/ und wählen Sie eines der über 300 Bücher aus. Sie dürfen jedes Thema nehmen was Sie interessiert. Nehmen Sie aber ein *Buch*, keine verlinkte Internetseite oder Blogartikel.
+Besuchen Sie die Internetseite <https://www.bigbookofr.com/> und wählen Sie eines der über 300 Bücher aus. Sie dürfen jedes Thema nehmen was Sie interessiert. Nehmen Sie aber ein *Buch*, keine verlinkte Internetseite oder Blogartikel.
 
 -   Schreiben Sie eine maximal zweiseitige Zusammenfassung über das Buch!
 -   Warum haben Sie dieses Buch gewählt?
@@ -96,4 +107,4 @@ Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 21 
 | Erforschen & Erkunden | 0, 1, 2       |        |
 | Reflexion             | 0, 1, 2       |        |
 
-#### Die Abgabe des Portfolios ist digital jederzeit möglich, spätestens zum 30. Juni 2024.
+**Die Abgabe ist digital jederzeit möglich, spätestens zum 30. Juni 2024.**
