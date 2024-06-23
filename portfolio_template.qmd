@@ -10,21 +10,19 @@ format:
     colorlinks: true
 ---
 
-Im Folgenden finden Sie die notwendigen Informationen zu der Portfolioprüfung für das Modul "Spezielle Statistik und Versuchswesen". Die einzelnen Aufgaben der Portfolioprüfung sind voneinander unabhängig. Die Portfolioprüfung wird gesammelt abgegeben und nachträgliche Ergänzungen sind nicht mehr möglich. Die Abgabe kann grundsätzlich im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments.
+Im Folgenden finden Sie die notwendigen Informationen zu der Portfolioprüfung für das Modul "Spezielle Statistik und Versuchswesen". *Die einzelnen Aufgaben der Portfolioprüfung sind voneinander unabhängig.* Die Portfolioprüfung wird gesammelt abgegeben und nachträgliche Ergänzungen sind nicht mehr möglich. Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments.
 
 ## Datenanalyse in R (verpflichtend)
 
 ### Formalia
 
--   Die Datenanalyse in R und die Erstellung des Berichts findet in *Quatro* statt. 
--   Ihr Bericht folgt dem IMRaD Schema und ist acht bis **maximal** zehn Seiten lang.
--   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. *Als Referenzen zählen ausdrücklich nicht die genutzten R Pakete oder etwaige Internetseiten.*
-
-*Die Verwendung von MS Word oder einem andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
+-   Ihr Bericht folgt dem IMRaD Schema und ist acht bis *maximal* zehn Seiten lang.
+-   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. 
+-   Die Datenanalyse und die Erstellung des Berichts findet in *R Quatro* statt. **(+1 Punkt)**
 
 ### Daten
 
-- Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
+-   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
 
 ### Inhalte der Auswertung
 
@@ -37,20 +35,21 @@ Im Folgenden finden Sie die notwendigen Informationen zu der Portfolioprüfung f
 
 ## R Shiny Web App (optional)
 
-Besuchen Sie die Internetseite https://ourworldindata.org/ und laden sich einen Datensatz von Ihrem Interesse runter. Sie dürfen den Datensatz beliebig vorab kürzen oder bearbeiten, so dass Sie die Aufgabe gut lösen können.
+Besuchen Sie die Internetseite <https://ourworldindata.org/> oder <https://www.fao.org/faostat/> und laden sich einen Datensatz von Ihrem Interesse runter. Sie dürfen den Datensatz beliebig vorab kürzen oder bearbeiten, so dass Sie die Aufgabe gut lösen können.
 
 -   Überlegen Sie sich eine Fragestellung zu den Daten.
 -   Erstellen Sie eine R Shiny Web App aus den Daten, die bei der Beantwortung der Fragestellung hilfreich ist.
 -   Sie geben die R Shiny Web App als ZIP-Datei ab. Die ZIP-Datei beinhaltend alle notwendigen Dateien um die App laufen zu lassen.
 
-## Präsentation (optional)
+## Präsentation (optional, nur im WiSe möglich!)
 
 Was haben Sie in der Portfolioprüfung gemacht, was Sie besonders spannend oder herausfordernd fanden? Stellen Sie es doch uns allen einmal vor!
 
 - Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor. 
 - Sie sind frei in dem Vortrag, der Form und dem Inhalt.
+- Sie erstellen die Präsentation in *R Quatro*. **(+ 1 Punkt)**
 
-*Die Präsentation ist am Ende der regulären Vorlesung im Januar möglich.* 
+*Die Präsentation ist nur am Ende der regulären Vorlesung im WiSe im Januar möglich.* 
 
 ## Zerforschung I (verpflichtend)
 
@@ -59,8 +58,6 @@ Suchen Sie sich auf dem Campus Haste ein wissenschaftliches Poster und Fotografi
 -   Erstellen Sie den Datensatz auf dem die Abbildung basieren könnte! Schätzen Sie dafür grob die Zahlen aus der fotografierten Abbildung ab.
 -   Bauen Sie aus den selbst erstellten Daten die fotografierte Abbildung in `ggplot()` nach!
 -   Geben Sie den Code und die Abbildung in einem R Quarto erstellten Dokument ab!
-
-*Die Verwendung von MS Word oder einem andere Schreibprogramme führen zu einem Abzug von 1 Punkt (mindestens 1 Punkt)*
 
 ## Zerforschung II (verpflichtend)
 
@@ -79,11 +76,18 @@ Wählen Sie eine Kurzbeschreibung eines Forschungsvorhaben aus der Datei *Forsch
 
 ## Erforschen & Erkunden (optional)
 
-Besuchen Sie den Hasefriedhof *oder* den Johannisfriedhof in Osnabrück. Finden Sie eine Persönlichkeit, die dort ruht und Sie inspiriert. Die Persönlichkeit sollte im weitesten Sinne eine Verbindung zur Wissenschaft haben. Anfang des letzten Jahrhunderts ist die Trennung der Disziplinen aber sehr unscharf.
+Machen Sie eine Exkursion. Dabie haben Sie drei Möglichkeiten zur Auswahl:
 
--   Machen Sie ein aussagekräftiges Foto von der Grabstätte!
--   Fügen Sie das Foto in ein Dokument ein und schreiben Sie ein bis zwei Seiten über die Persönlichkeit und deren wissenschaftliches Wirken!
--   Warum haben Sie diese Persönlichkeit gewählt? Was hat Sie inspiriert?
+1) Besuchen Sie den Hasefriedhof *oder* den Johannisfriedhof in Osnabrück.
+2) Besuchen Sie das Haus der NaturKultur (Am Markt 35, 49565 Bramsche). **(+1 Punkt)**
+3) Machen Sie eine eigenverantwortliche Exkursion, die zu folgenden Teilaufgaben passt. **(+2 Punkte)**
+
+Finden Sie eine Persönlichkeit in Ihrer Exkursion die Sie inspiriert. Die Persönlichkeit sollte im weitesten Sinne eine Verbindung zur Wissenschaft haben. Anfang des letzten Jahrhunderts ist die Trennung der Disziplinen aber sehr unscharf, so dass je nach Exkursion der Begriff "Wissenschaft" weit gefasst ist.
+
+-   Machen Sie ein aussagekräftiges Foto von einem Objekt Ihrer Exkursion!
+-   Fügen Sie das Foto in ein Dokument ein!
+-   Warum haben Sie dieses Objekt gewählt? Was hat Sie inspiriert? 
+-   Reflektieren Sie ein bis zwei Seiten über die Persönlichkeit und deren wissenschaftliches Wirken im Kontext Ihrer eigenen (familiären) Erfahrungen! 
 
 ## Reflexion (optional)
 
@@ -94,17 +98,17 @@ Besuchen Sie die Internetseite <https://www.bigbookofr.com/> und wählen Sie ein
 
 ## Benotung
 
-Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 21 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 11 Punkte. Themen mit Teilpunkten, die in **[fett]** gedruckt sind, müssen *mindestens* erreicht werden.
+Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 20 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 11 Punkte. Themen mit Teilpunkten in (Klammern) stellen optinal erreichbare Bonuspunkte in den jeweiligen Aufgaben dar. Themen mit Teilpunkten, die in **[fett]** gedruckt sind, müssen *mindestens* erreicht werden. 
 
-| Thema                 | Teilpunkte    | Punkte |
-|-----------------------|---------------|--------|
-| Datenanalyse in R     | 0, **[1]**, 2, 3, 4 |        |
-| R Shiny Web App       | 0, 1, 2  |        |
-| Präsentation          | 0, 1          |        |
-| Zerforschung I        | 0, **[1]**, 2, 3, 4 |        |
-| Zerforschung II       | 0, **[1]**, 2       |        |
-| Zerforschung III      | 0, **[1]**, 2, 3, 4 |        |
-| Erforschen & Erkunden | 0, 1, 2       |        |
-| Reflexion             | 0, 1, 2       |        |
+| Thema                 | Teilpunkte    | 
+|-----------------------|---------------|
+| Datenanalyse in R     | 0, **[1]**, 2, 3, 4, (5) |      
+| R Shiny Web App       | 0, 1, 2  |       
+| Präsentation          | 0, 1, (2)          |      
+| Zerforschung I        | 0, **[1]**, 2, 3, 4 |      
+| Zerforschung II       | 0, **[1]**, 2       |        
+| Zerforschung III      | 0, **[1]**, 2, 3, 4 |       
+| Erforschen & Erkunden | 0, 1, (2), (3)       |       
+| Reflexion             | 0, 1, 2       |        
 
-**Die Abgabe ist digital jederzeit möglich, spätestens zum 30. Juni 2024.**
+**Die Abgabe ist digital jederzeit möglich, spätestens zum 31. Januar 2025.**
