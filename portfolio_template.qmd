@@ -2,7 +2,7 @@
 title: "Spezielle Statistik und Versuchswesen"
 subtitle: "Portfolioprüfung"
 author: "Jochen Kruppa-Scheetz"
-date: "SoSe 2024"
+date: "23. August 2024"
 format: 
   pdf:
     toc: false
