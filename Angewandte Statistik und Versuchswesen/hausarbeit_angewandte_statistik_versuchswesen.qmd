@@ -1,0 +1,46 @@
+---
+title: "Angewandte Statistik und Versuchswesen"
+subtitle: "Hausarbeit"
+author: "Jochen Kruppa-Scheetz"
+date: "23. August 2024"
+format:
+  typst:
+    toc: false
+    number-sections: true
+---
+
+Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das Modul "Angewandte Statistik und Versuchswesen". Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments. 
+
+## Datenanalyse in R 
+
+### Abgabe
+
+-   Sie laden ein PDF auf ILIAS in den entsprechenden Abgabeordner.
+-   Der Dateiname Ihres PDFs enthält zwinged Ihren Namen und Matrikelnummer.
+
+### Formalia
+
+-   Ihr Bericht folgt dem IMRaD Schema und ist acht bis *maximal* zehn Seiten lang.
+-   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. 
+-   Die Datenanalyse findet in R statt. 
+
+### Daten
+
+-   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
+-   Dem Datensatz muss einfaktorielles oder zweifaktorielles Versuchsdesign zugrundeliegen. 
+
+### Inhalte der Auswertung
+
+-   Entwickeln Sie anhand der ausgewählten Daten eine Fragestellung.
+-   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
+-   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung.
+-   Rechnen Sie die statistische Analyse in R.
+-   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung
+
+## Benotung
+
+Sie können maximal 10 Punkte auf Ihren Bereicht und Datenauswertung erhalten. Die erreichten Punkte aus dem Bericht werden auf die erreichten Punkte in der Klausur addiert. Aus den aufaddierten Punkten aus dem Bericht und der Klausur ergibt sich die Endnote des Moduls. 
+
+Zum Bestehen des Moduls "Angewandte Statistik und Versuchswesen" ist die Abgabe des Berichts *nicht* notwendig. 
+
+**Die Abgabe ist digital jederzeit möglich, spätestens zum 31. Januar 2025.**
