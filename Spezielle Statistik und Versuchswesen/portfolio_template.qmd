@@ -2,12 +2,11 @@
 title: "Spezielle Statistik und Versuchswesen"
 subtitle: "Portfolioprüfung"
 author: "Jochen Kruppa-Scheetz"
-date: "24. März 2025"
-format: 
-  pdf:
+date: "24. March 2025"
+format:
+  typst:
     toc: false
     number-sections: true
-    colorlinks: true
 ---
 
 Im Folgenden finden Sie die notwendigen Informationen zu der Portfolioprüfung für das Modul "Spezielle Statistik und Versuchswesen". *Die einzelnen Aufgaben der Portfolioprüfung sind voneinander unabhängig.* Die Portfolioprüfung wird gesammelt abgegeben und nachträgliche Ergänzungen sind nicht mehr möglich. Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments.
@@ -67,6 +66,8 @@ Begeben Sie sich in die Bibliothek in Haste. Suchen Sie sich drei Abschlussarbei
 -   *Sehen Sie folgende Fragen als Inspiration.* Wie viele Seiten haben die Arbeiten? Wie viele Referenzen finden Sie? Welche Art sind die Referenzen? Wie lang ist die Einleitung? Wie viele Abschnitte haben die einzelnen Teile? Welche statistischen Tests werden verwendet? Welche Abschnitte gibt es überhaupt? Wie viele Referenzen stammen von dem Betreuenden?
 -   Fassen Sie Ihre Übersicht in maximal drei Seiten zusammen.
 
+{{< pagebreak >}}
+
 ## Zerforschung III (verpflichtend)
 
 Wählen Sie eine Kurzbeschreibung eines Forschungsvorhaben aus der Datei *Forschungsideen.pdf* aus.
@@ -79,8 +80,7 @@ Wählen Sie eine Kurzbeschreibung eines Forschungsvorhaben aus der Datei *Forsch
 Machen Sie eine Exkursion. Dabie haben Sie drei Möglichkeiten zur Auswahl:
 
 1) Besuchen Sie den Hasefriedhof *oder* den Johannisfriedhof in Osnabrück.
-2) Besuchen Sie das Haus der NaturKultur (Am Markt 35, 49565 Bramsche). **(+1 Punkt)**
-3) Machen Sie eine eigenverantwortliche Exkursion, die zu folgenden Teilaufgaben passt. **(+2 Punkte)**
+2) Machen Sie eine eigenverantwortliche Exkursion, die zu folgenden Teilaufgaben passt. **(+1 Punkt)**
 
 Finden Sie eine Persönlichkeit in Ihrer Exkursion, die Sie inspiriert. Die Persönlichkeit sollte im weitesten Sinne eine Verbindung zur Wissenschaft haben. Anfang des letzten Jahrhunderts ist die Trennung der Disziplinen aber sehr unscharf, so dass je nach Exkursion der Begriff "Wissenschaft" weit gefasst ist.
 
@@ -95,6 +95,8 @@ Besuchen Sie die Internetseite <https://www.bigbookofr.com/> und wählen Sie ein
 
 -   Schreiben Sie eine maximal zweiseitige Zusammenfassung über das Buch!
 -   Warum haben Sie dieses Buch gewählt?
+
+{{< pagebreak >}}
 
 ## Benotung
 
