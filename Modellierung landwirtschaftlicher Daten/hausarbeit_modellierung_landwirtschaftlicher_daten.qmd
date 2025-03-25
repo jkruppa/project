@@ -4,43 +4,51 @@ subtitle: "Hausarbeit"
 author: "Jochen Kruppa-Scheetz"
 date: "23. August 2024"
 format:
-  typst:
-    toc: false
-    number-sections: true
+  html:
+    embed-resources: true
+    lang: de
 ---
 
-Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das Modul "Modellierung landwirtschaftlicher Daten". Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments. 
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Modellierung landwirtschaftlicher Daten"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.  
+
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Modellierung landwirtschaftlicher Daten"* nicht erforderlich.
+
+::: {.callout-note icon=false}
+## Abgabe der Hausarbeit als PDF-Datei
+Für die Abgabe gehen Sie bitte wie folgt vor:
+
+1) Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+2) Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+3) Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+:::
 
 ## Datenanalyse in R 
 
-### Abgabe
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre Hausarbeit gelten folgende Anforderungen:
 
--   Sie laden ein PDF auf ILIAS in den entsprechenden Abgabeordner.
--   Der Dateiname Ihres PDFs enthält zwinged Ihren Namen und Matrikelnummer.
+1) Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2) Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+3) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+:::
 
-### Formalia
+Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem Versuchsplan für eine statistische Modellierung basieren.
 
--   Ihr Bericht folgt dem IMRaD Schema und ist acht bis *maximal* zehn Seiten lang.
--   Ihr Bericht beinhaltet zwischen fünf und zehn wissenschaftliche Referenzen. 
--   Die Datenanalyse findet in R statt. 
+Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
-### Daten
-
--   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
--   Dem Datensatz muss eine Modellierung in Form einer multiplen linearen Regression zugrundeliegen. 
-
-### Inhalte der Auswertung
-
--   Entwickeln Sie anhand der ausgewählten Daten eine Fragestellung.
--   Erlätern Sie mit den gegebenen Informationen das Experiment. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
--   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung.
--   Rechnen Sie die statistische Analyse in R.
--   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung
+- **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
+- **Materialien und Methoden (2 Punkte):**
+  - Beschreibung des Versuchsplans anhand der gegebenen Informationen.
+  - Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
+- **Ergebnisse (6 Punkte):**
+  - Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
+  - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
+- **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
 
 ## Benotung
 
-Sie können maximal 10 Punkte auf Ihren Bereicht und Datenauswertung erhalten. Die erreichten Punkte aus dem Bericht werden auf die erreichten Punkte in der Klausur addiert. Aus den aufaddierten Punkten aus dem Bericht und der Klausur ergibt sich die Endnote des Moduls. 
+Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
 
-Zum Bestehen des Moduls "Modellierung landwirtschaftlicher Daten" ist die Abgabe des Berichts *nicht* notwendig. 
 
-**Die Abgabe ist digital jederzeit möglich, spätestens zum 31. Januar 2025.**
+
