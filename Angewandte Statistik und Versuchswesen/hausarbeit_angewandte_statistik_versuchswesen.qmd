@@ -1,12 +1,11 @@
 ---
-title: "Angewandte Statistik und Versuchswesen"
+title: "Modul Angewandte Statistik und Versuchswesen"
 subtitle: "Hausarbeit"
 author: "Jochen Kruppa-Scheetz"
 date: "23. August 2024"
 format:
-  typst:
-    toc: false
-    number-sections: true
+  html:
+    embed-resources: true
 ---
 
 Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das Modul "Angewandte Statistik und Versuchswesen". Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments. 
@@ -26,16 +25,19 @@ Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das
 
 ### Daten
 
--   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
--   Dem Datensatz muss einfaktorielles oder zweifaktorielles Versuchsdesign zugrundeliegen. 
-
+-   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. 
+    -   Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
+-   Dem Datensatz muss ein faktorielles Versuchsdesign zugrundeliegen
+    -   Einfaktorielles Design. **(1 Punkt)**
+    -   Zweifaktorielles Design. **(+1 Punkt)**
+  
 ### Inhalte der Auswertung
 
--   Entwickeln Sie anhand der ausgewählten Daten eine Fragestellung.
--   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
--   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung.
--   Rechnen Sie die statistische Analyse in R.
--   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung
+-   Entwickeln Sie anhand der ausgewählten Daten eine wissenschaftliche Fragestellung. **(1 Punkt)**
+-   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen. **(2 Punkte)**
+-   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung. **(1 Punkt)**
+-   Rechnen Sie die statistische Analyse in R. **(4 Punkte)**
+-   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung **(1 Punkt)**
 
 ## Benotung
 

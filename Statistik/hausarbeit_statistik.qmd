@@ -1,5 +1,5 @@
 ---
-title: "Modul Modellierung landwirtschaftlicher Daten"
+title: "Modul Statistik"
 subtitle: "Hausarbeit"
 author: "Jochen Kruppa-Scheetz"
 date: "23. August 2024"
@@ -9,7 +9,7 @@ format:
     number-sections: true
 ---
 
-Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das Modul "Modellierung landwirtschaftlicher Daten". Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments. 
+Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das Modul "Statistik". Die Abgabe kann grundsätzlich auch im Laufe des Semesters erfolgen. Der Stichtag findet sich am Ende des Dokuments. 
 
 ## Datenanalyse in R 
 
@@ -27,12 +27,12 @@ Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das
 ### Daten
 
 -   Wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}`. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
--   Dem Datensatz muss eine Modellierung in Form einer multiplen linearen Regression zugrundeliegen. 
+-   Dem Datensatz muss einfaktorielles oder zweifaktorielles Versuchsdesign zugrundeliegen. 
 
 ### Inhalte der Auswertung
 
 -   Entwickeln Sie anhand der ausgewählten Daten eine Fragestellung.
--   Erlätern Sie mit den gegebenen Informationen das Experiment. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
+-   Zeichen Sie mit den gegebenen Informationen den Versuchsplan. Welche Annahmen haben Sie getroffen? Erläutern Sie Ihr Vorgehen.
 -   Visualisieren Sie Ihre Daten in `{ggplot}` im Kontext der Fragestellung.
 -   Rechnen Sie die statistische Analyse in R.
 -   Diskutieren Sie Ihre Ergebnisse im Kontext der Fragestellung
@@ -41,6 +41,6 @@ Im Folgenden finden Sie die notwendigen Informationen zu der Hausarbeit für das
 
 Sie können maximal 10 Punkte auf Ihren Bereicht und Datenauswertung erhalten. Die erreichten Punkte aus dem Bericht werden auf die erreichten Punkte in der Klausur addiert. Aus den aufaddierten Punkten aus dem Bericht und der Klausur ergibt sich die Endnote des Moduls. 
 
-Zum Bestehen des Moduls "Modellierung landwirtschaftlicher Daten" ist die Abgabe des Berichts *nicht* notwendig. 
+Zum Bestehen des Moduls "Statistik" ist die Abgabe des Berichts *nicht* notwendig. 
 
 **Die Abgabe ist digital jederzeit möglich, spätestens zum 31. Januar 2025.**
