@@ -45,23 +45,6 @@ Ihre Datenanalyse wird nach folgenden Kriterien bewertet:
   - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse.
 - **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
 
-## R Shiny Web App (optional)
-
-Besuchen Sie die Internetseite <https://ourworldindata.org/> oder <https://www.fao.org/faostat/> und laden sich einen Datensatz von Ihrem Interesse runter. Sie dürfen den Datensatz beliebig vorab kürzen oder bearbeiten, so dass Sie die Aufgabe gut lösen können.
-
--   Überlegen Sie sich eine Fragestellung zu den Daten.
--   Erstellen Sie eine R Shiny Web App aus den Daten, die bei der Beantwortung der Fragestellung hilfreich ist.
--   Sie geben die R Shiny Web App als ZIP-Datei ab. Die ZIP-Datei beinhaltend alle notwendigen Dateien um die App laufen zu lassen.
-
-## Präsentation (optional, nur im WiSe möglich!)
-
-Was haben Sie in der Portfolioprüfung gemacht, was Sie besonders spannend oder herausfordernd fanden? Stellen Sie es doch uns allen einmal vor!
-
-- Sie stellen in Ihrer Präsentation einen selbstgewählten Teil der Portfoliopfüfung vor. 
-- Sie sind frei in dem Vortrag, der Form und dem Inhalt.
-- Sie erstellen die Präsentation in *R Quatro*. **(+1 Punkt)**
-
-*Die Präsentation ist nur am Ende der regulären Vorlesung im WiSe im Januar möglich.* 
 
 ## Zerforschung I (verpflichtend)
 
@@ -86,40 +69,76 @@ Wählen Sie eine Kurzbeschreibung eines Forschungsvorhaben aus der Datei *Forsch
 -   Erstellen Sie eine Exceldatei entsprechend der Kurzbeschreibung! Sie wollen nach dem Versuch die erstellte Exceldatei dann mit den Messdaten füllen. Beachten Sie, dass Sie Wiederholungen benötigen. Legen Sie die Anzahl an Wiederholungen selbstständig fest. Die Exceldatei muss in R einlesbar sein.
 -   Erstellen Sie eine Randomisierung und Visualisierung des experimentellen Versuchsdesign anhand der Kurzbeschreibung! Sie können die Randomisierung in PowerPoint oder `{desplot}` visualisieren.
 
+## R Shiny Web App (optional)
+
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre R Shiny Web App gelten folgende Anforderungen:
+
+1) Sie geben die R Shiny Web App als ZIP-Datei ab.
+2) Die ZIP-Datei beinhaltend alle notwendigen Dateien um die App laufen zu lassen.
+:::
+
+Besuchen Sie die Internetseite <https://ourworldindata.org/> oder <https://www.fao.org/faostat/> und laden sich einen Datensatz von Ihrem Interesse runter. Sie dürfen den Datensatz beliebig vorab kürzen oder bearbeiten, so dass Sie die Aufgabe gut lösen können.
+
+-   Überlegen Sie sich eine Fragestellung zu den Daten.
+-   Erstellen Sie eine R Shiny Web App aus den Daten, die bei der Beantwortung der Fragestellung hilfreich ist.
+
+## Präsentation (optional, nur im Wintersemester)
+
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre Präsentation gelten folgende Anforderungen:
+
+1) Die Präsentationen finden ausschließlich am Ende der regulären Vorlesungszeit im Wintersemester (Januar) statt.
+2) Inhalt, Form und Vortragsstil der Präsentation sind frei wählbar.
+3) Sie erstellen die Präsentation in *R Quatro*. **(+1 Punkt)**
+:::
+
+Wählen Sie einen Aspekt Ihrer Portfolioprüfung aus und stellen Sie ihn in einer Präsentation vor. Beschreiben Sie, welche Aufgaben Sie bearbeitet haben, welche Herausforderungen Sie gemeistert haben und welche Lernerfahrungen Sie daraus gezogen haben.
+
 ## Erforschen & Erkunden (optional)
 
-Machen Sie eine Exkursion. Dabie haben Sie drei Möglichkeiten zur Auswahl:
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre Exkursion gelten folgende Anforderungen:
 
-1) Besuchen Sie den Hasefriedhof *oder* den Johannisfriedhof in Osnabrück.
-2) Machen Sie eine eigenverantwortliche Exkursion, die zu folgenden Teilaufgaben passt. **(+1 Punkt)**
+1) Wählen Sie für Ihre Exkursion entweder den Hasefriedhof oder den Johannisfriedhof in Osnabrück.
+2) Führen Sie eine eigenverantwortliche Exkursion durch, die sich auf die folgenden Teilaufgaben bezieht. **(+1 Punkt)**
+3) Erstellen Sie ein aussagekräftiges Foto von einem Objekt Ihrer Exkursion und fügen Sie dieses in Ihr Dokument ein.
+:::
 
-Finden Sie eine Persönlichkeit in Ihrer Exkursion, die Sie inspiriert. Die Persönlichkeit sollte im weitesten Sinne eine Verbindung zur Wissenschaft haben. Anfang des letzten Jahrhunderts ist die Trennung der Disziplinen aber sehr unscharf, so dass je nach Exkursion der Begriff "Wissenschaft" weit gefasst ist.
+Entdecken Sie während Ihrer Exkursion eine Persönlichkeit, deren Leben und Werk Sie inspiriert. Diese Person sollte im weitesten Sinne einen Bezug zur Wissenschaft haben. Beachten Sie, dass die Grenzen zwischen den Disziplinen zu Beginn des 20. Jahrhunderts oft fließend waren, daher ist der Begriff *"Wissenschaft"* hier weit gefasst.
 
--   Machen Sie ein aussagekräftiges Foto von einem Objekt Ihrer Exkursion!
--   Fügen Sie das Foto in ein Dokument ein!
--   Warum haben Sie dieses Objekt gewählt? Was hat Sie inspiriert? 
--   Reflektieren Sie ein bis zwei Seiten über die Persönlichkeit und deren wissenschaftliches Wirken im Kontext Ihrer eigenen (familiären) Erfahrungen! 
+Verfassen Sie eine Reflexion von ein bis zwei Seiten, in der Sie diese Persönlichkeit und ihr wissenschaftliches Wirken im Kontext Ihrer eigenen (familiären) Erfahrungen betrachten.
 
 ## Reflexion (optional)
 
-Besuchen Sie die Internetseite <https://www.bigbookofr.com/> und wählen Sie eines der über 300 Bücher aus. Sie dürfen jedes Thema nehmen was Sie interessiert. Nehmen Sie aber ein *Buch*, keine verlinkte Internetseite oder Blogartikel.
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre Reflexion gelten folgende Anforderungen:
 
--   Schreiben Sie eine maximal zweiseitige Zusammenfassung über das Buch!
--   Warum haben Sie dieses Buch gewählt?
+1) Verfassen Sie eine Zusammenfassung des Buches im Umfang von maximal zwei Seiten.
+2)Erläutern Sie, warum Sie sich für dieses Buch entschieden haben.
+:::
+
+Besuchen Sie die Webseite <https://www.bigbookofr.com/> und wählen Sie ein Buch aus den über 300 verfügbaren Titeln aus. Das Thema ist frei wählbar. Bitte beachten Sie, dass ausschließlich Bücher für diese Aufgabe zugelassen sind, keine verlinkten Webseiten oder Blogartikel.
 
 ## Benotung
 
-Im Folgenden ist die Tabelle für die Benotung angegeben. Es können maximal 20 Punkte erreicht werden. Um das Modul zu bestehen benötigen Sie mindestens 11 Punkte. Themen mit Teilpunkten in (Klammern) stellen optinal erreichbare Bonuspunkte in den jeweiligen Aufgaben dar. Themen mit Teilpunkten, die in **[fett]** gedruckt sind, müssen *mindestens* erreicht werden. 
+Die folgende Tabelle zeigt die Benotungsgrundlage für dieses Modul. Es können maximal 20 Punkte erreicht werden. Zum Bestehen des Moduls sind mindestens 11 Punkte erforderlich.
+
+- **Bonuspunkte:** Aufgaben mit Teilpunkten in *kursiven Klammern ( )* bieten die Möglichkeit, zusätzliche Bonuspunkte zu erlangen.
+- **Mindestpunktzahl:** Aufgaben mit Teilpunkten in **fettgedruckten Klammern [ ]** müssen mindestens erreicht werden."
 
 | Thema                 | Teilpunkte    | 
 |-----------------------|---------------|
-| Datenanalyse in R     | 0, **[1]**, 2, 3, 4, 5, (6) |      
+| Datenanalyse in R     | 0, **[1]**, 2, 3, 4, 5, *(6)* |      
 | R Shiny Web App       | 0, 1, 2, 3  |       
-| Präsentation          | 0, 1, (2)         |      
+| Präsentation          | 0, 1, *(2)*         |      
 | Zerforschung I        | 0, **[1]**, 2, 3, 4, 5 |      
 | Zerforschung II       | 0, **[1]**, 2       |        
 | Zerforschung III      | 0, **[1]**, 2, 3, 4, 5 |       
-| Erforschen & Erkunden | 0, 1, (2)       |       
+| Erforschen & Erkunden | 0, 1, *(2)*       |       
 | Reflexion             | 0, 1       |        
 
-**Die Abgabe ist digital jederzeit möglich, spätestens zum 30. Juni 2025.**
