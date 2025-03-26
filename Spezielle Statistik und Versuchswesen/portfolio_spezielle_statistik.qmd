@@ -48,26 +48,60 @@ Ihre Datenanalyse wird nach folgenden Kriterien bewertet:
 
 ## Zerforschung I (verpflichtend)
 
-Suchen Sie sich auf dem Campus Haste ein wissenschaftliches Poster und Fotografieren Sie eine der dortigen statistischen Abbildungen!
+::: {.callout-note icon=false}
+## Formalia
+Für Ihr Poster finden und fotografieren gelten folgende Anforderungen:
 
--   Erstellen Sie den Datensatz auf dem die Abbildung basieren könnte! Schätzen Sie dafür grob die Zahlen aus der fotografierten Abbildung ab.
--   Bauen Sie aus den selbst erstellten Daten die fotografierte Abbildung in `{ggplot}` nach!
--   Geben Sie den Code und die Abbildung in einem R Quarto erstellten Dokument ab!
+1) Geben Sie den R-Code und die nachgebaute Abbildung in einem R Quarto Dokument ab.
+2) Die Abgabe erfolgt in Form einer PDF-Datei oder HTML-Datei.
+
+***Hinweis:** Eine grobe Schätzung der Werte ist für diese Aufgabe ausreichend.*
+:::
+
+Finden Sie auf dem Campus Haste ein wissenschaftliches Poster und fotografieren Sie eine statistische Abbildung darauf.
+
+- Erstellen Sie einen Datensatz, der die Grundlage für die fotografierte Abbildung bilden könnte. Schätzen Sie dazu die Werte aus dem Foto grob ab.
+- Bauen Sie die fotografierte Abbildung mit den erstellten Daten in {ggplot} nach.
 
 ## Zerforschung II (verpflichtend)
 
-Begeben Sie sich in die Bibliothek in Haste. Suchen Sie sich drei Abschlussarbeiten aus. Welche Sie wählen ist Ihnen überlassen.
+::: {.callout-note icon=false}
+## Formalia
+Für Ihr deskriptive Übersicht der Abschlussarbeiten gelten folgende Anforderungen:
 
--   Erstellen Sie eine deskriptive Übersicht über den Umfang der drei Abschlussarbeiten!
--   *Sehen Sie folgende Fragen als Inspiration.* Wie viele Seiten haben die Arbeiten? Wie viele Referenzen finden Sie? Welche Art sind die Referenzen? Wie lang ist die Einleitung? Wie viele Abschnitte haben die einzelnen Teile? Welche statistischen Tests werden verwendet? Welche Abschnitte gibt es überhaupt? Wie viele Referenzen stammen von dem Betreuenden?
--   Fassen Sie Ihre Übersicht in maximal drei Seiten zusammen.
+1) Der Umfang Ihrer deskriptiven Übersicht der Abschlussarbeiten darf maximal drei Seiten betragen.
+2) Die Abgabe erfolgt in Form einer PDF-Datei.
+
+:::
+
+Begeben Sie sich in die Bibliothek in Haste und wählen Sie drei beliebige Abschlussarbeiten aus.
+
+- Erstellen Sie eine deskriptive Übersicht über den Umfang der drei ausgewählten Abschlussarbeiten.
+- Beachten Sie die folgenden Fragen als Anregung für Ihre Analyse:
+  - Wie viele Seiten umfassen die Arbeiten?
+  - Wie viele Referenzen sind jeweils vorhanden?
+  - Welche Arten von Referenzen (z.B. Bücher, Artikel, Webseiten) lassen sich identifizieren?
+  - Wie lang ist die Einleitung in jeder Arbeit (z.B. Anzahl der Seiten oder Abschnitte)?
+  - Wie viele Abschnitte enthalten die einzelnen Hauptteile der Arbeiten?
+  - Welche statistischen Tests werden gegebenenfalls angewendet?
+  - Welche Hauptabschnitte sind in den Arbeiten vorhanden (z.B. Einleitung, Methoden, Ergebnisse, Diskussion)?
+  - Wie viele der zitierten Referenzen stammen von der betreuenden Person?
+
 
 ## Zerforschung III (verpflichtend)
 
-Wählen Sie eine Kurzbeschreibung eines Forschungsvorhaben aus der Datei *Forschungsideen.pdf* aus.
+::: {.callout-note icon=false}
+## Formalia
+Für Ihr Kurzbeschreibung eines Forschungsvorhabens gelten folgende Anforderungen:
 
--   Erstellen Sie eine Exceldatei entsprechend der Kurzbeschreibung! Sie wollen nach dem Versuch die erstellte Exceldatei dann mit den Messdaten füllen. Beachten Sie, dass Sie Wiederholungen benötigen. Legen Sie die Anzahl an Wiederholungen selbstständig fest. Die Exceldatei muss in R einlesbar sein.
--   Erstellen Sie eine Randomisierung und Visualisierung des experimentellen Versuchsdesign anhand der Kurzbeschreibung! Sie können die Randomisierung in PowerPoint oder `{desplot}` visualisieren.
+1) Die Abgabe erfolgt in Form einer Excel-Datei oder PDF-Datei.
+
+:::
+
+Wählen Sie eine Kurzbeschreibung eines Forschungsvorhabens aus der Datei *Forschungsideen.pdf* aus. Die Datei ist auf ILIAS abgelegt.
+
+- Erstellen Sie eine Excel-Datei, die der gewählten Kurzbeschreibung entspricht. Berücksichtigen Sie bei der Strukturierung, dass diese Datei nach Durchführung eines Versuchs mit Messdaten befüllt werden soll. Planen Sie Wiederholungen ein und legen Sie die Anzahl der Wiederholungen selbstständig fest. Achten Sie darauf, dass die erstellte Excel-Datei problemlos in R eingelesen werden kann.
+- Erstellen Sie eine Randomisierung für den experimentellen Versuchsaufbau, der sich aus der Kurzbeschreibung ergibt. Visualisieren Sie dieses Versuchsdesign. Für die Visualisierung können Sie PowerPoint oder das R-Paket {desplot} verwenden.
 
 ## R Shiny Web App (optional)
 
@@ -110,7 +144,7 @@ Für Ihre Exkursion gelten folgende Anforderungen:
 
 Entdecken Sie während Ihrer Exkursion eine Persönlichkeit, deren Leben und Werk Sie inspiriert. Diese Person sollte im weitesten Sinne einen Bezug zur Wissenschaft haben. Beachten Sie, dass die Grenzen zwischen den Disziplinen zu Beginn des 20. Jahrhunderts oft fließend waren, daher ist der Begriff *"Wissenschaft"* hier weit gefasst.
 
-Verfassen Sie eine Reflexion von ein bis zwei Seiten, in der Sie diese Persönlichkeit und ihr wissenschaftliches Wirken im Kontext Ihrer eigenen (familiären) Erfahrungen betrachten.
+- Verfassen Sie eine Reflexion von ein bis zwei Seiten, in der Sie diese Persönlichkeit und ihr wissenschaftliches Wirken im Kontext Ihrer eigenen (familiären) Erfahrungen betrachten.
 
 ## Reflexion (optional)
 
@@ -119,7 +153,7 @@ Verfassen Sie eine Reflexion von ein bis zwei Seiten, in der Sie diese Persönli
 Für Ihre Reflexion gelten folgende Anforderungen:
 
 1) Verfassen Sie eine Zusammenfassung des Buches im Umfang von maximal zwei Seiten.
-2)Erläutern Sie, warum Sie sich für dieses Buch entschieden haben.
+2) Erläutern Sie, warum Sie sich für dieses Buch entschieden haben.
 :::
 
 Besuchen Sie die Webseite <https://www.bigbookofr.com/> und wählen Sie ein Buch aus den über 300 verfügbaren Titeln aus. Das Thema ist frei wählbar. Bitte beachten Sie, dass ausschließlich Bücher für diese Aufgabe zugelassen sind, keine verlinkten Webseiten oder Blogartikel.
