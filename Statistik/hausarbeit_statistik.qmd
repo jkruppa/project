@@ -7,6 +7,7 @@ format:
   html:
     embed-resources: true
     lang: de
+    theme: journal
 ---
 
 Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.  

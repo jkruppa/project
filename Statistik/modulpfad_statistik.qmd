@@ -1,0 +1,97 @@
+---
+title: "Modulpfad Statistik"
+subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+author: "Jochen Kruppa-Scheetz"
+date: "23. August 2024"
+format:
+  html:
+    embed-resources: true
+    lang: de
+    theme: journal
+---
+
+::: {.callout-tip icon="false"}
+## Allgemeine Informationen
+
+Alle notwendigen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
+
+-   Mitschriften der Vorlesung und der Übungen
+-   R-Skripte und die in der Vorlesung verwendeten Dateien
+-   Die gesammelten Klausurfragen für Bio Data Science
+:::
+
+### Skript
+
+Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist online unter <https://jkruppa.github.io/> verfügbar. Dort finden Sie ergänzend weiterführende Informationen zu R, Excel und der Datenauswertung. *Für die Klausur sind jedoch primär die Inhalte der Veranstaltungsmitschriften relevant.* Beachten Sie die Veranstaltungsmitschriften daher besonders.
+
+### Videos
+
+Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
+
+### Sondertermine
+
+Beachten Sie bitte die folgenden Details zu den Sonderterminen in der folgenden Tabelle.
+
+| Datum | Uhrzeit | Information |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+### Prüfungsleistung
+
+Die Prüfungsleistung umfasst eine verbindlichen schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig.
+
+::: {.callout-note icon="false"}
+## Schriftliche Klausur
+
+Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Moduls. Zu fast allen Aufgaben sind erklärende YouTube-Videos verlinkt. 
+
+**Die verbindliche schriftliche Klausur gliedert sich in:**
+
+-   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
+-   *Text- und Rechenteil:* 6 Aufgaben. 
+
+**Erlaubte Hilfsmittel:**
+
+-   Taschenrechner (nicht kommunikationsfähig, kein Handy!).
+-   Eine beidseitig handschriftlich beschriebene DIN A4-Formelsammlung (keine Ausdrucke).
+
+**Bearbeitungszeit:** 120 Minuten (2 Stunden).
+
+:::
+
+::: {.callout-note icon="false"}
+## Hausarbeit
+
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe der Hausarbeit ist jederzeit im Laufe des Semesters möglich.
+
+Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem faktoriellen Versuchsdesign basieren.
+
+**Für die Abgabe gehen Sie bitte wie folgt vor:**
+
+1)  Benennen Sie die PDF-Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+2)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+3)  Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+
+**Für Ihre Hausarbeit gelten folgende Anforderungen:**
+
+1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+
+**Ihre Hausarbeit wird nach folgenden Kriterien bewertet:**
+
+-   **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
+-   **Materialien und Methoden (2 Punkte):**
+    -   Beschreibung des Versuchsplans anhand der gegebenen Informationen.
+    -   Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
+-   **Ergebnisse (6 Punkte):**
+    -   Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
+    -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
+-   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+
+**Benotung:**
+
+Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
+:::
