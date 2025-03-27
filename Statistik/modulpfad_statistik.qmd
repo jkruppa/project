@@ -1,6 +1,6 @@
 ---
 title: "Modulpfad Statistik"
-subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+subtitle: "Der folgende Abenteuerpfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
 date: "23. August 2024"
 format:
@@ -10,15 +10,14 @@ format:
     theme: journal
 ---
 
-::: {.callout-tip icon="false"}
-## Allgemeine Informationen
+> *Abenteuer, das -- eine wagnishaltige Unternehmung mit ungewissem Ausgang, die das Gewohnte verlässt und etwas Interessantes verspricht.*
+
 
 Alle notwendigen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
 -   Mitschriften der Vorlesung und der Übungen
 -   R-Skripte und die in der Vorlesung verwendeten Dateien
 -   Die gesammelten Klausurfragen für Bio Data Science
-:::
 
 ### Skript
 
