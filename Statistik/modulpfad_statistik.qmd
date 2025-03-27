@@ -12,12 +12,20 @@ format:
 
 > *Abenteuer, das -- eine wagnishaltige Unternehmung mit ungewissem Ausgang, die das Gewohnte verlässt und etwas Interessantes verspricht.*
 
-
-Alle notwendigen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
+Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
 -   Mitschriften der Vorlesung und der Übungen
 -   R-Skripte und die in der Vorlesung verwendeten Dateien
 -   Die gesammelten Klausurfragen für Bio Data Science
+
+Beachten Sie bitte die folgenden Details zu den Sonderterminen.
+
+| Datum | Uhrzeit | Information |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
 
 ### Skript
 
@@ -26,16 +34,6 @@ Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist onlin
 ### Videos
 
 Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
-
-### Sondertermine
-
-Beachten Sie bitte die folgenden Details zu den Sonderterminen in der folgenden Tabelle.
-
-| Datum | Uhrzeit | Information |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
 
 ### Prüfungsleistung
 
@@ -94,3 +92,5 @@ Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze
 
 Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
 :::
+
+
