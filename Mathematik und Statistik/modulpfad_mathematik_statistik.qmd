@@ -1,0 +1,58 @@
+---
+title: "Modulpfad Mathematik & Statistik"
+subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+author: "Jochen Kruppa-Scheetz"
+date: "23. August 2024"
+format:
+  html:
+    embed-resources: true
+    lang: de
+    theme: journal
+---
+
+Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
+
+-   Mitschriften der Vorlesung und der Übungen
+-   R-Skripte und die in der Vorlesung verwendeten Dateien
+-   Die gesammelten Klausurfragen für Bio Data Science
+
+Beachten Sie bitte die folgenden Details zu den Sonderterminen.
+
+| Datum | Uhrzeit | Information |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+
+### Skript
+
+Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist online unter <https://jkruppa.github.io/> verfügbar. Dort finden Sie ergänzend weiterführende Informationen zu R, Excel und der Datenauswertung. *Für die Klausur sind jedoch primär die Inhalte der Veranstaltungsmitschriften relevant.* Beachten Sie die Veranstaltungsmitschriften daher besonders.
+
+### Videos
+
+Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
+
+### Prüfungsleistung
+
+Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. 
+
+::: {.callout-note icon="false"}
+## Schriftliche Klausur
+
+Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Moduls. Zu fast allen Aufgaben sind erklärende YouTube-Videos verlinkt. 
+
+**Die schriftliche Klausur gliedert sich in:**
+
+-   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
+-   *Text- und Rechenteil:* 6 Aufgaben. 
+
+**Erlaubte Hilfsmittel:**
+
+-   Taschenrechner (nicht kommunikationsfähig, kein Handy!).
+-   Eine beidseitig handschriftlich beschriebene DIN A4-Formelsammlung (keine Ausdrucke).
+
+**Bearbeitungszeit:** 120 Minuten (2 Stunden).
+
+:::
+

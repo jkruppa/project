@@ -1,6 +1,6 @@
 ---
 title: "Modulpfad Statistik"
-subtitle: "Der folgende Abenteuerpfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
 date: "23. August 2024"
 format:
@@ -9,8 +9,6 @@ format:
     lang: de
     theme: journal
 ---
-
-> *Abenteuer, das -- eine wagnishaltige Unternehmung mit ungewissem Ausgang, die das Gewohnte verlässt und etwas Interessantes verspricht.*
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
@@ -37,14 +35,14 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 ### Prüfungsleistung
 
-Die Prüfungsleistung umfasst eine verbindlichen schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig.
+Die Prüfungsleistung umfasst eine schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig.
 
 ::: {.callout-note icon="false"}
 ## Schriftliche Klausur
 
 Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Moduls. Zu fast allen Aufgaben sind erklärende YouTube-Videos verlinkt. 
 
-**Die verbindliche schriftliche Klausur gliedert sich in:**
+**Die schriftliche Klausur gliedert sich in:**
 
 -   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
 -   *Text- und Rechenteil:* 6 Aufgaben. 
