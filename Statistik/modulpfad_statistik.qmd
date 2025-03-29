@@ -35,7 +35,7 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 ### Prüfungsleistung
 
-Die Prüfungsleistung umfasst eine schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig.
+Die Prüfungsleistung umfasst eine schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni.
 
 ::: {.callout-note icon="false"}
 ## Schriftliche Klausur

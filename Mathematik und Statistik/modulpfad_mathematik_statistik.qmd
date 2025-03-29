@@ -35,7 +35,7 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 ### Prüfungsleistung
 
-Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. 
+Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni.
 
 ::: {.callout-note icon="false"}
 ## Schriftliche Klausur
