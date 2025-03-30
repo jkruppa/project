@@ -12,11 +12,11 @@ format:
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
--   Mitschriften der Vorlesung und der Übungen
--   R-Skripte und die in der Vorlesung verwendeten Dateien
--   Die gesammelten Klausurfragen für Bio Data Science
+-   Mitschriften der Vorlesung und der Übungen als PDF-Datei.
+-   R-Skripte und die in der Vorlesung verwendeten Dateien.
+-   Die gesammelten Klausurfragen für Bio Data Science als PDF-Datei.
 
-Beachten Sie bitte die folgenden Details zu den Sonderterminen.
+Beachten Sie bitte die folgenden Details zu einzelnen Terminen.
 
 | Datum | Uhrzeit | Information |
 |------|------|------|
@@ -25,17 +25,36 @@ Beachten Sie bitte die folgenden Details zu den Sonderterminen.
 |      |      |      |
 
 
-### Skript
+### Skript als Lernhilfe
 
 Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist online unter <https://jkruppa.github.io/> verfügbar. Dort finden Sie ergänzend weiterführende Informationen zu R, Excel und der Datenauswertung. *Für die Klausur sind jedoch primär die Inhalte der Veranstaltungsmitschriften relevant.* Beachten Sie die Veranstaltungsmitschriften daher besonders.
 
-### Videos
+### Videos als Lernhilfe
 
 Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
 
+### Programmieren in R
+
+Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
+
+::: {.callout-note icon="false"}
+## Aktive Teilnahme
+
+- Programmieren in R ist integraler Bestandteil der Veranstaltung.
+- Die optionale Hausarbeit erfordert die selbstständige Anwendung von R.
+- R-Kenntnisse sind klausurrelevant.
+:::
+
+::: {.callout-note icon="false"}
+## Passive Teilnahme
+
+- Programmieren in R wird in der Veranstaltung eingesetzt.
+- Es ist ausreichend, den R-basierten Inhalten folgen zu können.
+:::
+
 ### Prüfungsleistung
 
-Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni.
+Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni. Den Prüfungsplan für das laufende Semester finden Sie im Intranet der Hochschule Osnabrück unter <https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/pruefungen/>. 
 
 ::: {.callout-note icon="false"}
 ## Schriftliche Klausur
