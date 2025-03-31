@@ -42,7 +42,7 @@ Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Sci
 
 - Programmieren in R ist integraler Bestandteil der Veranstaltung.
 - Die optionale Hausarbeit erfordert die selbstständige Anwendung von R.
-- R-Kenntnisse sind klausurrelevant.
+- Theoretische R-Kenntnisse sind klausurrelevant.
 :::
 
 ::: {.callout-note icon="false"}
@@ -50,6 +50,7 @@ Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Sci
 
 - Programmieren in R wird in der Veranstaltung eingesetzt.
 - Es ist ausreichend, den R-basierten Inhalten folgen zu können.
+- Theoretische R-Kenntnisse sind klausurrelevant.
 :::
 
 ### Prüfungsleistung
