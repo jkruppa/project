@@ -1,0 +1,61 @@
+---
+title: "Abschlussarbeit Bio Data Science"
+subtitle: "Bachelor- und Masterarbeit"
+author: "Prof. Dr. habil. Jochen Kruppa-Scheetz"
+date: "08. May 2025"
+format:
+  html:
+    embed-resources: true
+    lang: de
+    theme: journal
+---
+
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Angewandte Statistik und Versuchswesen"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.  
+
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Angewandte Statistik und Versuchswesen"* nicht erforderlich.
+
+::: {.callout-note icon=false}
+## Abgabe der Hausarbeit als PDF-Datei
+Für die Abgabe gehen Sie bitte wie folgt vor:
+
+1) Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+2) Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+3) Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+:::
+
+## Einarbeitungszeit
+
+## Bachelorarbeit
+
+## Zwischenpräsentation
+
+## Abschlusskolloquium
+
+::: {.callout-note icon=false}
+## Formalia
+Für Ihre Hausarbeit gelten folgende Anforderungen:
+
+1) Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2) Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+3) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+:::
+
+Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem faktoriellen Versuchsdesign basieren.
+
+Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
+
+- **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
+- **Materialien und Methoden (2 Punkte):**
+  - Erstellung des Versuchsplans anhand der gegebenen Informationen.
+  - Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
+- **Ergebnisse (6 Punkte):**
+  - Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
+  - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
+- **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+
+## Benotung
+
+Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
+
+
+
