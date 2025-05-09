@@ -1,6 +1,6 @@
 ---
-title: "Abschlussarbeit Bio Data Science"
-subtitle: "Bachelor- und Masterarbeit"
+title: "Pfad zur Bachelorarbeit"
+subtitle: "Fachbereich Bio Data Science"
 author: "Prof. Dr. habil. Jochen Kruppa-Scheetz"
 date: "08. May 2025"
 format:
@@ -11,9 +11,9 @@ format:
 ---
 
 ```{r}
-#| message: false
-#| warning: false 
 #| echo: false
+#| message: false
+#| warning: false
 pacman::p_load(tidyverse, patchwork)
 cbb_pal <- c("#999999", "#E69F00", "#56B4E9", "#009E73", 
              "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
