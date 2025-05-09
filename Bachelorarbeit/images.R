@@ -23,7 +23,7 @@ p1 <- tibble(x = c(0, 4, 8, 18, 22),
            fill = cbb_pal[6], alpha = 0.25, fontface = 2) +
   annotate("label", x = 18, y = -0.75, label = "Abgabe", hjust = "center",
            fill = cbb_pal[6], alpha = 0.25, fontface = 2) +
-  annotate("label", x = 0, y = -0.75, label = "Einarbeitung", hjust = "center",
+  annotate("label", x = 0, y = -1, label = "Beginn\nEinarbeitung", hjust = "center",
            fill = cbb_pal[2], alpha = 0.25) +
   annotate("label", x = 8, y = -1, label = "Zwischenpräsentation\n10 Power Point Folien", hjust = "center",
            fill = cbb_pal[2], alpha = 0.25) +

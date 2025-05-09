@@ -10,21 +10,23 @@ format:
     theme: journal
 ---
 
-Alle relevanten Informationen zu einer Bachelorarbeit im Fachbereich *"Bio Data Science"* sind nachfolgend aufgeführt. Der Beginn und die Abgabe der Abschlussarbeit ist im Laufe des Semesters jederzeit möglich. Die Anmeldung der Abschlussarbeit erfolgt über das [Studierendensekretariat der Hochschule Osnabrück](https://www.hs-osnabrueck.de/wir/organisation/organisationseinheiten/studierendensekretariat/). 
+Alle relevanten Informationen zur Bachelorarbeit im Fachbereich Bio Data Science sind nachfolgend aufgeführt. Beginn und Abgabe der Abschlussarbeit sind im Semester jederzeit möglich. Die Anmeldung erfolgt über das [Studierendensekretariat der Hochschule Osnabrück](https://www.hs-osnabrueck.de/wir/organisation/organisationseinheiten/studierendensekretariat/). 
 
-Allgemeine Informationen zur Abschlussarbeit an der Fakultät AuL finden sich in der  [Infothek unter Studium und dann Abschlussarbeiten](https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/abschlussarbeiten/). Bitte bachte die dortigen *aktuellen* Merkblätter und Informationen zu dem formalen Prozess.
+Allgemeine Informationen zur Abschlussarbeit an der Fakultät AuL findest du in der [Infothek unter Studium](https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/abschlussarbeiten/). Beachte bitte die dortigen aktuellen Merkblätter und Informationen zum formalen Prozess. Alle formalen Änderungen erfolgen ausschließlich über das Studierendensekretariat der Hochschule Osnabrück.
 
 ::: {.callout-note icon=false}
-## Formalia
-Für deine Bachelorarbeit gelten folgende Anforderungen:
+## Für deine Bachelorarbeit gelten folgende verbindliche Anforderungen
 
-1) Die Bachelorarbeit ist im IMRaD-Schema zu verfassen. Bitte beachte auch die Hinweise im [Leitfaden zum Verfassen wissenschaftlicher Arbeiten](https://intranet.hs-osnabrueck.de/index.php?eID=dumpFile&t=f&f=69598&token=ea18fc8431ccfbc422ae88c5f45a9963186870d8) zum Schreiben einer wissenschaftlichen Abschlussarbeit.
-2) Der Umfang der Abschlussarbeit beträgt 60 bis maximal 70 Seiten. Beinhaltend das Titelblatt und Inhaltsverzeichnis sowie das Literaturverzeichnis.
-3) Die Bachelorarbeit beinhaltet 40 bis maximal 70 Referenzen und Literaturquellen. Ausdrücklich zählen Internetquellen nicht zu den Literaturquellen.
-4) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+- Die Bearbeitungszeit beträgt 12 Wochen.
+- Die Struktur muss der wissenschaftlichen Standardgliederung (Einleitung, Material & Methoden, Ergebnisse, Diskussion) folgen. Beachte hierzu die detaillierten Hinweise im [Leitfaden zum Verfassen wissenschaftlicher Arbeiten](https://intranet.hs-osnabrueck.de/index.php?eID=dumpFile&t=f&f=69598&token=ea18fc8431ccfbc422ae88c5f45a9963186870d8).
+- Der Umfang der Arbeit ist auf 60 bis maximal 70 Seiten begrenzt. Diese Seitenzahl beinhaltet das Titelblatt, das Inhaltsverzeichnis sowie das vollständige Literaturverzeichnis.
+- Die Anzahl der Referenzen und Literaturquellen muss zwischen 40 und 70 liegen. Reine Internetquellen werden nicht als Literaturquellen anerkannt.
+- Die Datenanalyse ist zwingend mit der Software RStudio und der Programmiersprache R durchzuführen.
 :::
 
-## Zeitlicher Ablauf 
+### Zeitlicher Ablauf 
+
+Die folgende Abbildung veranschaulicht den zeitlichen Ablauf der Bachelorarbeit. Diese umfasst eine Bearbeitungszeit von 12 Wochen, gefolgt von einem Abschlusskolloquium. Vor Beginn der eigentlichen Bearbeitungsphase findet eine vierwöchige Einarbeitungszeit statt.
 
 ```{r}
 #| message: false
@@ -33,52 +35,76 @@ Für deine Bachelorarbeit gelten folgende Anforderungen:
 #| fig-align: center
 #| fig-height: 3.75
 #| fig-width: 9.5
-#| fig-cap: "Übersicht über den zeitlichen Ablauf der Bachelorarbeit über die zwölf Wochen Bearbeitungszeit sowie den optionalen vier Wochen Einarbeitungszeit. Nach der Abgabe schließt sich das Abschlusskoloquium an. Die Seitenzahlen dienen als grobe Orientierung und können individuell am Anfang abweichen."
-#| label: fig-timeline
+#| fig-cap: "**Übersicht zum Zeitplan der Bachelorarbeit.** Die Einarbeitungsphase umfasst vier Wochen, die Bearbeitungszeit zwölf Wochen. Im Anschluss an die Abgabe findet das Abschlusskolloquium statt. Die Seitenzahlen sind als grobe Richtlinie zu verstehen und können anfänglich abweichen."
 
 source("images.R")
 p2 + p1 +
   plot_layout(ncol = 1, heights = c(4, 2))
 ```
 
+### Betreuung
 
-## Einarbeitungszeit
+Die Betreuung deiner Bachelorarbeit erfolgt über wöchentliche Online-Jour-Fixes via Zoom. Du erhältst den Teilnahmelink zu Beginn deiner Einarbeitungsphase per E-Mail. Die Teilnahme ist optional eine Abmeldung nicht nötig. Im Jour Fixe kannst du mir Fragen stellen und dich mit anderen Bachelorstudierenden austauschen.
 
-## Bachelorarbeit
+### Einarbeitung
 
-### Fremde Daten: Eine methodische Arbeit
+Diese Phase dient deiner Orientierung im vorläufigen Bachelorarbeitsthema, der Erstellung einer ersten Literaturübersicht und der Konkretisierung deiner wissenschaftlichen Fragestellung. Zudem ermöglicht sie dir, die Grundlagen der Programmierung in R und RStudio zu vertiefen, notwendige Pakete zu installieren und deine Daten in ein analysebereites Format zu überführen. Am Ende dieser Phase fühlst du dich sicher, mit deiner Bachelorarbeit zu beginnen.
 
-### Eigene Daten: Eine experimentelle Arbeit
+Themenfindung
 
-## Zwischenpräsentation
+: Zu Beginn deiner Einarbeitung legen wir gemeinsam ein vorläufiges Bachelorarbeitsthema fest, das dir als Leitfaden dient. Während dieser Phase konkretisiert sich das Thema durch deine Mitarbeit und meine Unterstützung. Am Ende der Einarbeitung meldest du deine Bachelorarbeit offiziell an, und im Anschluss erhältst du dein endgültiges Thema. Ich ermutige dich, während der Einarbeitung Themenvorschläge einzubringen, die wir dann gemeinsam weiterentwickeln.
 
-## Abschlusskolloquium
+Zweitprüfer
 
-::: {.callout-note icon=false}
-## Formalia
-Für Ihre Hausarbeit gelten folgende Anforderungen:
+: Denk bitte daran, rechtzeitig vor der Anmeldung deiner Bachelorarbeit einen passenden Zweitprüfer zu kontaktieren. Bei der Auswahl spielen deine persönlichen Interessen und die wissenschaftliche Ausrichtung deiner Arbeit eine wichtige Rolle. Lass uns gerne gemeinsam mögliche Zweitprüfer besprechen.  Ob ein externer Zweitprüfer geeignet ist, entscheidet final das [Studierendensekretariat der Hochschule Osnabrück](https://www.hs-osnabrueck.de/wir/organisation/organisationseinheiten/studierendensekretariat/). Die Anfrage an den Zweitprüfer erfolgt durch dich.
 
-1) Die Hausarbeit ist im IMRaD-Schema zu verfassen.
-2) Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
-3) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+::: {.callout-tip icon=false}
+## Am Ende der Einarbeitungsphase hast du...
+
+- Die Fähigkeit erworben, sicher in R zu programmieren und RStudio effizient zu nutzen.
+- Notwendige Daten für die Bearbeitung deines Bachelorarbeitsthemas erfolgreich in R geladen.
+- Das methodische und inhaltliche Fundament gelegt, um dein Thema selbstständig zu bearbeiten.
+- Dein Bachelorarbeitsthema für dich gefunden.
 :::
 
-Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem faktoriellen Versuchsdesign basieren.
+### Bachelorarbeit
 
-Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
+Wenn du deine Bachelorarbeit im Fachbereich *"Bio Data Science"* bei mir schreibst, stehen dir grundsätzlich zwei thematische Schwerpunkte offen. Zum einen kannst du dich auf eine methodische Arbeit konzentrieren, bei der du vorhandene Daten von Dritten unter besonderer Berücksichtigung statistischer Methoden analysierst. Zum anderen besteht die Möglichkeit, deine eigenen Daten aus einem Experiment statistisch auszuwerten. Ich möchte jedoch ausdrücklich darauf hinweisen, dass ich selbst keine Möglichkeit zur Durchführung eigener Experimente anbieten kann. Solltest du dich für die Analyse eigener experimenteller Daten entscheiden, ist eine Kooperation mit externen Partnern notwendig.
 
-- **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
-- **Materialien und Methoden (2 Punkte):**
-  - Erstellung des Versuchsplans anhand der gegebenen Informationen.
-  - Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
-- **Ergebnisse (6 Punkte):**
-  - Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
-  - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
-- **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+Mit fremde Daten --- eine methodische Bachelorarbeit
 
-## Benotung
+: Die methodische Bachelorarbeit im Bereich *"Bio Data Science"* fokussiert auf den Vergleich und die Anwendung verschiedener statistischer Algorithmen auf externe Daten und Datenbanken. Dabei muss die Forschungsfrage teils aus den vorhandenen Daten abgeleitet werden, was naturgemäß eine gewisse Unvollständigkeit bedingen kann. Im Zentrum einer methodische Bachelorarbeit stehen somit die methodische und konzeptionelle Auseinandersetzung mit statistischen Algorithmen. Die Kernkomponenten der Bachelorarbeit umfassen die Programmierung in R, die Aufbereitung der Daten sowie die detaillierte Beschreibung der angewandten statistischen Algorithmen. Die Gewichtung dieser einzelnen Aspekte kann je nach spezifischer Fragestellung variieren.
 
-Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
+Mit eigene Daten --- eine experimentelle Bachelorarbeit
 
+: Die experimentelle Bachelorarbeit im Bereich *"Bio Data Science"* konzentriert sich auf die statistische Auswertung und die Beschreibung der Ergebnisse im Kontext der relevanten Forschungsliteratur, basierend auf deinen eigenen experimentellen Daten. Im Gegensatz zur methodischen Bachelorarbeit, bei der die Datenerstellung durch Dritte erfolgt, ist hier die (teilweise oder vollständige) Generierung des Datensatzes ein integraler Bestandteil deiner Leistung. Folglich steht die statistische Auswertung selbst nicht primär im Vordergrund, sondern vielmehr die Darstellung und Interpretation der gewonnenen Erkenntnisse im Hinblick auf den aktuellen Forschungsstand deiner spezifischen Fragestellung. Auch bei dieser Art von Arbeit kann die Gewichtung der einzelnen Aspekte je nach deiner konkreten Forschungsfrage variieren.
 
+### Zwischenpräsentation
 
+Die Zwischenpräsentation dient dem gemeinsamen Abgleich unseres Wissens- und Arbeitsstands. Gleichzeitig stellt sie einen ersten Entwurf für dein Abschlusskolloquium dar. Gestalte die Zwischenpräsentation mit circa 10 PowerPoint-Folien entsprechend der wissenschaftlichen Standardgliederung (Einleitung, Material & Methoden, Ergebnisse, Diskussion), wobei einzelne Abschnitte bei fehlenden Inhalten gekürzt werden können. Bitte verzichte auf R-Code und unformatierte R-Ausgaben und konzentriere dich auf Visualisierungen und tabellarische Darstellungen. 
+
+::: {.callout-tip icon=false}
+## Mit der Erstellung der Zwischenpräsentation hast du...
+
+- Den roten Faden deines Bachelorarbeitsthemas klar herausgearbeitet und verinnerlicht.
+- Dein Forschungsthema präzisiert und in den Kontext der erhobenen Daten gesetzt.
+- Die Daten in R zielgerichtet visualisiert und erste explorative Analysen durchgeführt.
+:::
+
+### Abschlusskolloquium
+
+Im Abschlusskolloquium präsentierst du die Kernaussagen deiner Bachelorarbeit und deren Bezug zur bisherigen Forschung. Stelle deine eigenen Ergebnisse in den Mittelpunkt. Der Fokus soll klar auf deinen eigenen Resultaten liegen. Gestalte die Präsentation mit einem klaren roten Faden und nutze aussagekräftige Visualisierungen (gerne mithilfe von KI-Tools wie ChatGPT), um textreiche Folien zu vermeiden. Es handelt sich um einen wissenschaftlichen Vortrag.
+
+::: {.callout-note icon=false}
+## Für dein Abschlusskolloquium gelten folgende verbindliche Anforderungen
+
+- **Zeitrahmen:** Maximal 20 Minuten Präsentationsdauer.
+- **Umfang:** Orientierend ca. 20 PowerPoint-Folien.
+- **Gliederung:** Nutze die wissenschaftliche Standardstruktur (Einleitung, Material & Methoden, Ergebnisse, Diskussion, Literaturverzeichnis).
+- **Inhalt:** Fokus auf ausgewählte Inhalte, die deine Forschungsfrage beantworten. Die Präsentation ist ein fokussierter Ausschnitt deiner Bachelorarbeit.
+- **Fokus:** Kein umfassendes Review des Forschungsstands oder Stand des Wissens; halte diesen Abschnitt kurz und konzentriere dich auf deine eigene Arbeit.
+:::
+
+### Bewertung der Bachelorarbeit
+
+Die Bewertung der Bachelorarbeit basiert auf der schriftlichen Ausarbeitung. Bei methodischen Arbeiten fließt zusätzlich die Programmierung in R in die Beurteilung ein. Die Präsentation im Abschlusskolloquium ist ebenfalls Teil der Endnote. Weitere Bewertungskriterien sind die Qualität der erstellten Abbildungen sowie die Einbettung des Themas in die relevante Literatur und wissenschaftliche Forschung. Ein deutliches Übermaß an Grammatik- und Rechtschreibfehlern führt zu Punktabzug.
