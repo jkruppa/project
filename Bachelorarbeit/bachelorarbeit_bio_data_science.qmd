@@ -10,25 +10,10 @@ format:
     theme: journal
 ---
 
-Alle relevanten Informationen zu einer Abschlussarbeit im Fachbereich *"Bio Data Science"* sind nachfolgend aufgeführt. Der Beginn und die Abgabe der Abschlussarbeit ist im Laufe des Semesters jederzeit möglich.  
-
-Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Angewandte Statistik und Versuchswesen"* nicht erforderlich.
-
-::: {.callout-note icon=false}
-## Abgabe der Abschlussarbeit als PDF-Datei
-Für die Abgabe gehen Sie bitte wie folgt vor:
-
-:::
-
 ```{r}
 #| message: false
 #| warning: false 
 #| echo: false
-#| fig-align: center
-#| fig-height: 3.5
-#| fig-width: 8
-#| fig-cap: "Boxplots der Sprungweiten in [cm] getrennt für Hunde- und Katzenflöhe."
-#| label: fig-timeline
 pacman::p_load(tidyverse, patchwork)
 cbb_pal <- c("#999999", "#E69F00", "#56B4E9", "#009E73", 
              "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
@@ -103,7 +88,27 @@ p2 <- tibble(x = c(0, 4, 8, 13, 18),
         panel.grid.major.y = element_blank(),
         panel.grid.minor.x = element_blank(),
         legend.position = "top")
+```
 
+Alle relevanten Informationen zu einer Abschlussarbeit im Fachbereich *"Bio Data Science"* sind nachfolgend aufgeführt. Der Beginn und die Abgabe der Abschlussarbeit ist im Laufe des Semesters jederzeit möglich.  
+
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Angewandte Statistik und Versuchswesen"* nicht erforderlich.
+
+::: {.callout-note icon=false}
+## Abgabe der Abschlussarbeit als PDF-Datei
+Für die Abgabe gehen Sie bitte wie folgt vor:
+
+:::
+
+```{r}
+#| message: false
+#| warning: false 
+#| echo: false
+#| fig-align: center
+#| fig-height: 3.5
+#| fig-width: 8
+#| fig-cap: "Boxplots der Sprungweiten in [cm] getrennt für Hunde- und Katzenflöhe."
+#| label: fig-timeline
 
 p2 + p1 +
   plot_layout(ncol = 1, heights = c(4, 2))
