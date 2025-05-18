@@ -37,6 +37,8 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
 
+In der Veranstaltung wird R und das RStudio als Taschenrechner und zur Analyse von Daten genutzt.
+
 ::: {.callout-note icon="false"}
 ## Aktive Teilnahme
 
