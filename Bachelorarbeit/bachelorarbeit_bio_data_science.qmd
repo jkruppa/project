@@ -79,6 +79,14 @@ Mit eigene Daten --- eine experimentelle Bachelorarbeit
 
 : Die experimentelle Bachelorarbeit im Bereich *"Bio Data Science"* konzentriert sich auf die statistische Auswertung und die Beschreibung der Ergebnisse im Kontext der relevanten Forschungsliteratur, basierend auf deinen eigenen experimentellen Daten. Im Gegensatz zur methodischen Bachelorarbeit, bei der die Datenerstellung durch Dritte erfolgt, ist hier die (teilweise oder vollständige) Generierung des Datensatzes ein integraler Bestandteil deiner Leistung. Folglich steht die statistische Auswertung selbst nicht primär im Vordergrund, sondern vielmehr die Darstellung und Interpretation der gewonnenen Erkenntnisse im Hinblick auf den aktuellen Forschungsstand deiner spezifischen Fragestellung. Auch bei dieser Art von Arbeit kann die Gewichtung der einzelnen Aspekte je nach deiner konkreten Forschungsfrage variieren.
 
+### Schreibprozess
+
+In meinen [Openbook Bio Data Science](https://jkruppa.github.io/) findest du auch das [Kapitel zur Abschlussarbeit](https://jkruppa.github.io/abschlussarbeit.html)
+
+[Der Forschungsprozess - Universität Leipzig | Methodenportal](https://home.uni-leipzig.de/methodenportal/forschungsprozess)
+
+![foo](schreibprozess.jpg){#fig-schreiben fig-align="center" width="100%"}
+
 ### Zwischenpräsentation
 
 Die Zwischenpräsentation dient dem gemeinsamen Abgleich unseres Wissens- und Arbeitsstands. Gleichzeitig stellt sie einen ersten Entwurf für dein Abschlusskolloquium dar. Gestalte die Zwischenpräsentation mit circa 10 PowerPoint-Folien entsprechend der wissenschaftlichen Standardgliederung (Einleitung, Material & Methoden, Ergebnisse, Diskussion), wobei einzelne Abschnitte bei fehlenden Inhalten gekürzt werden können. Bitte verzichte auf R-Code und unformatierte R-Ausgaben und konzentriere dich auf Visualisierungen und tabellarische Darstellungen. 
@@ -108,3 +116,5 @@ Im Abschlusskolloquium präsentierst du die Kernaussagen deiner Bachelorarbeit u
 ### Bewertung der Bachelorarbeit
 
 Die Bewertung der Bachelorarbeit basiert auf der schriftlichen Ausarbeitung. Bei methodischen Arbeiten fließt zusätzlich die Programmierung in R in die Beurteilung ein. Die Präsentation im Abschlusskolloquium ist ebenfalls Teil der Endnote. Weitere Bewertungskriterien sind die Qualität der erstellten Abbildungen sowie die Einbettung des Themas in die relevante Literatur und wissenschaftliche Forschung. Ein deutliches Übermaß an Grammatik- und Rechtschreibfehlern führt zu Punktabzug.
+
+
