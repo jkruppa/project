@@ -33,19 +33,15 @@ Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist onlin
 
 Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
 
+#### Inhalt der Vorlesung
+
+
+
 ### Programmieren in R
 
 Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
 
 In der Veranstaltung wird R und das RStudio als Taschenrechner und zur Analyse von Daten genutzt.
-
-::: {.callout-note icon="false"}
-## Aktive Teilnahme
-
-- Programmieren in R ist integraler Bestandteil der Veranstaltung.
-- Die optionale Hausarbeit erfordert die selbstständige Anwendung von R.
-- Theoretische R-Kenntnisse sind klausurrelevant.
-:::
 
 ::: {.callout-note icon="false"}
 ## Passive Teilnahme
@@ -77,4 +73,27 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 **Bearbeitungszeit:** 120 Minuten (2 Stunden).
 
 :::
+
+#### Inhalt der Klausur
+
+##### Mögliche Aufgaben aus dem Mathematikteil
+
+*Es werden vier der folgenden Matheaufgaben in der Klausur drankommen.*
+
+##### Mögliche Aufgaben aus dem Statistikteil
+
+*Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
+
+1) Grundlegende Kenntnisse der Programierung in R
+2) Zerforschen des Barplots 
+3) Visualisierung des Barplots 
+4) Zerforschen des Boxplots 
+5) Visualisierung des Boxplots 
+6) Grundgesamtheit und experimentelle Stichprobe 
+7) Visualisierung der Teststatistik und dem p-Wert 
+8) Berechnung des Student t-Test oder Welch t-Test 
+8) Berechnung des Student t-Test 
+10) Visualisierung der einfaktoriellen ANOVA
+11) Ergebnistabelle der einfaktoriellen ANOVA 
+12) Die einfaktorielle ANOVA in R
 
