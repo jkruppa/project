@@ -35,6 +35,22 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 #### Inhalt der Vorlesung
 
+##### Mathematikteil
+
+1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
+2) [Von Töpfen auf Tischen](https://youtu.be/57B-yYoFSk0) 
+3) [Solar- & Biogasanlagen](https://youtu.be/aBxLkdF-c4M)
+4) [’Entschuldigung, ist das Ihre Feder in meinem Auge?’](https://youtu.be/n451XnhtSh4) 
+5) [Pyramiden bauen](https://youtu.be/tDgr6fpkkYA) 
+6) [Die atmende Wand und Brot aus Luft](https://youtu.be/4-dSaPMhK9s) 
+7) [Armee der Finsternis](https://youtu.be/Bbu6n8MXxQk) 
+8) [Lüneburger Heide. Unendliche Weiten](https://youtu.be/fiWGgCX-cE4)
+9) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
+10) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY)
+
+##### Statistikteil
+
+
 
 
 ### Programmieren in R
@@ -80,20 +96,30 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 *Es werden vier der folgenden Matheaufgaben in der Klausur drankommen.*
 
+1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
+2) [Von Töpfen auf Tischen](https://youtu.be/57B-yYoFSk0) 
+3) [Solar- & Biogasanlagen](https://youtu.be/aBxLkdF-c4M)
+4) [’Entschuldigung, ist das Ihre Feder in meinem Auge?’](https://youtu.be/n451XnhtSh4) 
+5) [Pyramiden bauen](https://youtu.be/tDgr6fpkkYA) 
+6) [Die atmende Wand und Brot aus Luft](https://youtu.be/4-dSaPMhK9s) 
+7) [Armee der Finsternis](https://youtu.be/Bbu6n8MXxQk) 
+8) [Lüneburger Heide. Unendliche Weiten](https://youtu.be/fiWGgCX-cE4)
+9) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
+10) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY) 
+
 ##### Mögliche Aufgaben aus dem Statistikteil
 
 *Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) Grundlegende Kenntnisse der Programierung in R
-2) Zerforschen des Barplots 
-3) Visualisierung des Barplots 
-4) Zerforschen des Boxplots 
-5) Visualisierung des Boxplots 
-6) Grundgesamtheit und experimentelle Stichprobe 
-7) Visualisierung der Teststatistik und dem p-Wert 
-8) Berechnung des Student t-Test oder Welch t-Test 
-8) Berechnung des Student t-Test 
-10) Visualisierung der einfaktoriellen ANOVA
-11) Ergebnistabelle der einfaktoriellen ANOVA 
-12) Die einfaktorielle ANOVA in R
+1) [Grundlegende Kenntnisse der Programierung in R]()
+2) [Zerforschen des Barplots]() 
+3) [Visualisierung des Barplots]() 
+4) [Zerforschen des Boxplots]() 
+5) [Visualisierung des Boxplots]() 
+6) [Grundgesamtheit und experimentelle Stichprobe]() 
+7) [Visualisierung der Teststatistik und dem p-Wert]() 
+8) [Berechnung des Student t-Test oder Welch t-Test]() 
+9) [Visualisierung der einfaktoriellen ANOVA]()
+10) [Ergebnistabelle der einfaktoriellen ANOVA]() 
+11) [Die einfaktorielle ANOVA in R]()
 
