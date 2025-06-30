@@ -35,6 +35,8 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 #### Inhalt der Vorlesung
 
+Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden YouTube-Videos. Alle Inhalte sind verbindlich für die Klausur, auch wenn einzelne Vorlesungen krankheitsbedingt ausfallen sollten.
+
 ##### Mathematikteil
 
 1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
@@ -50,7 +52,9 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 ##### Statistikteil
 
+Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die YouTube-Playlist [Openbook Bio Data Sciene](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Videos sind prüfungsrelevant:
 
+1) []()
 
 
 ### Programmieren in R
