@@ -10,7 +10,7 @@ format:
     theme: journal
 ---
 
-Alle relevanten Informationen zur Portfolioprüfung für das Modul *"Spezielle Statistik und Versuchswesen"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.  
+Alle relevanten Informationen zur Portfolioprüfung für das Modul *"Spezielle Statistik und Versuchswesen"* sind nachfolgend aufgeführt. Die Abgabe der Portfolioprüfung ist im Laufe des Semesters bis zum Abgabetermin jederzeit möglich.  
 
 ::: {.callout-note icon=false}
 ## Abgabe der Portfolioprüfung als PDF-Dateien oder ZIP-Ordner
@@ -18,7 +18,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 
 1) Laden Sie Ihre PDF-Dateien oder als ZIP-Ordner in den ILIAS-Abgabeordner hoch.
 2) Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-3) Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+3) Die Abgabe muss bis zum **21. Dezember 2025** erfolgen.
 :::
 
 ## Datenanalyse in R (verpflichtend)
