@@ -2,7 +2,7 @@
 title: "Pfad zur Bachelorarbeit"
 subtitle: "Fachbereich Bio Data Science"
 author: "Prof. Dr. habil. Jochen Kruppa-Scheetz"
-date: "08. May 2025"
+date: "01. August 2025"
 format:
   html:
     embed-resources: true
@@ -19,6 +19,7 @@ Allgemeine Informationen zur Abschlussarbeit an der Fakultät AuL findest du in 
 
 - Die Bearbeitungszeit beträgt 12 Wochen.
 - Die Struktur muss der wissenschaftlichen Standardgliederung (Einleitung, Material & Methoden, Ergebnisse, Diskussion) folgen. Beachte hierzu die detaillierten Hinweise im [Leitfaden zum Verfassen wissenschaftlicher Arbeiten](https://intranet.hs-osnabrueck.de/index.php?eID=dumpFile&t=f&f=69598&token=ea18fc8431ccfbc422ae88c5f45a9963186870d8).
+- Der Bachelorarbeit ist eine [visuelle Zusammenfassung (eng. *visual abstract*)](https://www.bmj.com/content/bmj-visual-abstracts) beizufügen. Die visuelle Zusammenfassung ist eine eigenständige und selbsterklärende Abbildung, die eure Bachelorarbeit grafisch zusammenfasst.
 - Der Umfang der Arbeit ist auf 60 bis maximal 70 Seiten begrenzt. Diese Seitenzahl beinhaltet das Titelblatt, das Inhaltsverzeichnis sowie das vollständige Literaturverzeichnis.
 - Die Anzahl der Referenzen und Literaturquellen muss zwischen 40 und 70 liegen. Reine Internetquellen werden nicht als Literaturquellen anerkannt.
 - Die Datenanalyse ist zwingend mit der Software RStudio und der Programmiersprache R durchzuführen.
@@ -79,13 +80,29 @@ Mit eigene Daten --- eine experimentelle Bachelorarbeit
 
 : Die experimentelle Bachelorarbeit im Bereich *"Bio Data Science"* konzentriert sich auf die statistische Auswertung und die Beschreibung der Ergebnisse im Kontext der relevanten Forschungsliteratur, basierend auf deinen eigenen experimentellen Daten. Im Gegensatz zur methodischen Bachelorarbeit, bei der die Datenerstellung durch Dritte erfolgt, ist hier die (teilweise oder vollständige) Generierung des Datensatzes ein integraler Bestandteil deiner Leistung. Folglich steht die statistische Auswertung selbst nicht primär im Vordergrund, sondern vielmehr die Darstellung und Interpretation der gewonnenen Erkenntnisse im Hinblick auf den aktuellen Forschungsstand deiner spezifischen Fragestellung. Auch bei dieser Art von Arbeit kann die Gewichtung der einzelnen Aspekte je nach deiner konkreten Forschungsfrage variieren.
 
+::: {.callout-note icon=false}
+## ChatGPt oder ähnliche Tools in der Bachelorarbeit
+
+Angesichts des fortschreitenden Einsatzes von Künstlicher Intelligenz (KI) in der akademischen Welt, insbesondere von Tools wie ChatGPT, möchte ich die folgenden wichtigen Richtlinien für eure Abschlussarbeiten klarstellen:
+
+- **Zusätzliche PDF-Einreichung:** Neben der gebundenen Version eurer Abschlussarbeit ist zukünftig immer auch eine PDF-Version einzureichen. Diese digitale Version wird auf den Einsatz von KI-Tools überprüft.
+- **Akzeptabler KI-Einsatz:** KI-Tools sind hervorragende Lernhilfen und können euch bei der Strukturierung oder Ideenfindung unterstützen. Es ist jedoch nicht gestattet, ganze Absätze oder wesentliche Textteile von einer KI generieren zu lassen. Eure Abschlussarbeit muss eure eigene, selbstständige Leistung widerspiegeln und euren individuellen Schreibstil zeigen.
+- **Angabe der KI-Nutzung:** Solltet ihr ChatGPT oder ähnliche KI-Tools für die Textgenerierung genutzt haben, ist dies im Anhang eurer Arbeit detailliert zu vermerken. Gebt dort bitte die konkreten Prompts an, die ihr verwendet habt, und verortet diese Prompts den entsprechenden Kapiteln eurer Arbeit. Falls KI lediglich als Hilfe bei der Programmierung zum Einsatz kam, genügt ein einfacher Vermerk im Anhang (z.B. "Zur Unterstützung bei der Programmierung wurde KI verwendet.").
+- **Selbstverpflichtung:** Um die Integrität eurer Arbeit zu unterstreichen, kann die folgende Selbstverpflichtung in eure Bachelorarbeit aufgenommen werden.
+
+> During the preparation of this work the author(s) used [NAME TOOL / SERVICE] in order to [REASON]. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the published article.
+
+> Während der Vorbereitung dieser Arbeit benutzte(n) der/die Autor(en) [NAME TOOL / SERVICE], um [ANLASS]. Nach der Nutzung dieses Tools/Dienstes hat der/die Autor(en) den Inhalt nach Bedarf überprüft und bearbeitet und übernimmt/übernehmen die volle Verantwortung für den Inhalt des veröffentlichten Artikels.
+
+- **Visueller Abstract:** Ab sofort ist jeder Bachelorarbeit ein visueller Abstract (engl. visual abstract) beizufügen. Ein visueller Abstract ist eine eigenständige und selbsterklärende Abbildung, die eure Bachelorarbeit grafisch zusammenfasst. Stellt es euch wie eine Infografik vor, die auf einen Blick die wichtigsten Aspekte eurer Forschungsarbeit – die Fragestellung, die Methoden, die zentralen Ergebnisse und die Schlussfolgerungen – übersichtlich darstellt. Das Ziel ist es, Lesenden einen schnellen Überblick über den Inhalt eurer Arbeit zu ermöglichen und Interesse zu wecken, sich intensiver damit zu beschäftigen. Ein gutes Beispiel für die Gestaltung und den Zweck von visuellen Abstracts findet ihr unter diesem Link: [BMJ Visual Abstracts](https://www.bmj.com/content/bmj-visual-abstracts).
+
+:::
+
 ### Schreibprozess
 
-In meinen [Openbook Bio Data Science](https://jkruppa.github.io/) findest du auch das [Kapitel zur Abschlussarbeit](https://jkruppa.github.io/abschlussarbeit.html)
+Der Schreibprozess ist nicht einfach. Einen wissenschaftlichen text zu schreiben ist anstrengend. In meinen [Openbook Bio Data Science](https://jkruppa.github.io/) findest du auch das [Kapitel zur Abschlussarbeit](https://jkruppa.github.io/abschlussarbeit.html) und dort Hilfestellungen zum Schreiben. Das Methodenportal der Universität Leipzig bietet unter [Der Forschungsprozess - Universität Leipzig | Methodenportal](https://home.uni-leipzig.de/methodenportal/forschungsprozess) einen Leitfaden für das Schreiben und Forschen. Ich habe dort auch die folgende Abbildung entnommen, die dir eventuell eine Hilfe sein mag.
 
-[Der Forschungsprozess - Universität Leipzig | Methodenportal](https://home.uni-leipzig.de/methodenportal/forschungsprozess)
-
-![foo](schreibprozess.jpg){#fig-schreiben fig-align="center" width="100%"}
+![Darstellung des Forschungs- und Schreibprozesses in fünf Schritten aufgeteilt nach Reden, Schreiben und Lesen.](schreibprozess.jpg){#fig-schreiben fig-align="center" width="100%"}
 
 ### Zwischenpräsentation
 
