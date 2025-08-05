@@ -2,13 +2,20 @@
 title: "Modulpfad Mathematik & Statistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "23. August 2024"
+date: "21. September 2025"
 format:
   html:
     embed-resources: true
     lang: de
     theme: journal
 ---
+
+::: {.callout-note icon="false"}
+## Gültigkeit 
+
+Dieses Dokument ist für das **Wintersemester 2025/26** und das darauffolgende **Sommersemester 2026** gültig.
+:::
+
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
@@ -52,7 +59,7 @@ Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Si
 
 ##### Statistikteil
 
-Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die YouTube-Playlist [Openbook Bio Data Sciene](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Videos sind prüfungsrelevant:
+Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Playlist Openbook *Bio Data Sciene*](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Inhalte aus dem Openbook *Bio Data Science* sind prüfungsrelevant:
 
 1) []()
 
@@ -83,7 +90,7 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 **Die schriftliche Klausur gliedert sich in:**
 
 -   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
--   *Text- und Rechenteil:* 6 Aufgaben. 
+-   *Text- und Rechenteil:* 7 Aufgaben. 
 
 **Erlaubte Hilfsmittel:**
 
@@ -95,6 +102,8 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 :::
 
 #### Inhalt der Klausur
+
+Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
 
 ##### Mögliche Aufgaben aus dem Mathematikteil
 
@@ -115,15 +124,15 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 *Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) [Grundlegende Kenntnisse der Programierung in R]()
-2) [Zerforschen des Barplots]() 
-3) [Visualisierung des Barplots]() 
-4) [Zerforschen des Boxplots]() 
-5) [Visualisierung des Boxplots]() 
-6) [Grundgesamtheit und experimentelle Stichprobe]() 
-7) [Visualisierung der Teststatistik und dem p-Wert]() 
-8) [Berechnung des Student t-Test oder Welch t-Test]() 
-9) [Visualisierung der einfaktoriellen ANOVA]()
-10) [Ergebnistabelle der einfaktoriellen ANOVA]() 
-11) [Die einfaktorielle ANOVA in R]()
+1) [Grundlegende Kenntnisse der Programierung in R](https://www.youtube.com/playlist?list=PLe51bCp9JvEFUnFqaJG5aRmON9i1ZbOYC)
+2) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
+3) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
+4) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
+5) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
+6) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
+7) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
+8) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk) 
+9) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
+10) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
+11) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
 
