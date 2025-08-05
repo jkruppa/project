@@ -2,7 +2,7 @@
 title: "Spezielle Statistik und Versuchswesen"
 subtitle: "Portfolioprüfung"
 author: "Jochen Kruppa-Scheetz"
-date: "23. August 2024"
+date: "05. August 2025"
 format:
   html:
     embed-resources: true

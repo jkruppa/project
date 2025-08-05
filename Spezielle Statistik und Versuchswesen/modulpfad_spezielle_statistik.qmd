@@ -1,0 +1,65 @@
+---
+title: "Modulpfad Spezielle Statistik und Versuchswesen"
+subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+author: "Jochen Kruppa-Scheetz"
+date: "05. August 2025"
+format:
+  html:
+    embed-resources: true
+    lang: de
+    theme: journal
+---
+
+Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
+
+-   Mitschriften der Vorlesung und der Übungen
+-   R-Skripte und die in der Vorlesung verwendeten Dateien
+-   Informationen zu der Prüfungsleistung der Portfolioprüfung
+
+Beachten Sie bitte die folgenden Details zu den Sonderterminen.
+
+| Datum | Uhrzeit | Information |
+|------|------|------|
+|  17.12.2025    |  9:45  | Freies Arbeiten  |
+|  18.12.2025    |  9:45  | Freies Arbeiten  |
+|  **21.12.2025**    |    | **Abgabe Portfolioprüfung**  |
+|  07.01.2026    |  9:45  | Präsentation der Portfolioprüfung  |
+|  08.01.2026    |  9:45  | Präsentation der Portfolioprüfung  |
+
+
+### Skript als Lernhilfe
+
+Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist online unter <https://jkruppa.github.io/> verfügbar. Dort finden Sie ergänzend weiterführende Informationen zu R, Excel und der Datenauswertung. 
+
+### Videos als Lernhilfe
+
+Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
+
+#### Inhalt der Vorlesung
+
+Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden Kapiteln im Openbook *Bio Data Science*. 
+
+1) []()
+2) []()
+3) []()
+4) []()
+5) []()
+6) []()
+7) []()
+8) []()
+
+### Programmieren in R
+
+Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
+
+::: {.callout-note icon="false"}
+## Aktive Teilnahme
+
+- Programmieren in R ist integraler Bestandteil der Veranstaltung.
+- Die Portfolioprüfung erfordert die selbstständige Anwendung von R.
+:::
+
+### Prüfungsleistung
+
+Die Prüfungsleistung ist eine Portfolioprüfung. Alle weiteren Informationen dazu, einschließlich Abgabefristen und Inhalte, finden Sie im zusätzlichen Dokument auf ILIAS.
+
