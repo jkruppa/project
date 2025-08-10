@@ -20,7 +20,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 
 1) Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
 2) Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-3) Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+3) Die Abgabe muss bis zum **21. Dezember 2025** erfolgen.
 :::
 
 ## Datenanalyse in R 
