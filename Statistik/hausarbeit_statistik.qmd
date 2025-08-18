@@ -10,42 +10,91 @@ format:
     theme: journal
 ---
 
-Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.  
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
 
 Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Statistik"* nicht erforderlich.
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## Abgabe der Hausarbeit als PDF-Datei
+
 Für die Abgabe gehen Sie bitte wie folgt vor:
 
-1) Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
-2) Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-3) Die Abgabe muss bis zum **21. Dezember 2025** erfolgen.
+1)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+2)  Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+3)  Die Abgabe muss bis zum **21. Dezember 2025** erfolgen.
 :::
 
-## Datenanalyse in R 
+## Datenanalyse in R
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## Formalia
+
 Für Ihre Hausarbeit gelten folgende Anforderungen:
 
-1) Die Hausarbeit ist im IMRaD-Schema zu verfassen.
-2) Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
-3) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::
 
-Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem faktoriellen Versuchsdesign basieren.
+Im Modul *"Statistik"* arbeiten Sie in Gruppen an einem Projekt, bei dem Sie einen Fragebogen entwickeln. Dieser wird von den anderen Teilnehmenden des Moduls ausgefüllt. Die daraus gewonnenen Daten verwenden Sie als Grundlage für Ihre Hausarbeit. Ihre wissenschaftliche Fragestellung erarbeiten Sie eigenständig in Ihrer Gruppe.
+
+::: {.callout-note icon="false"}
+## Vorgaben für die Fragen
+
+Achten Sie beim Erstellen Ihres Fragebogens darauf, dass die folgenden Vorgaben erfüllt sind.
+
+1)  **Erste Frage: Dichotome Frage** Mit dieser Frage unterteilen Sie die Teilnehmenden in zwei Gruppen. Hier ist nur eine Ja/Nein-Antwort möglich.
+
+*Beispiel: "Haben Sie bereits Erfahrung mit statistischer Datenauswertung?"*
+
+2.  **Zweite Frage: Kontinuierliche Frage** Diese Frage sollte eine kontinuierliche Antwort ermöglichen, also eine Antwort, die jeden beliebigen Wert in einem bestimmten Bereich annehmen kann.
+
+*Beispiel: "Wie viele Stunden pro Woche verbringen Sie durchschnittlich mit der Vorbereitung auf das Statistik-Modul?"*
+
+3.  **Dritte Frage: Kategoriale Frage mit drei Optionen** Diese Frage hat eine kategoriale Antwort mit drei festen Auswahlmöglichkeiten.
+
+*Beispiel: "Welche Vorkenntnisse in Statistik bringen Sie mit?"*
+
+*( ) Keine*
+
+*( ) Geringe*
+
+*( ) Umfangreiche*
+
+4.  **Vierte Frage: Kategoriale Frage mit fünf Optionen** Diese Frage hat eine kategoriale Antwort mit fünf festen Auswahlmöglichkeiten.
+
+*Beispiel: "Wie bewerten Sie die bisherige Qualität der Vorlesung?"*
+
+*( ) Sehr schlecht*
+
+*( ) Schlecht*
+
+*( ) Mittelmäßig*
+
+*( ) Gut*
+
+*( ) Sehr gut*
+
+5.  **Fünfte Frage: Kategoriale Frage mit zwei Optionen** Diese Frage hat eine kategoriale Antwort mit zwei festen Auswahlmöglichkeiten.
+
+*Beispiel: "Nehmen Sie regelmäßig an den Tutorien teil?"*
+
+*( ) Ja*
+
+*( ) Nein*
+
+:::
 
 Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
-- **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
-- **Materialien und Methoden (2 Punkte):**
-  - Beschreibung des Versuchsplans anhand der gegebenen Informationen.
-  - Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
-- **Ergebnisse (6 Punkte):**
-  - Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
-  - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
-- **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+-   **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
+-   **Materialien und Methoden (2 Punkte):**
+    -   Beschreibung des Fragebogens anhand der gegebenen Informationen.
+    -   Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
+-   **Ergebnisse (6 Punkte):**
+    -   Visualisierung der Daten im Kontext der Fragestellung **(2 Punkte)**.
+    -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
+-   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
 
 ## Benotung
 
