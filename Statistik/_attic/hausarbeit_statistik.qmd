@@ -26,6 +26,8 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 
 ## Datenanalyse in R
 
+Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabei auf die Erstellung der Daten und die Analyse der Hausarbeit. Die finale Abgabe des Textes muss von jedem Einzelnen persönlich erfolgen.
+
 ::: {.callout-note icon="false"}
 ## Formalia
 

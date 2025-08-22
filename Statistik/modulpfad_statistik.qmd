@@ -2,7 +2,7 @@
 title: "Modulpfad Statistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "23. August 2024"
+date: "21. September 2025"
 format:
   html:
     embed-resources: true
@@ -16,14 +16,7 @@ Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, ein
 -   R-Skripte und die in der Vorlesung verwendeten Dateien
 -   Die gesammelten Klausurfragen für Bio Data Science
 
-Beachten Sie bitte die folgenden Details zu den Sonderterminen.
-
-| Datum | Uhrzeit | Information |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
-
+Beachten Sie bitte auch die zusätzlichen Informationen zu einzelnen Terminen auf ILIAS. 
 
 ### Skript als Lernhilfe
 
@@ -45,13 +38,18 @@ Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Sci
 - Theoretische R-Kenntnisse sind klausurrelevant.
 :::
 
-::: {.callout-note icon="false"}
-## Passive Teilnahme
+### Inhalt der Vorlesung
 
-- Programmieren in R wird in der Veranstaltung eingesetzt.
-- Es ist ausreichend, den R-basierten Inhalten folgen zu können.
-- Theoretische R-Kenntnisse sind klausurrelevant.
-:::
+Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden YouTube-Videos. Alle Inhalte sind verbindlich für die Klausur, auch wenn einzelne Vorlesungen krankheitsbedingt ausfallen sollten. Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Playlist Openbook *Bio Data Sciene*](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Inhalte aus dem Openbook *Bio Data Science* sind prüfungsrelevant:
+
+1) [Programmieren in R](https://jkruppa.github.io/programing-preface.html)
+2) [Deskriptive Statistik](https://jkruppa.github.io/eda-descriptive.html)
+3) [Visualisierung von Daten](https://jkruppa.github.io/eda-ggplot.html)
+4) [Die Testentscheidung](https://jkruppa.github.io/stat-tests-basic.html)
+5) [Die Testtheorie](https://jkruppa.github.io/stat-tests-theorie.html)
+6) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
+7) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
+8) [Der Chi-Quadrat-Test](https://jkruppa.github.io/stat-tests-chi-test.html)
 
 ### Prüfungsleistung
 
@@ -75,42 +73,128 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 -   Eine beidseitig handschriftlich beschriebene DIN A4-Formelsammlung (keine Ausdrucke).
 
 **Bearbeitungszeit:** 120 Minuten (2 Stunden).
-
 :::
 
+#### Inhalt der Klausur
+
+Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+
+*Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
+
+1) [Grundlegende Kenntnisse der Programierung in R](https://www.youtube.com/playlist?list=PLe51bCp9JvEFUnFqaJG5aRmON9i1ZbOYC)
+2) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
+3) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
+4) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
+5) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
+6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
+7) [Visualisierung des Mosaicplots](https://youtu.be/L4nSytEHcaE) 
+8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
+9) [Das Nullritual - Die statistische Testtheorie](https://youtu.be/XAE8BwNmCQ0) 
+10) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
+11) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk) 
+12) [Berechnung des Student t-Test](https://youtu.be/eGoLNgE-WCo) 
+13) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
+14) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
+15) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
+16) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
+17) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
+18) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
+19) [Den Chi-Quadrat-Test mit Effektmaß berechnen](https://youtu.be/IcjUIoEo0rY) 
+20) [Den Chi-Quadrat-Test in einem Fragebogen berechnen](https://youtu.be/LzAAdJPH4ZU) 
+21) [Visualisierung des Compact Letter Displays (CLD)](https://youtu.be/VNz7nDuK148) 
+
+#### Hausarbeit
+
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
+
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Statistik"* nicht erforderlich.
+
 ::: {.callout-note icon="false"}
-## Hausarbeit
+## Abgabe der Hausarbeit als PDF-Datei
 
-Alle relevanten Informationen zur Hausarbeit für das Modul *"Statistik"* sind nachfolgend aufgeführt. Die Abgabe der Hausarbeit ist jederzeit im Laufe des Semesters möglich.
+Für die Abgabe gehen Sie bitte wie folgt vor:
 
-Für Ihre Analyse wählen Sie bitte einen der auf ILIAS verfügbaren Datensätze aus. Beachten Sie, dass alle Datensätze auf einem faktoriellen Versuchsdesign basieren.
+1)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+2)  Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+3)  Die Abgabe muss bis zum **21. Dezember 2025** erfolgen.
+:::
 
-**Für die Abgabe gehen Sie bitte wie folgt vor:**
+##### Datenanalyse in R
 
-1)  Benennen Sie die PDF-Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-2)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
-3)  Die Abgabe muss bis zum **31. Januar 2025** erfolgen.
+Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabei auf die Erstellung der Daten und die Analyse der Hausarbeit. Die finale Abgabe des Textes muss von jedem Einzelnen persönlich erfolgen.
 
-**Für Ihre Hausarbeit gelten folgende Anforderungen:**
+::: {.callout-note icon="false"}
+## Formalia
+
+Für Ihre Hausarbeit gelten folgende Anforderungen:
 
 1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
 2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+:::
 
-**Ihre Hausarbeit wird nach folgenden Kriterien bewertet:**
+Im Modul *"Statistik"* arbeiten Sie in Gruppen an einem Projekt, bei dem Sie einen Fragebogen entwickeln. Dieser wird von den anderen Teilnehmenden des Moduls ausgefüllt. Die daraus gewonnenen Daten verwenden Sie als Grundlage für Ihre Hausarbeit. Ihre wissenschaftliche Fragestellung erarbeiten Sie eigenständig in Ihrer Gruppe.
+
+::: {.callout-note icon="false"}
+## Vorgaben für die Fragen
+
+Achten Sie beim Erstellen Ihres Fragebogens darauf, dass die folgenden Vorgaben erfüllt sind.
+
+1)  **Erste Frage: Dichotome Frage** Mit dieser Frage unterteilen Sie die Teilnehmenden in zwei Gruppen. Hier ist nur eine Ja/Nein-Antwort möglich.
+
+*Beispiel: "Haben Sie bereits Erfahrung mit statistischer Datenauswertung?"*
+
+2.  **Zweite Frage: Kontinuierliche Frage** Diese Frage sollte eine kontinuierliche Antwort ermöglichen, also eine Antwort, die jeden beliebigen Wert in einem bestimmten Bereich annehmen kann.
+
+*Beispiel: "Wie viele Stunden pro Woche verbringen Sie durchschnittlich mit der Vorbereitung auf das Statistik-Modul?"*
+
+3.  **Dritte Frage: Kategoriale Frage mit drei Optionen** Diese Frage hat eine kategoriale Antwort mit drei festen Auswahlmöglichkeiten.
+
+*Beispiel: "Welche Vorkenntnisse in Statistik bringen Sie mit?"*
+
+*( ) Keine*
+
+*( ) Geringe*
+
+*( ) Umfangreiche*
+
+4.  **Vierte Frage: Kategoriale Frage mit fünf Optionen** Diese Frage hat eine kategoriale Antwort mit fünf festen Auswahlmöglichkeiten.
+
+*Beispiel: "Wie bewerten Sie die bisherige Qualität der Vorlesung?"*
+
+*( ) Sehr schlecht*
+
+*( ) Schlecht*
+
+*( ) Mittelmäßig*
+
+*( ) Gut*
+
+*( ) Sehr gut*
+
+5.  **Fünfte Frage: Kategoriale Frage mit zwei Optionen** Diese Frage hat eine kategoriale Antwort mit zwei festen Auswahlmöglichkeiten.
+
+*Beispiel: "Nehmen Sie regelmäßig an den Tutorien teil?"*
+
+*( ) Ja*
+
+*( ) Nein*
+
+:::
+
+Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
 -   **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
 -   **Materialien und Methoden (2 Punkte):**
-    -   Beschreibung des Versuchsplans anhand der gegebenen Informationen.
+    -   Beschreibung des Fragebogens anhand der gegebenen Informationen.
     -   Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
 -   **Ergebnisse (6 Punkte):**
-    -   Visualisierung der Daten in {ggplot} im Kontext der Fragestellung **(2 Punkte)**.
+    -   Visualisierung der Daten im Kontext der Fragestellung **(2 Punkte)**.
     -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
 -   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
 
-**Benotung:**
+##### Benotung
 
 Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
-:::
 
 

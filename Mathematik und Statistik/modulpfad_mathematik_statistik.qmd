@@ -16,21 +16,13 @@ format:
 Dieses Dokument ist für das **Wintersemester 2025/26** und das darauffolgende **Sommersemester 2026** gültig.
 :::
 
-
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
 -   Mitschriften der Vorlesung und der Übungen als PDF-Datei.
 -   R-Skripte und die in der Vorlesung verwendeten Dateien.
 -   Die gesammelten Klausurfragen für Bio Data Science als PDF-Datei.
 
-Beachten Sie bitte die folgenden Details zu einzelnen Terminen.
-
-| Datum | Uhrzeit | Information |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
-
+Beachten Sie bitte auch die zusätzlichen Informationen zu einzelnen Terminen auf ILIAS. 
 
 ### Skript als Lernhilfe
 
@@ -39,30 +31,6 @@ Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist onlin
 ### Videos als Lernhilfe
 
 Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
-
-#### Inhalt der Vorlesung
-
-Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden YouTube-Videos. Alle Inhalte sind verbindlich für die Klausur, auch wenn einzelne Vorlesungen krankheitsbedingt ausfallen sollten.
-
-##### Mathematikteil
-
-1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
-2) [Von Töpfen auf Tischen](https://youtu.be/57B-yYoFSk0) 
-3) [Solar- & Biogasanlagen](https://youtu.be/aBxLkdF-c4M)
-4) [’Entschuldigung, ist das Ihre Feder in meinem Auge?’](https://youtu.be/n451XnhtSh4) 
-5) [Pyramiden bauen](https://youtu.be/tDgr6fpkkYA) 
-6) [Die atmende Wand und Brot aus Luft](https://youtu.be/4-dSaPMhK9s) 
-7) [Armee der Finsternis](https://youtu.be/Bbu6n8MXxQk) 
-8) [Lüneburger Heide. Unendliche Weiten](https://youtu.be/fiWGgCX-cE4)
-9) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
-10) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY)
-
-##### Statistikteil
-
-Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Playlist Openbook *Bio Data Sciene*](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Inhalte aus dem Openbook *Bio Data Science* sind prüfungsrelevant:
-
-1) []()
-
 
 ### Programmieren in R
 
@@ -77,6 +45,33 @@ In der Veranstaltung wird R und das RStudio als Taschenrechner und zur Analyse v
 - Es ist ausreichend, den R-basierten Inhalten folgen zu können.
 - Theoretische R-Kenntnisse sind klausurrelevant.
 :::
+
+### Inhalt der Vorlesung
+
+Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden YouTube-Videos. Alle Inhalte sind verbindlich für die Klausur, auch wenn einzelne Vorlesungen krankheitsbedingt ausfallen sollten.
+
+#### Mathematikteil
+
+1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
+2) [Von Töpfen auf Tischen](https://youtu.be/57B-yYoFSk0) 
+3) [Solar- & Biogasanlagen](https://youtu.be/aBxLkdF-c4M)
+4) [’Entschuldigung, ist das Ihre Feder in meinem Auge?’](https://youtu.be/n451XnhtSh4) 
+5) [Pyramiden bauen](https://youtu.be/tDgr6fpkkYA) 
+6) [Die atmende Wand und Brot aus Luft](https://youtu.be/4-dSaPMhK9s) 
+7) [Armee der Finsternis](https://youtu.be/Bbu6n8MXxQk) 
+8) [Lüneburger Heide. Unendliche Weiten](https://youtu.be/fiWGgCX-cE4)
+9) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
+10) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY)
+
+#### Statistikteil
+
+Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Playlist Openbook *Bio Data Sciene*](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Inhalte aus dem Openbook *Bio Data Science* sind prüfungsrelevant:
+
+1) [Deskriptive Statistik](https://jkruppa.github.io/eda-descriptive.html)
+2) [Visualisierung von Daten](https://jkruppa.github.io/eda-ggplot.html)
+3) [Die Testentscheidung](https://jkruppa.github.io/stat-tests-basic.html)
+4) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
+5) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
 
 ### Prüfungsleistung
 
@@ -103,7 +98,7 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 #### Inhalt der Klausur
 
-Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
 
 ##### Mögliche Aufgaben aus dem Mathematikteil
 
