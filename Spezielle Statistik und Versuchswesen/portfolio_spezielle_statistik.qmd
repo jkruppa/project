@@ -33,7 +33,11 @@ Für Ihren Bericht gelten folgende Anforderungen:
 4) Sie erstellen Ihren Bereicht in *R Quatro*. **(+1 Punkt)** 
 :::
 
-Für Ihre Analyse wählen Sie bitte einen agrarwissenschaftlichen Datensatz aus dem R Paket {agridat} aus. Beachten Sie, dass der Datensatz auf einem faktoriellen Versuchsdesign basieren muss. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
+Für die Datenanalyse in R können Sie zwischen drei Pfaden wählen:
+
+1) Für Ihre Analyse wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}` aus. Beachten Sie, dass der Datensatz auf einem faktoriellen Versuchsdesign basieren muss. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
+2) Für Ihre Analyse generieren Sie sich einen künstlichen zweifaktoriellen Datensatz mit Interaktion *oder* einen künstlichen dreifaktoriellen Datensatz. Den wissenschaftlichen Hintergrund müssen Sie sich entsprechend selbst erstellen.
+3) Für Ihre Analyse wählen Sie einen eigenen Datensatz mit einem faktoriellen Versuchsdesign. 
 
 Ihre Datenanalyse wird nach folgenden Kriterien bewertet:
 
@@ -42,7 +46,7 @@ Ihre Datenanalyse wird nach folgenden Kriterien bewertet:
   - Beschreibung des Versuchsplans anhand der gegebenen Informationen.
   - Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
 - **Ergebnisse (2 Punkte):**
-  - Visualisierung der Daten in {ggplot} im Kontext der Fragestellung.
+  - Visualisierung der Daten in `{ggplot}` im Kontext der Fragestellung.
   - Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse.
 - **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
 
@@ -62,7 +66,7 @@ Für Ihr Poster finden und fotografieren gelten folgende Anforderungen:
 Finden Sie auf dem Campus Haste ein wissenschaftliches Poster und fotografieren Sie eine statistische Abbildung darauf.
 
 - Erstellen Sie einen Datensatz, der die Grundlage für die fotografierte Abbildung bilden könnte. Schätzen Sie dazu die Werte aus dem Foto grob ab.
-- Bauen Sie die fotografierte Abbildung mit den erstellten Daten in {ggplot} nach.
+- Bauen Sie die fotografierte Abbildung mit den erstellten Daten in `{ggplot}` nach.
 
 ## Zerforschung II (verpflichtend)
 
