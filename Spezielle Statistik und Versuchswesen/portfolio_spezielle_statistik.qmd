@@ -1,8 +1,8 @@
 ---
 title: "Spezielle Statistik und Versuchswesen"
 subtitle: "Portfolioprüfung"
-author: "Jochen Kruppa-Scheetz"
-date: "05. August 2025"
+author: "Prof. Dr. Jochen Kruppa-Scheetz"
+date: "17. September 2025"
 format:
   html:
     embed-resources: true
@@ -37,7 +37,7 @@ Für die Datenanalyse in R können Sie zwischen drei Pfaden wählen:
 
 1) Für Ihre Analyse wählen Sie einen agrarwissenschaftlichen Datensatz aus dem R Paket `{agridat}` aus. Beachten Sie, dass der Datensatz auf einem faktoriellen Versuchsdesign basieren muss. Eine gute Übersicht finden Sie auch unter <https://kwstat.github.io/agridat/reference/>.
 2) Für Ihre Analyse generieren Sie sich einen künstlichen zweifaktoriellen Datensatz mit Interaktion *oder* einen künstlichen dreifaktoriellen Datensatz. Den wissenschaftlichen Hintergrund müssen Sie sich entsprechend selbst erstellen.
-3) Für Ihre Analyse wählen Sie einen eigenen Datensatz mit einem faktoriellen Versuchsdesign. 
+3) Für Ihre Analyse wählen Sie einen eigenen Datensatz mit einem mindestens zweifaktoriellen Versuchsdesign. 
 
 Ihre Datenanalyse wird nach folgenden Kriterien bewertet:
 
@@ -60,7 +60,7 @@ Für Ihr Poster finden und fotografieren gelten folgende Anforderungen:
 1) Geben Sie den R-Code und die nachgebaute Abbildung in einem R Quarto Dokument ab.
 2) Die Abgabe erfolgt in Form einer PDF-Datei oder HTML-Datei.
 
-***Hinweis:** Eine grobe Schätzung der Werte ist für diese Aufgabe ausreichend.*
+***Hinweis:*** Eine grobe Schätzung der Werte ist für diese Aufgabe ausreichend.*
 :::
 
 Finden Sie auf dem Campus Haste ein wissenschaftliches Poster und fotografieren Sie eine statistische Abbildung darauf.
@@ -106,7 +106,7 @@ Für Ihr Kurzbeschreibung eines Forschungsvorhabens gelten folgende Anforderunge
 Wählen Sie eine Kurzbeschreibung eines Forschungsvorhabens aus der Datei *Forschungsideen.pdf* aus. Die Datei ist auf ILIAS abgelegt.
 
 - Erstellen Sie eine Excel-Datei, die der gewählten Kurzbeschreibung entspricht. Berücksichtigen Sie bei der Strukturierung, dass diese Datei nach Durchführung eines Versuchs mit Messdaten befüllt werden soll. Planen Sie Wiederholungen ein und legen Sie die Anzahl der Wiederholungen selbstständig fest. Achten Sie darauf, dass die erstellte Excel-Datei problemlos in R eingelesen werden kann.
-- Erstellen Sie eine Randomisierung für den experimentellen Versuchsaufbau, der sich aus der Kurzbeschreibung ergibt. Visualisieren Sie dieses Versuchsdesign. Für die Visualisierung können Sie PowerPoint oder das R-Paket {desplot} verwenden.
+- Erstellen Sie eine Randomisierung für den experimentellen Versuchsaufbau, der sich aus der Kurzbeschreibung ergibt. Visualisieren Sie dieses Versuchsdesign. Für die Visualisierung können Sie PowerPoint oder das R-Paket `{desplot}` verwenden.
 
 ## R Shiny Web App (optional)
 
