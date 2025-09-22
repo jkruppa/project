@@ -2,7 +2,7 @@
 title: "Modulpfad Spezielle Statistik und Versuchswesen"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "05. August 2025"
+date: "22. September 2025"
 format:
   html:
     embed-resources: true
@@ -16,16 +16,7 @@ Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, ein
 -   R-Skripte und die in der Vorlesung verwendeten Dateien
 -   Informationen zu der Prüfungsleistung der Portfolioprüfung
 
-Beachten Sie bitte die folgenden Details zu den Sonderterminen.
-
-| Datum | Uhrzeit | Information |
-|------|------|------|
-|  17.12.2025    |  9:45  | Freies Arbeiten  |
-|  18.12.2025    |  9:45  | Freies Arbeiten  |
-|  **21.12.2025**    |    | **Abgabe Portfolioprüfung**  |
-|  07.01.2026    |  9:45  | Präsentation der Portfolioprüfung  |
-|  08.01.2026    |  9:45  | Präsentation der Portfolioprüfung  |
-
+Beachten Sie bitte auch die zusätzlichen Informationen zu einzelnen Terminen auf ILIAS. 
 
 ### Skript als Lernhilfe
 
@@ -39,14 +30,16 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden Kapiteln im Openbook *Bio Data Science*. 
 
-1) []()
-2) []()
-3) []()
-4) []()
-5) []()
-6) []()
-7) []()
-8) []()
+1) [Visualisierung von Daten](https://jkruppa.github.io/eda-ggplot.html)
+2) [Forschungsprozess](https://jkruppa.github.io/forschungsprozess.html)
+3) [Quarto und Shiny App](https://jkruppa.github.io/programing-quarto-shiny.html)
+4) [Statistische Gruppenvergleiche](https://jkruppa.github.io/stat-tests-preface-app.html)
+5) [Der Pre-Test oder Vortest](https://jkruppa.github.io/stat-tests-pretest2.html)
+6) [Der Post-hoc Test](https://jkruppa.github.io/stat-tests-posthoc2.html)
+7) [Experimentelle Designs](https://jkruppa.github.io/experimental-design-preface.html)
+8) [Grundlagen des Modellierens](https://jkruppa.github.io/stat-linear-reg-preface.html)
+9) [Zeitliche und räumliche Analysen](https://jkruppa.github.io/time-space-preface.html)
+10) [Klassifikation oder maschinelles Lernen](https://jkruppa.github.io/classification-preface.html)
 
 ### Programmieren in R
 
