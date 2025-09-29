@@ -8,6 +8,8 @@ format:
     embed-resources: true
     lang: de
     theme: journal
+  pdf:
+    colorlinks: true
 ---
 
 ::: {.callout-note icon="false"}

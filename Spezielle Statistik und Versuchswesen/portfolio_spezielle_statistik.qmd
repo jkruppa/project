@@ -8,6 +8,8 @@ format:
     embed-resources: true
     lang: de
     theme: journal
+  pdf:
+    colorlinks: true
 ---
 
 Alle relevanten Informationen zur Portfolioprüfung für das Modul *"Spezielle Statistik und Versuchswesen"* sind nachfolgend aufgeführt. Die Abgabe der Portfolioprüfung ist im Laufe des Semesters bis zum Abgabetermin jederzeit möglich.  

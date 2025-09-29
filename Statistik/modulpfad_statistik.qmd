@@ -8,6 +8,8 @@ format:
     embed-resources: true
     lang: de
     theme: journal
+  pdf:
+    colorlinks: true
 ---
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
