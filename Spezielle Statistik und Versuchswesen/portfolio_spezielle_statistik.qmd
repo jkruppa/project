@@ -30,7 +30,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 Für Ihren Bericht gelten folgende Anforderungen:
 
 1) Der Bericht ist im IMRaD-Schema zu verfassen.
-2) Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+2) Der Umfang beträgt 8 bis maximal 10 Seiten. Aufzählungen sind nicht zulässig.
 3) Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 4) Sie erstellen Ihren Bereicht in *R Quatro*. **(+1 Punkt)** 
 :::
