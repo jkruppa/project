@@ -2,7 +2,7 @@
 title: "Modulpfad Statistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "21. September 2025"
+date: "08. Dezember 2025"
 format:
   html:
     embed-resources: true
@@ -11,6 +11,12 @@ format:
   pdf:
     colorlinks: true
 ---
+
+::: {.callout-note icon="false"}
+## Gültigkeit 
+
+Dieses Dokument ist für das **Wintersemester 2025/26** und das darauffolgende **Sommersemester 2026** gültig.
+:::
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
 
@@ -97,14 +103,12 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 12) [Berechnung des Student t-Test](https://youtu.be/eGoLNgE-WCo) 
 13) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
 14) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
-15) [Berechnung des gepaarten t-Test](https://youtu.be/QR90zyn0Iz8)
-16) [Interpretation des gepaarten t-Tests in R](https://youtu.be/kHmfEmU6lrk)
-17) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
-18) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
-19) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
-20) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
-21) [Den Chi-Quadrat-Test mit Effektmaß berechnen](https://youtu.be/IcjUIoEo0rY) 
-22) [Den Chi-Quadrat-Test in einem Fragebogen berechnen](https://youtu.be/LzAAdJPH4ZU) 
+15) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
+16) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
+17) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
+18) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
+19) [Den Chi-Quadrat-Test mit Effektmaß berechnen](https://youtu.be/IcjUIoEo0rY) 
+20) [Den Chi-Quadrat-Test in einem Fragebogen berechnen](https://youtu.be/LzAAdJPH4ZU) 
 
 #### Hausarbeit
 
