@@ -2,7 +2,7 @@
 title: "Modulpfad Mathematik & Statistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "08. Dezember 2025"
+date: "13. Dezember 2025"
 format:
   html:
     embed-resources: true
@@ -126,8 +126,5 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
 5) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
 6) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-7) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk) 
-8) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
-9) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
-10) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
+7) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
 
