@@ -2,7 +2,7 @@
 title: "Modulpfad Mathematik & Statistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "13. Dezember 2025"
+date: "13. December 2025"
 format:
   html:
     embed-resources: true
