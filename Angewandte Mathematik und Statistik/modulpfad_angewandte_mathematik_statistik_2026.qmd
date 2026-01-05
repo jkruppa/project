@@ -1,0 +1,103 @@
+---
+title: "Modulpfad Angewandte Mathematik und Statistik für Bioverfahrenstechnik"
+subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
+author: "Jochen Kruppa-Scheetz"
+date: "02. February 2026"
+format:
+  html:
+    embed-resources: true
+    lang: de
+    theme: journal
+  pdf:
+    colorlinks: true
+---
+
+::: {.callout-note icon="false"}
+## Gültigkeit 
+
+Dieses Dokument ist für das **Sommersemester 2026** und das darauffolgende **Wintersemester 2026/27** gültig.
+:::
+
+Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
+
+-   Mitschriften der Vorlesung und der Übungen als PDF-Datei.
+-   R-Skripte und die in der Vorlesung verwendeten Dateien.
+-   Die gesammelten Klausurfragen für Bio Data Science als PDF-Datei.
+
+Beachten Sie bitte auch die zusätzlichen Informationen zu einzelnen Terminen auf ILIAS. 
+
+### Skript als Lernhilfe
+
+Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist online unter <https://jkruppa.github.io/> verfügbar. Dort finden Sie ergänzend weiterführende Informationen zu R, Excel und der Datenauswertung. *Für die Klausur sind jedoch primär die Inhalte der Veranstaltungsmitschriften relevant.* Beachten Sie die Veranstaltungsmitschriften daher besonders.
+
+### Videos als Lernhilfe
+
+Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
+
+### Programmieren in R
+
+Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
+
+In der Veranstaltung wird R und das RStudio als Taschenrechner und zur Analyse von Daten genutzt.
+
+::: {.callout-note icon="false"}
+## Passive Teilnahme
+
+- Programmieren in R wird in der Veranstaltung eingesetzt.
+- Es ist ausreichend, den R-basierten Inhalten folgen zu können.
+- Theoretische R-Kenntnisse sind **nicht** klausurrelevant.
+:::
+
+### Inhalt der Vorlesung
+
+Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Sie zu den entsprechenden YouTube-Videos. Alle Inhalte sind verbindlich für die Klausur, auch wenn einzelne Vorlesungen krankheitsbedingt ausfallen sollten.
+
+#### Statistikteil
+
+Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Playlist Openbook *Bio Data Sciene*](https://www.youtube.com/watch?v=2stKP2iLGYY&list=PLe51bCp9JvEHAD63zTDE_jS3HNYuG6BrB). Diese Videos sind als Ergänzung und zur Wiederholung konzipiert. Insbesondere folgende Inhalte aus dem Openbook *Bio Data Science* sind prüfungsrelevant:
+
+1) [Deskriptive Statistik](https://jkruppa.github.io/eda-descriptive.html)
+2) [Visualisierung von Daten](https://jkruppa.github.io/eda-ggplot.html)
+3) [Die Testentscheidung](https://jkruppa.github.io/stat-tests-basic.html)
+4) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
+5) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
+
+### Prüfungsleistung
+
+Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni. Den Prüfungsplan für das laufende Semester finden Sie im Intranet der Hochschule Osnabrück unter <https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/pruefungen/>. 
+
+::: {.callout-note icon="false"}
+## Schriftliche Klausur
+
+Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Moduls. Zu fast allen Aufgaben sind erklärende YouTube-Videos verlinkt. 
+
+**Die schriftliche Klausur gliedert sich in:**
+
+-   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
+-   *Text- und Rechenteil:* 3 Aufgaben. 
+
+**Erlaubte Hilfsmittel:**
+
+-   Taschenrechner (nicht kommunikationsfähig, kein Handy!).
+-   Eine beidseitig handschriftlich beschriebene DIN A4-Formelsammlung (keine Ausdrucke).
+
+**Bearbeitungszeit:** 120 Minuten (2 Stunden).
+
+:::
+
+#### Inhalt der Klausur
+
+Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+
+##### Mögliche Aufgaben aus dem Statistikteil
+
+*Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
+
+1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
+2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
+3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
+4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
+5) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
+6) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
+7) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
+
