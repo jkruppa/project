@@ -1,8 +1,8 @@
 ---
-title: "Modulpfad Biostatistik"
+title: "Modulpfad Modellierung landwirtschaftlicher Daten"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "09. January 2026"
+date: "08. Dezember 2025"
 format:
   html:
     embed-resources: true
@@ -15,7 +15,7 @@ format:
 ::: {.callout-note icon="false"}
 ## Gültigkeit 
 
-Dieses Dokument ist für das **Sommersemester 2026** und das darauffolgende **Wintersemester 2026/2027** gültig.
+Dieses Dokument ist für das **Sommersemester 2026** und das darauffolgende **Wintersemester 2026/27** gültig.
 :::
 
 Alle notwendigen zusätzlichen Informationen zum Modul finden Sie auf ILIAS, einschließlich:
@@ -89,33 +89,34 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 
 *Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
-2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
-3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
-4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
-5) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
-6) [Visualisierung von Verteilungen](https://youtu.be/A4E9zBOltuU) 
-7) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-8) [Das Nullritual - Die statistische Testtheorie](https://youtu.be/XAE8BwNmCQ0) 
-9) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-10) [Visualisierung des 95% Konfidenzintervalls](https://youtu.be/6w_KH7t6bp0) 
-11) [Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl](https://youtu.be/SejyJ0K20jA) 
-12) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
-13) [Interpretation des t-Tests in  R: das 95% Konfidenzintervall](https://youtu.be/zppl5eq4ioU) 
+1) [Grundlegende Kenntnisse der Programierung in R](https://www.youtube.com/playlist?list=PLe51bCp9JvEFUnFqaJG5aRmON9i1ZbOYC)
+2) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
+3) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
+4) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
+5) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
+6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
+7) [Visualisierung des Mosaicplots](https://youtu.be/L4nSytEHcaE) 
+8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
+9) [Das Nullritual - Die statistische Testtheorie](https://youtu.be/XAE8BwNmCQ0) 
+10) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
+11) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk) 
+12) [Berechnung des Student t-Test](https://youtu.be/eGoLNgE-WCo) 
+13) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
 14) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
-15) [Die einfaktoriellen ANOVA und der Student t-Test](https://youtu.be/G-AW_--5V0w)
-16) [Ergebnistabelle der zweifaktoriellen ANOVA](https://youtu.be/1uZsKAipACI)
-17) [Die zweifaktorielle ANOVA in R](https://youtu.be/i7TadGcyn8c)
-18) [Berechnung des Compact Letter Displays (CLD) anhand von t-Tests](https://youtu.be/951MNUXdqwA) 
-19) Interpretation der Ergebnisse eines gemischten Modells in R
-20) Fortgeschrittene experimentelle Designs
-21) [Zerforschen eines wissenschaftlichen Datensatzes](https://youtu.be/0upJd61FI-c) 
+15) [Berechnung des gepaarten t-Test](https://youtu.be/QR90zyn0Iz8)
+16) [Interpretation des gepaarten t-Tests in R](https://youtu.be/kHmfEmU6lrk)
+17) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
+18) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
+19) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
+20) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
+21) [Den Chi-Quadrat-Test mit Effektmaß berechnen](https://youtu.be/IcjUIoEo0rY) 
+22) [Den Chi-Quadrat-Test in einem Fragebogen berechnen](https://youtu.be/LzAAdJPH4ZU) 
 
 #### Hausarbeit
 
-Alle relevanten Informationen zur Hausarbeit für das Modul *"Biostatistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Modellierung landwirtschaftlicher Daten"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
 
-Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Biostatistik"* nicht erforderlich.
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Modellierung landwirtschaftlicher Daten"* nicht erforderlich.
 
 ::: {.callout-note icon="false"}
 ## Abgabe der Hausarbeit als PDF-Datei
@@ -141,7 +142,7 @@ Für Ihre Hausarbeit gelten folgende Anforderungen:
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::
 
-Im Modul *"Biostatistik"* entwickeln Sie in Kleingruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
+Im Modul *"Modellierung landwirtschaftlicher Daten"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie wählen die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
 
 Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
@@ -158,5 +159,3 @@ Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 ##### Benotung
 
 Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
-
-
