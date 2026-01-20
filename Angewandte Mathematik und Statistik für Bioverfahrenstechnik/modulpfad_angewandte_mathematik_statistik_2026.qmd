@@ -61,6 +61,7 @@ Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Play
 3) [Die Testentscheidung](https://jkruppa.github.io/stat-tests-basic.html)
 4) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
 5) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
+6) [Der Chi-Quadrat-Test](https://jkruppa.github.io/stat-tests-chi-test.html)
 
 ### Prüfungsleistung
 
@@ -91,13 +92,20 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
-*Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
+*Es werden drei bis vier der folgenden Statistikaufgaben in der Klausur drankommen.*
 
 1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
 2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
 3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
 4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
-5) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-6) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-7) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
+6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
+7) [Visualisierung des Mosaicplots](https://youtu.be/L4nSytEHcaE) 
+8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
+9) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
+10) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
+11) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
+12) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
+13) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
+14) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
+15) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
 

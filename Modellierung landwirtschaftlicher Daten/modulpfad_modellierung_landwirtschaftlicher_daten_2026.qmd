@@ -2,7 +2,7 @@
 title: "Modulpfad Modellierung landwirtschaftlicher Daten"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "08. Dezember 2025"
+date: "06. February 2026"
 format:
   html:
     embed-resources: true
@@ -138,6 +138,7 @@ Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabe
 Für Ihre Hausarbeit gelten folgende Anforderungen:
 
 1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2)  Die Hausarbeit ist in **englischer Sprache** zu verfassen. 
 2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::
