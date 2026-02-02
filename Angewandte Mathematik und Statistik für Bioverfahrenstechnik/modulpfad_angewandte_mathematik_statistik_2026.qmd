@@ -92,7 +92,7 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
-*Es werden drei bis vier der folgenden Statistikaufgaben in der Klausur drankommen.*
+*Es werden sieben der folgenden Aufgaben in der Klausur drankommen.*
 
 1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
 2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
