@@ -141,7 +141,7 @@ Für Ihre Hausarbeit gelten folgende Anforderungen:
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::
 
-Im Modul *"Biostatistik"* entwickeln Sie in Kleingruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
+Im Modul *"Biostatistik"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
 
 Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
@@ -153,7 +153,7 @@ Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
     -   Visualisierung der Daten im Kontext der Fragestellung **(2 Punkte)**.
     -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(2 Punkte)**.
 -   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
-- **Präsentation (2 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag
+-   **Präsentation (2 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag
 
 ##### Benotung
 
