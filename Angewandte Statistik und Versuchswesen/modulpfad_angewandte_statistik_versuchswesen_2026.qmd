@@ -85,7 +85,7 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 #### Inhalt der Klausur
 
-Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des ommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
 
 *Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
 
@@ -125,7 +125,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 
 1)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
 2)  Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-3)  Die Abgabe muss bis zum **24. Mai 2026** erfolgen.
+3)  Die Abgabe muss bis zum **30. Juni 2026** erfolgen.
 :::
 
 ##### Datenanalyse in R
@@ -138,7 +138,6 @@ Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabe
 Für Ihre Hausarbeit gelten folgende Anforderungen:
 
 1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
-2)  Die Hausarbeit ist in **englischer Sprache** zu verfassen. 
 2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::

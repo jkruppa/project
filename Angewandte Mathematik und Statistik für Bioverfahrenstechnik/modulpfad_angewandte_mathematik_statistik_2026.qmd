@@ -38,14 +38,12 @@ Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften st
 
 Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
 
-In der Veranstaltung wird R und das RStudio als Taschenrechner und zur Analyse von Daten genutzt.
-
 ::: {.callout-note icon="false"}
-## Passive Teilnahme
+## Aktive Teilnahme
 
-- Programmieren in R wird in der Veranstaltung eingesetzt.
-- Es ist ausreichend, den R-basierten Inhalten folgen zu können.
-- Theoretische R-Kenntnisse sind **nicht** klausurrelevant.
+- Programmieren in R ist integraler Bestandteil der Veranstaltung.
+- Die optionale Hausarbeit erfordert die selbstständige Anwendung von R.
+- Theoretische R-Kenntnisse sind klausurrelevant.
 :::
 
 ### Inhalt der Vorlesung
@@ -65,7 +63,9 @@ Eine umfassende Übersicht über die Modulinhalte bietet Ihnen die [YouTube-Play
 
 ### Prüfungsleistung
 
-Die Prüfungsleistung umfasst eine schriftliche Klausur. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni. Den Prüfungsplan für das laufende Semester finden Sie im Intranet der Hochschule Osnabrück unter <https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/pruefungen/>. 
+Die Prüfungsleistung umfasst eine schriftliche Klausur und optional eine Hausarbeit. Für beide werden Punkte vergeben. Zum Bestehen ist das Gesamtergebnis entscheidend, nicht das Ergebnis einzelner Teilleistungen. Die Teilnahme an der schriftlichen Klausur ist verbindlich. Die Abgabe der Hausarbeit ist freiwillig. 
+
+Die Prüfungsphase ist im Wintersemester im Januar und im Sommersemester im Juni. Den Prüfungsplan für das laufende Semester finden Sie im Intranet der Hochschule Osnabrück unter <https://intranet.hs-osnabrueck.de/infothek/fakultaet-aul/studium/pruefungen/>. 
 
 ::: {.callout-note icon="false"}
 ## Schriftliche Klausur
@@ -88,11 +88,16 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 #### Inhalt der Klausur
 
-Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des ommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+
+##### Mögliche Aufgaben aus dem Mathematikteil
+
+*Es werden zwei der folgenden Aufgaben in der Klausur drankommen.*
+
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
-*Es werden sieben der folgenden Aufgaben in der Klausur drankommen.*
+*Es werden vier der folgenden Aufgaben in der Klausur drankommen.*
 
 1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
 2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
@@ -108,4 +113,52 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 13) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
 14) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
 15) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
+
+#### Hausarbeit
+
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Biostatistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
+
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Biostatistik"* nicht erforderlich.
+
+::: {.callout-note icon="false"}
+## Abgabe der Hausarbeit als PDF-Datei
+
+Für die Abgabe gehen Sie bitte wie folgt vor:
+
+1)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
+2)  Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
+3)  Die Abgabe muss bis zum **24. Mai 2026** erfolgen.
+:::
+
+##### Datenanalyse in R
+
+Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabei auf die Erstellung der Daten und die Analyse der Hausarbeit. Die finale Abgabe des Textes muss von jedem Einzelnen persönlich erfolgen.
+
+::: {.callout-note icon="false"}
+## Formalia
+
+Für Ihre Hausarbeit gelten folgende Anforderungen:
+
+1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
+2)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
+3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+:::
+
+Im Modul *"Biostatistik"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
+
+Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
+
+-   **Einleitung (1 Punkt):** Entwicklung einer wissenschaftlichen Fragestellung auf Basis der ausgewählten Daten.
+-   **Materialien und Methoden (2 Punkte):**
+    -   Beschreibung des Datensatzes anhand der gegebenen Informationen.
+    -   Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
+-   **Ergebnisse (4 Punkte):**
+    -   Visualisierung der Daten im Kontext der Fragestellung **(2 Punkte)**.
+    -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(2 Punkte)**.
+-   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+-   **Präsentation (2 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag
+
+##### Benotung
+
+Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
 

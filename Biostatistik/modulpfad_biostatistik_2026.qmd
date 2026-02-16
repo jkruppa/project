@@ -2,7 +2,7 @@
 title: "Modulpfad Biostatistik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "09. January 2026"
+date: "16. February 2026"
 format:
   html:
     embed-resources: true
@@ -57,7 +57,7 @@ Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Si
 5) [Die Testtheorie](https://jkruppa.github.io/stat-tests-theorie.html)
 6) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
 7) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
-8) [Der Chi-Quadrat-Test](https://jkruppa.github.io/stat-tests-chi-test.html)
+8) [Der Post-hoc Test](https://jkruppa.github.io/stat-tests-posthoc2.html)
 
 ### Prüfungsleistung
 
@@ -85,7 +85,7 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 #### Inhalt der Klausur
 
-Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Wintersemesters und die Nachklausur des darauffolgenden Sommersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des ommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
 
 *Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
 
