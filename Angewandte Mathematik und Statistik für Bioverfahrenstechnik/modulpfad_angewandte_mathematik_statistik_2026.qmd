@@ -88,12 +88,18 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 
 #### Inhalt der Klausur
 
-Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des ommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Sommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
 
 ##### Mögliche Aufgaben aus dem Mathematikteil
 
 *Es werden zwei der folgenden Aufgaben in der Klausur drankommen.*
 
+1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
+2) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
+3) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY) 
+4) [Armee der Kaninchen](https://youtu.be/Mr6eslls4J0?) 
+5) [Uckermark. Unendliche Weiten.](https://youtu.be/fK34Yl9Caas)
+6) [Nelken von den Molukken](https://youtu.be/1B53cVFIU7Q)
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
@@ -116,9 +122,9 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 
 #### Hausarbeit
 
-Alle relevanten Informationen zur Hausarbeit für das Modul *"Biostatistik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
+Alle relevanten Informationen zur Hausarbeit für das Modul *"Angewandte Mathematik und Statistik für Bioverfahrenstechnik"* sind nachfolgend aufgeführt. Die Abgabe ist im Laufe des Semesters jederzeit möglich.
 
-Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Biostatistik"* nicht erforderlich.
+Die Abgabe der Hausarbeit ist für das Bestehen des Moduls *"Angewandte Mathematik und Statistik für Bioverfahrenstechnik"* nicht erforderlich.
 
 ::: {.callout-note icon="false"}
 ## Abgabe der Hausarbeit als PDF-Datei
@@ -144,7 +150,7 @@ Für Ihre Hausarbeit gelten folgende Anforderungen:
 3)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
 :::
 
-Im Modul *"Biostatistik"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
+Im Modul *"Angewandte Mathematik und Statistik für Bioverfahrenstechnik"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie generieren die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
 
 Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 
