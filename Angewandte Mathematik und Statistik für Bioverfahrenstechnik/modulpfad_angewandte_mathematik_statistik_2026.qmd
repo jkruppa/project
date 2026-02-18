@@ -2,7 +2,7 @@
 title: "Modulpfad Angewandte Mathematik und Statistik für Bioverfahrenstechnik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "02. February 2026"
+date: "17. February 2026"
 format:
   html:
     embed-resources: true
@@ -89,6 +89,8 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 #### Inhalt der Klausur
 
 Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund beziehen sich die hier bereitgestellten Aufgaben ausschließlich auf die Hauptklausur des Sommersemesters und die Nachklausur des darauffolgenden Wintersemesters. Für Wiederholungsprüfungen in folgenden Jahren ist es entscheidend, den jeweils aktuellen Stoff zu beachten.
+
+**Wichtiger Hinweis: Da dieses Modul zum ersten Mal angeboten wird, ist die vorliegende Liste potenzieller Klausuraufgaben unter Vorbehalt zu betrachten. Eine finale Aktualisierung erfolgt gegen Ende des Semesters. Bitte ziehen Sie zur Vorbereitung unbedingt auch die Vorlesungsmitschriften auf ILIAS heran.**
 
 ##### Mögliche Aufgaben aus dem Mathematikteil
 

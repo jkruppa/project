@@ -2,7 +2,7 @@
 title: "Modulpfad Angewandte Statistik und Versuchswesen"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "06. February 2026"
+date: "17. February 2026"
 format:
   html:
     embed-resources: true
@@ -57,7 +57,8 @@ Nachfolgend finden Sie eine Übersicht der Modulinhalte. Die Weblinks führen Si
 5) [Die Testtheorie](https://jkruppa.github.io/stat-tests-theorie.html)
 6) [Der t-Test](https://jkruppa.github.io/stat-tests-ttest.html)
 7) [Die ANOVA](https://jkruppa.github.io/stat-tests-anova2.html)
-8) [Der Chi-Quadrat-Test](https://jkruppa.github.io/stat-tests-chi-test.html)
+8) [Der Post-hoc Test](https://jkruppa.github.io/stat-tests-posthoc2.html)
+9) [Experimentelle Designs](https://jkruppa.github.io/experimental-design-preface.html)
 
 ### Prüfungsleistung
 
@@ -95,22 +96,21 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 4) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
 5) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
 6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
-7) [Visualisierung des Mosaicplots](https://youtu.be/L4nSytEHcaE) 
+7) Visualisierung von Verteilungen
 8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-9) [Das Nullritual - Die statistische Testtheorie](https://youtu.be/XAE8BwNmCQ0) 
-10) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-11) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk) 
-12) [Berechnung des Student t-Test](https://youtu.be/eGoLNgE-WCo) 
-13) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
-14) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
-15) [Berechnung des gepaarten t-Test](https://youtu.be/QR90zyn0Iz8)
-16) [Interpretation des gepaarten t-Tests in R](https://youtu.be/kHmfEmU6lrk)
-17) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
-18) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
-19) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
-20) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
-21) [Den Chi-Quadrat-Test mit Effektmaß berechnen](https://youtu.be/IcjUIoEo0rY) 
-22) [Den Chi-Quadrat-Test in einem Fragebogen berechnen](https://youtu.be/LzAAdJPH4ZU) 
+9) Visualisierung des 95% Konfidenzintervalls
+10) Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl 
+11) Die einfaktoriellen ANOVA und der Student t-Test
+12) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
+13) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
+14) Ergebnistabelle der zweifaktoriellen ANOVA
+15) Die zweifaktorielle ANOVA in R
+16) Interaktion in der zweifaktoriellen ANOVA
+17) Einfache experimentelle Designs 
+18) Schätzen der Korrelation und des Bestimmtheitsmaßes
+19) Visualisierung der Korrelation und des Bestimmtheitsmaßes 
+20) Interpretation der Ergebnisse einer Korrelationsanalyse in R
+21) Interpretation der Ergebnisse einer linearen Regression in R
 
 #### Hausarbeit
 
