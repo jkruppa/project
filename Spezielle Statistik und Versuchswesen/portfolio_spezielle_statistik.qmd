@@ -167,7 +167,7 @@ Besuchen Sie die Webseite <https://www.bigbookofr.com/> und wählen Sie ein Buch
 
 ## Benotung
 
-Die folgende Tabelle zeigt die Benotungsgrundlage für dieses Modul. Es können maximal 20 Punkte erreicht werden. Zum Bestehen des Moduls sind mindestens 11 Punkte erforderlich.
+Die folgende Tabelle zeigt die Benotungsgrundlage für dieses Modul. Es können maximal 22 Punkte erreicht werden. Zum Bestehen des Moduls sind mindestens 11 Punkte erforderlich.
 
 - **Bonuspunkte:** Aufgaben mit Teilpunkten in *kursiven Klammern ( )* bieten die Möglichkeit, zusätzliche Bonuspunkte zu erlangen.
 - **Mindestpunktzahl:** Aufgaben mit Teilpunkten in **fettgedruckten Klammern [ ]** müssen mindestens erreicht werden."
@@ -175,7 +175,7 @@ Die folgende Tabelle zeigt die Benotungsgrundlage für dieses Modul. Es können 
 | Thema                 | Teilpunkte    | 
 |-----------------------|---------------|
 | Datenanalyse in R     | 0, **[1]**, 2, 3, 4, 5, *(6)* |      
-| R Shiny Web App       | 0, 1, 2, 3  |       
+| R Shiny Web App       | 0, 1, 2  |       
 | Präsentation          | 0, 1, *(2)*         |      
 | Zerforschung I        | 0, **[1]**, 2, 3, 4, 5 |      
 | Zerforschung II       | 0, **[1]**, 2       |        
