@@ -75,7 +75,7 @@ Auf ILIAS finden Sie eine PDF-Datei mit allen potenziellen Klausurfragen des Mod
 **Die schriftliche Klausur gliedert sich in:**
 
 -   *Multiple-Choice-Teil:* 10 Aufgaben (5 Antwortmöglichkeiten pro Frage, davon 1 richtig). Falsche Antworten führen zu keinem Punktabzug.
--   *Text- und Rechenteil:* 3 Aufgaben. 
+-   *Text- und Rechenteil:* 6 Aufgaben. 
 
 **Erlaubte Hilfsmittel:**
 
