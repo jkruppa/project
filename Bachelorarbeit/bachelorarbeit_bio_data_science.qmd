@@ -1,13 +1,15 @@
 ---
 title: "Pfad zur Bachelorarbeit"
 subtitle: "Fachbereich Bio Data Science"
-author: "Prof. Dr. habil. Jochen Kruppa-Scheetz"
-date: "01. August 2025"
+author: "Prof. Dr. Jochen Kruppa-Scheetz"
+date: "06. March 2026"
 format:
   html:
     embed-resources: true
     lang: de
     theme: journal
+  pdf: 
+    colorlinks: true    
 ---
 
 Alle relevanten Informationen zur Bachelorarbeit im Fachbereich Bio Data Science sind nachfolgend aufgeführt. Beginn und Abgabe der Abschlussarbeit sind im Semester jederzeit möglich. Die Anmeldung erfolgt über das [Studierendensekretariat der Hochschule Osnabrück](https://www.hs-osnabrueck.de/wir/organisation/organisationseinheiten/studierendensekretariat/). 
@@ -22,7 +24,21 @@ Allgemeine Informationen zur Abschlussarbeit an der Fakultät AuL findest du in 
 - Der Bachelorarbeit ist eine [visuelle Zusammenfassung (eng. *visual abstract*)](https://www.bmj.com/content/bmj-visual-abstracts) beizufügen. Die visuelle Zusammenfassung ist eine eigenständige und selbsterklärende Abbildung, die eure Bachelorarbeit grafisch zusammenfasst.
 - Der Umfang der Arbeit ist auf 60 bis maximal 70 Seiten begrenzt. Diese Seitenzahl beinhaltet das Titelblatt, das Inhaltsverzeichnis sowie das vollständige Literaturverzeichnis.
 - Die Anzahl der Referenzen und Literaturquellen muss zwischen 40 und 70 liegen. Reine Internetquellen werden nicht als Literaturquellen anerkannt.
-- Die Datenanalyse ist zwingend mit der Software RStudio und der Programmiersprache R durchzuführen.
+:::
+
+Gleich zu Beginn ein Wort zur Softwarewahl für die Datenauswertung: Da mich häufig Fragen dazu erreichen, unterscheide ich hier zwischen zwei Schwerpunkten. Für methodisch orientierte Arbeiten ist die Nutzung von R und Programmierkenntnissen unerlässlich. Liegt der Fokus hingegen auf einer agrarwissenschaftlichen Fragestellung, kann auch Excel ausreichen. Die genaue Auswahl stimmen wir vor Beginn der Arbeit gemeinsam ab.
+
+::: {.callout-note icon=false}
+## Genutzte Programme für die Statistik
+
+**Fokus auf Data Science und Statistik — eine methodische Bachelorarbeit:**
+
+- Die Datenanalyse ist mit der Software RStudio und der Programmiersprache R durchzuführen
+
+**Fokus auf eigene Daten — eine experimentelle Bachelorarbeit:**
+
+- Die Datenanalyse kann mit der Software RStudio und der Programmiersprache R durchgeführt werden.
+- *Alternative* kann auch eine andere Software, wie Excel, verwendet werden.
 :::
 
 ### Zeitlicher Ablauf 
@@ -81,7 +97,7 @@ Mit eigene Daten --- eine experimentelle Bachelorarbeit
 : Die experimentelle Bachelorarbeit im Bereich *"Bio Data Science"* konzentriert sich auf die statistische Auswertung und die Beschreibung der Ergebnisse im Kontext der relevanten Forschungsliteratur, basierend auf deinen eigenen experimentellen Daten. Im Gegensatz zur methodischen Bachelorarbeit, bei der die Datenerstellung durch Dritte erfolgt, ist hier die (teilweise oder vollständige) Generierung des Datensatzes ein integraler Bestandteil deiner Leistung. Folglich steht die statistische Auswertung selbst nicht primär im Vordergrund, sondern vielmehr die Darstellung und Interpretation der gewonnenen Erkenntnisse im Hinblick auf den aktuellen Forschungsstand deiner spezifischen Fragestellung. Auch bei dieser Art von Arbeit kann die Gewichtung der einzelnen Aspekte je nach deiner konkreten Forschungsfrage variieren.
 
 ::: {.callout-note icon=false}
-## ChatGPt oder ähnliche Tools in der Bachelorarbeit
+## ChatGPT oder ähnliche Tools in der Bachelorarbeit
 
 Angesichts des fortschreitenden Einsatzes von Künstlicher Intelligenz (KI) in der akademischen Welt, insbesondere von Tools wie ChatGPT, möchte ich die folgenden wichtigen Richtlinien für eure Abschlussarbeiten klarstellen:
 
