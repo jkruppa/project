@@ -1,19 +1,40 @@
 ---
-title: "Hello Typst!"
+title: "Einfach sprechen"
+subtitle: "Mit Sicherheit und Freude vor Publikum stehen"
+author: "Jochen Kruppa-Scheetz"
 format:
   typst:
-    toc: true
+    toc: false
     section-numbering: 1.1.a
     columns: 1
 ---
 
-::: callout-note
-## test
+> *"There are these two young fish swimming along and they happen to meet an older fish swimming the other way, who nods at them and says 'Morning, boys. How’s the water?' And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes 'What the hell is water?'" --- [This is Water by David Foster Wallace](https://fs.blog/david-foster-wallace-this-is-water/)*
 
-:::
+## Quellen
 
-::: {.block fill="luma(230)" inset="8pt" radius="4pt"}
+Für die Vorbereitung der Veranstaltung habe ich wie immer einiges an Videos und Internetseiten besucht. Dann noch das ein oder andere Buch gelesen und mich gefragt: "Tut das was zur Sache?". Hier also meine Liste an Inspirationen, die du dann vermutlich wieder erkennen wirst.
 
-This is a block with gray background and slightly rounded corners.
+### YouTube Kanäle & Videos
 
-:::
+1) [Vinh Giang](https://www.youtube.com/@askvinh)
+2) [Philipp Humm](https://www.youtube.com/@Philipp-Humm)
+2) [The School of Life](https://www.youtube.com/@theschooloflifetv)
+3) [Saying YES! to your Weirdness | JP Sears | TEDxCardiffbytheSea](https://www.youtube.com/watch?v=79zra755WgA)
+
+### Personen & Unternehmen
+
+1) [Andreas Gaertner -- Share Notes](https://www.sharenotes.de/)
+2) [die Zeichner -- Sehen worüber man spricht!](https://www.die-zeichner.de/)
+
+### Bücher
+
+1) [The Science of Storytelling: Why Stories Make Us Human, and How To Tell Them Better](https://www.goodreads.com/book/show/43183121-the-science-of-storytelling)
+2) 
+
+
+### Wie weiter?
+
+1) [Live Action Role Playing](https://de.wikipedia.org/wiki/Live_Action_Role_Playing)
+2) [Role-playing game](https://en.wikipedia.org/wiki/Role-playing_game)
+3) [Improvisationstheater](https://de.wikipedia.org/wiki/Improvisationstheater)
