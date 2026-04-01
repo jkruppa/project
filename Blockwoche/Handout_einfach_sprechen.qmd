@@ -20,28 +20,48 @@ format:
 
 Bei einem interessanten Vortrag hat der Vortragende Spaß. Spaß kann man nur verspüren, wenn man sich sicher fühlt. Daher ist das erste Ziel sicher sein beim Vortragen um dann dabei Spaß zu haben.
 
-## Werkzeuge
+## Werkzeuge, auf die wir uns konzentrieren
 
-1)  Atmen
-2)  Pause
+1)  **Atmen:** Das erste Wort ist atmen.
+2)  **Pausen:** Ein Satz endet mit einer Pause.
 
-## Ablauf
+## Ablauf der Veranstaltung
 
-| Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
-|--------------|---------------|--------------|--------------|--------------|
-|  |  |  |  |  |
-|  |  |  |  |  |
-| *Langweile mich!* | *PowerPoint Maniak!* | *Was mich nie interessiert hat...* | *Analog ist das Fax!* | *PowerPoint Karaoke* |
+Grob gesprochen teilt sich die Veranstaltung in zwei Teile. In den morgentlichen Blöcken hälst du den Vortrag, den du am vorherigen Nachmittag selbsständig gebaut hast.
 
-`filetype:pptx whales`
+|   | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
+|------------|------------|------------|------------|------------|------------|
+| 09:30--12:00 | *2 Minutenpräsentation* | *Langweile mich!* | *PowerPoint Maniak!* | *Was mich nie interessiert hat...* | *Analog ist das Fax!* |
+| 12:00--13:00 | **Mittag** | **Mittag** | **Mittag** | **Mittag** | **Mittag** |
+| 13:00--15:00 | Eigenständig *Langweile mich!* Präsentation erstellen | Eigenständig *PowerPoint Maniak!* Präsentation erstellen | Eigenständig *Was mich nie interessiert hat...* Präsentation erstellen | Eigenständig *Analog ist das Fax!* Präsentation erstellen und *PowerPoint Karaoke* raussuchen | *PowerPoint Karaoke* |
+
+Präsentation *Langweile mich!*. 
+
+: Erstelle eine langweilige Präsentation. Dabei muss das selbstgewählte Thema nicht langweilig sein, aber die Folien sind es.
+
+Präsentation *PowerPoint Maniak!*. 
+
+: Hole alles aus PowerPoint raus was geht. Es muss sich was drehen und ploppen und sonst was tun. Das Thema ist dir überlassen, aber es muss in PowerPoint aufgehen.
+
+Präsentation *Was mich nie interessiert hat...*. 
+
+: Erstelle eine Präsentation über ein Thema was dich so überhaupt nicht interessiert. Am Ende zeige etwas, was du gelernt hast.
+
+Präsentation *Analog ist das Fax!*. 
+
+: Erstelle eine analoge Präsentation ohne PowerPoint und Beamer.
+
+Präsentation *PowerPoint Karaoke*. 
+
+: Suche mit Google und dem Suchbegriff `filetype:pptx whales` zum Beispiel Pärsentationen über einen Wal. Jemand anderes hält dann die Präsentation. 
 
 ### Varianten
 
-- Der Steg
-- Das Mikrophone
-- Die Mensa
-- Die freche Mütze
-- 2 Minuten Präsentation
+-   Der Steg
+-   Das Mikrophone
+-   Die Mensa
+-   Die freche Mütze
+-   2 Minuten Präsentation
 
 ## Quellen
 
@@ -58,6 +78,8 @@ Für die Vorbereitung der Veranstaltung habe ich wie immer einiges an Videos und
 
 1)  [Andreas Gaertner -- Share Notes](https://www.sharenotes.de/)
 2)  [die Zeichner -- Sehen worüber man spricht!](https://www.die-zeichner.de/)
+3)  [Klima leicht erklärt](https://klima-leicht-erklaert.de/)
+4)  [Die Leichte Sprache](https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/barrierefreie_it/uebergreifende-anforderungen-web-und-app/leichte-sprache/leichte-sprache-artikel.html)
 
 ### Bücher
 
@@ -70,6 +92,3 @@ Für die Vorbereitung der Veranstaltung habe ich wie immer einiges an Videos und
 2)  [Role-playing game](https://en.wikipedia.org/wiki/Role-playing_game)
 3)  [Improvisationstheater](https://de.wikipedia.org/wiki/Improvisationstheater)
 4)  [LearningCenter HS Osnabrück](https://www.hs-osnabrueck.de/learningcenter/fuer-studierende/)
-
-
-
