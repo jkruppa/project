@@ -3,13 +3,45 @@ title: "Einfach sprechen"
 subtitle: "Mit Sicherheit und Freude vor Publikum stehen"
 author: "Jochen Kruppa-Scheetz"
 format:
-  typst:
+  pdf:
     toc: false
     section-numbering: 1.1.a
     columns: 1
+    geometry:
+      - top=20mm
+      - bottom=30mm
+      - left=20mm
+      - right=20mm
 ---
 
 > *"There are these two young fish swimming along and they happen to meet an older fish swimming the other way, who nods at them and says 'Morning, boys. How’s the water?' And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes 'What the hell is water?'" --- [This is Water by David Foster Wallace](https://fs.blog/david-foster-wallace-this-is-water/)*
+
+## Zentrale Idee
+
+Bei einem interessanten Vortrag hat der Vortragende Spaß. Spaß kann man nur verspüren, wenn man sich sicher fühlt. Daher ist das erste Ziel sicher sein beim Vortragen um dann dabei Spaß zu haben.
+
+## Werkzeuge
+
+1)  Atmen
+2)  Pause
+
+## Ablauf
+
+| Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
+|--------------|---------------|--------------|--------------|--------------|
+|  |  |  |  |  |
+|  |  |  |  |  |
+| *Langweile mich!* | *PowerPoint Maniak!* | *Was mich nie interessiert hat...* | *Analog ist das Fax!* | *PowerPoint Karaoke* |
+
+`filetype:pptx whales`
+
+### Varianten
+
+- Der Steg
+- Das Mikrophone
+- Die Mensa
+- Die freche Mütze
+- 2 Minuten Präsentation
 
 ## Quellen
 
@@ -17,24 +49,27 @@ Für die Vorbereitung der Veranstaltung habe ich wie immer einiges an Videos und
 
 ### YouTube Kanäle & Videos
 
-1) [Vinh Giang](https://www.youtube.com/@askvinh)
-2) [Philipp Humm](https://www.youtube.com/@Philipp-Humm)
-2) [The School of Life](https://www.youtube.com/@theschooloflifetv)
-3) [Saying YES! to your Weirdness | JP Sears | TEDxCardiffbytheSea](https://www.youtube.com/watch?v=79zra755WgA)
+1)  [Vinh Giang](https://www.youtube.com/@askvinh)
+2)  [Philipp Humm](https://www.youtube.com/@Philipp-Humm)
+3)  [The School of Life](https://www.youtube.com/@theschooloflifetv)
+4)  [Saying YES! to your Weirdness \| JP Sears \| TEDxCardiffbytheSea](https://www.youtube.com/watch?v=79zra755WgA)
 
 ### Personen & Unternehmen
 
-1) [Andreas Gaertner -- Share Notes](https://www.sharenotes.de/)
-2) [die Zeichner -- Sehen worüber man spricht!](https://www.die-zeichner.de/)
+1)  [Andreas Gaertner -- Share Notes](https://www.sharenotes.de/)
+2)  [die Zeichner -- Sehen worüber man spricht!](https://www.die-zeichner.de/)
 
 ### Bücher
 
-1) [The Science of Storytelling: Why Stories Make Us Human, and How To Tell Them Better](https://www.goodreads.com/book/show/43183121-the-science-of-storytelling)
-2) 
-
+1)  [The Science of Storytelling: Why Stories Make Us Human, and How To Tell Them Better](https://www.goodreads.com/book/show/43183121-the-science-of-storytelling)
+2)  
 
 ### Wie weiter?
 
-1) [Live Action Role Playing](https://de.wikipedia.org/wiki/Live_Action_Role_Playing)
-2) [Role-playing game](https://en.wikipedia.org/wiki/Role-playing_game)
-3) [Improvisationstheater](https://de.wikipedia.org/wiki/Improvisationstheater)
+1)  [Live Action Role Playing](https://de.wikipedia.org/wiki/Live_Action_Role_Playing)
+2)  [Role-playing game](https://en.wikipedia.org/wiki/Role-playing_game)
+3)  [Improvisationstheater](https://de.wikipedia.org/wiki/Improvisationstheater)
+4)  [LearningCenter HS Osnabrück](https://www.hs-osnabrueck.de/learningcenter/fuer-studierende/)
+
+
+
