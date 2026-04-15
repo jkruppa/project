@@ -96,31 +96,31 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 
 *Es werden zwei der folgenden Aufgaben in der Klausur drankommen.*
 
-1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
-2) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
-3) [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY) 
-4) [Armee der Kaninchen](https://youtu.be/Mr6eslls4J0?) 
-5) [Uckermark. Unendliche Weiten.](https://youtu.be/fK34Yl9Caas)
-6) [Nelken von den Molukken](https://youtu.be/1B53cVFIU7Q)
+1) Herodot – der Schimmel aus Ivenack
+2) In der Kartonagenfabrik
+3) Ein Pfund Insekten, bitte!
+4) Armee der Kaninchen
+5) Uckermark. Unendliche Weiten.
+6) Nelken von den Molukken
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
 *Es werden vier der folgenden Aufgaben in der Klausur drankommen.*
 
-1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
-2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
-3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
-4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
-6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
-7) [Visualisierung des Mosaicplots](https://youtu.be/L4nSytEHcaE) 
-8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-9) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-10) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
-11) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
-12) [Visualisierung der einfaktoriellen ANOVA](https://youtu.be/wEePzcwwti8)
-13) [Ergebnistabelle der einfaktoriellen ANOVA](https://youtu.be/25bvWshX-Gw) 
-14) [Die einfaktorielle ANOVA in R](https://youtu.be/UOzpeBYWgVQ)
-15) [Den Chi-Quadrat-Test berechnen](https://youtu.be/1y_X_TI-Gm4) 
+1) Zerforschen des Barplots
+2) Visualisierung des Barplots
+3) Zerforschen des Boxplots
+4) Visualisierung des Boxplots
+6) Visualisierung des Scatterplots
+7) Visualisierung des Mosaicplots
+8) Grundgesamtheit und experimentelle Stichprobe
+9) Visualisierung der Teststatistik und dem p-Wert
+10) Berechnung des Student t-Test oder Welch t-Test
+11) Interpretation des t-Tests in  R: Teststatistik und p-Wert
+12) Visualisierung der einfaktoriellen ANOVA
+13) Ergebnistabelle der einfaktoriellen ANOVA
+14) Die einfaktorielle ANOVA in R
+15) Den Chi-Quadrat-Test berechnen
 
 #### Hausarbeit
 

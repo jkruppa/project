@@ -106,25 +106,25 @@ Die Klausurinhalte werden jedes Wintersemester aktualisiert. Aus diesem Grund be
 
 *Es werden vier der folgenden Matheaufgaben in der Klausur drankommen.*
 
-1) [Herodot – der Schimmel aus Ivenack](https://youtu.be/Fu8kN0Uj13Y) 
-2) [Von Töpfen auf Tischen](https://youtu.be/57B-yYoFSk0) 
-3) [Solar- & Biogasanlagen](https://youtu.be/aBxLkdF-c4M)
-4) [’Entschuldigung, ist das Ihre Feder in meinem Auge?’](https://youtu.be/n451XnhtSh4) 
-5) [Pyramiden bauen](https://youtu.be/tDgr6fpkkYA) 
-6) [Die atmende Wand und Brot aus Luft](https://youtu.be/4-dSaPMhK9s) 
-7) [Armee der Finsternis](https://youtu.be/Bbu6n8MXxQk) 
-8) [In der Kartonagenfabrik](https://youtu.be/RuzMjwvwT-4) 
-9) **[Nur SoSe 2026]** [Ein Pfund Insekten, bitte!](https://youtu.be/OhyuH6hzEhY) 
+1) Herodot – der Schimmel aus Ivenack
+2) Von Töpfen auf Tische
+3) Solar- & Biogasanlagen
+4) ’Entschuldigung, ist das Ihre Feder in meinem Auge?’
+5) Pyramiden bauen
+6) Die atmende Wand und Brot aus Luft
+7) Armee der Finsternis
+8) In der Kartonagenfabrik
+9) Ein Pfund Insekten, bitte!
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
 *Es werden drei der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
-2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
-3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
-4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k) 
-5) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-6) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-7) [Berechnung des Student t-Test oder Welch t-Test](https://youtu.be/zgpw9GC0plk)
+1) Zerforschen des Barplots
+2) Visualisierung des Barplots
+3) Zerforschen des Boxplots
+4) Visualisierung des Boxplots
+5) Grundgesamtheit und experimentelle Stichprobe
+6) Visualisierung der Teststatistik und dem p-Wert
+7) Berechnung des Student t-Test oder Welch t-Test
 

@@ -89,27 +89,27 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 
 *Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
-2) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
-3) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
-4) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
-5) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
-6) [Visualisierung von Verteilungen](https://youtu.be/A4E9zBOltuU) 
-7) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-8) [Das Nullritual - Die statistische Testtheorie](https://youtu.be/XAE8BwNmCQ0) 
-9) [Visualisierung der Teststatistik und dem p-Wert](https://youtu.be/2LQzyQCy2FI) 
-10) [Visualisierung des 95% Konfidenzintervalls](https://youtu.be/6w_KH7t6bp0) 
-11) [Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl](https://youtu.be/SejyJ0K20jA) 
-12) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
-13) [Interpretation des t-Tests in  R: das 95% Konfidenzintervall](https://youtu.be/zppl5eq4ioU) 
-14) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
-15) [Die einfaktoriellen ANOVA und der Student t-Test](https://youtu.be/G-AW_--5V0w)
-16) [Ergebnistabelle der zweifaktoriellen ANOVA](https://youtu.be/1uZsKAipACI)
-17) [Die zweifaktorielle ANOVA in R](https://youtu.be/i7TadGcyn8c)
-18) [Berechnung des Compact Letter Displays (CLD) anhand von t-Tests](https://youtu.be/951MNUXdqwA) 
+1) Zerforschen des Barplots
+2) Visualisierung des Barplots
+3) Zerforschen des Boxplots
+4) Visualisierung des Boxplots
+5) Visualisierung des Scatterplots
+6) Visualisierung von Verteilungen
+7) Grundgesamtheit und experimentelle Stichprobe
+8) Das Nullritual - Die statistische Testtheorie
+9) Visualisierung der Teststatistik und dem p-Wert
+10) Visualisierung des 95% Konfidenzintervalls
+11) Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl
+12) Interpretation des t-Tests in  R: Teststatistik und p-Wert 
+13) Interpretation des t-Tests in  R: das 95% Konfidenzintervall
+14) Interpretation des t-Tests in  R: die Visualisierung
+15) Die einfaktoriellen ANOVA und der Student t-Test
+16) Ergebnistabelle der zweifaktoriellen ANOVA
+17) Die zweifaktorielle ANOVA in R
+18) Berechnung des Compact Letter Displays (CLD) anhand von t-Tests
 19) Interpretation der Ergebnisse eines gemischten Modells in R
 20) Fortgeschrittene experimentelle Designs
-21) [Zerforschen eines wissenschaftlichen Datensatzes](https://youtu.be/0upJd61FI-c) 
+21) Zerforschen eines wissenschaftlichen Datensatzes
 
 #### Hausarbeit
 
