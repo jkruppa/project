@@ -90,27 +90,26 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 
 *Es werden sechs der folgenden Statistikaufgaben in der Klausur drankommen.*
 
-1) [Grundlegende Kenntnisse der Programierung in R](https://www.youtube.com/playlist?list=PLe51bCp9JvEFUnFqaJG5aRmON9i1ZbOYC)
-2) [Zerforschen des Barplots](https://youtu.be/GNoORO7GfAE) 
-3) [Visualisierung des Barplots](https://youtu.be/UabXe73G-7w) 
-4) [Zerforschen des Boxplots](https://youtu.be/MyrNZ46i3uY) 
-5) [Visualisierung des Boxplots](https://youtu.be/ZbrvpCuZl_k)
-6) [Visualisierung des Scatterplots](https://youtu.be/md9I_UV5_lE) 
-7) Visualisierung von Verteilungen
-8) [Grundgesamtheit und experimentelle Stichprobe](https://youtu.be/KxDklbFEEHw) 
-9) Visualisierung des 95% Konfidenzintervalls
-10) Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl 
-11) Die einfaktoriellen ANOVA und der Student t-Test
-12) [Interpretation des t-Tests in  R: Teststatistik und p-Wert](https://youtu.be/K3LGigegKIg) 
-13) [Interpretation des t-Tests in  R: die Visualisierung](https://youtu.be/02hibcRs5Wc) 
-14) Ergebnistabelle der zweifaktoriellen ANOVA
-15) Die zweifaktorielle ANOVA in R
-16) Interaktion in der zweifaktoriellen ANOVA
-17) Einfache experimentelle Designs 
-18) Schätzen der Korrelation und des Bestimmtheitsmaßes
-19) Visualisierung der Korrelation und des Bestimmtheitsmaßes 
-20) Interpretation der Ergebnisse einer Korrelationsanalyse in R
-21) Interpretation der Ergebnisse einer linearen Regression in R
+1) Zerforschen des Barplots
+2) Visualisierung des Barplots
+3) Zerforschen des Boxplots
+4) Visualisierung des Boxplots
+5) Visualisierung des Scatterplots
+6) Visualisierung von Verteilungen
+7) Grundgesamtheit und experimentelle Stichprobe
+8) Visualisierung des 95% Konfidenzintervalls
+9) Zusammenhang zwischen dem Effekt, der Streuung sowie der Fallzahl 
+10) Die einfaktoriellen ANOVA und der Student t-Test
+11) Interpretation des t-Tests in  R: Teststatistik und p-Wert
+12) Interpretation des t-Tests in  R: die Visualisierung
+13) Ergebnistabelle der zweifaktoriellen ANOVA
+14) Die zweifaktorielle ANOVA in R
+15) Interaktion in der zweifaktoriellen ANOVA
+16) Einfache experimentelle Designs 
+17) Schätzen der Korrelation und des Bestimmtheitsmaßes
+18) Visualisierung der Korrelation und des Bestimmtheitsmaßes 
+19) Interpretation der Ergebnisse einer Korrelationsanalyse in R
+20) Interpretation der Ergebnisse einer linearen Regression in R
 
 #### Hausarbeit
 
