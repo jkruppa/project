@@ -34,7 +34,7 @@ Das Openbook *Bio Data Science* dient als Skript der Veranstaltung und ist onlin
 
 Ergänzend zum Openbook *Bio Data Science* und den Veranstaltungsmitschriften stehen Ihnen unterstützende Lernvideos zur Veranstaltung auf YouTube unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung. Dort finden Sie thematisch sortierte Playlists zu R- und Excel-Analysen sowie allgemeine Statistik-Videos.
 
-### Programmieren in R
+### Programmieren in R oder Phyton
 
 Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Science* und YouTube-Videos unter <https://www.youtube.com/c/JochenKruppa> zur Verfügung.
 
@@ -42,7 +42,7 @@ Zum Verständnis der Programmierung in R stehen Ihnen das Openbook *Bio Data Sci
 ## Aktive Teilnahme
 
 - Programmieren in R ist integraler Bestandteil der Veranstaltung.
-- Die optionale Hausarbeit erfordert die selbstständige Anwendung von R.
+- Die optionale Hausarbeit erfordert die selbstständige Anwendung von R oder Phyton.
 - Theoretische R-Kenntnisse sind klausurrelevant.
 :::
 
@@ -131,7 +131,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 3)  Die Abgabe muss bis zum **24. Mai 2026** erfolgen.
 :::
 
-##### Datenanalyse in R
+##### Datenanalyse in R oder Phyton
 
 Die Datenanalyse ist eine Gruppenarbeit. Die Gruppenarbeit beschränkt sich dabei auf die Erstellung der Daten und die Analyse der Hausarbeit. Die finale Abgabe des Textes muss von jedem Einzelnen persönlich erfolgen.
 
@@ -143,7 +143,7 @@ Für Ihre Hausarbeit gelten folgende Anforderungen:
 1)  Die Hausarbeit ist im IMRaD-Schema zu verfassen.
 2)  Die Hausarbeit ist in **englischer Sprache** zu verfassen. 
 3)  Der Umfang beträgt 8 bis maximal 10 Seiten reinen Fließtextes. Aufzählungen sind nicht zulässig.
-4)  Die Datenanalyse ist mit der Software RStudio und R durchzuführen.
+4)  Die Datenanalyse ist mit der Software RStudio und R oder VSCode und Phyton durchzuführen.
 :::
 
 Im Modul *"Modellierung landwirtschaftlicher Daten"* entwickeln Sie in Zweiergruppen eine individuelle wissenschaftliche Fragestellung. Sie wählen die passenden Daten, führen die statistische Analyse eigenständig in R durch und stellen Ihre Erkenntnisse im Rahmen einer abschließenden Präsentation vor.
