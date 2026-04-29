@@ -1,0 +1,101 @@
+---
+title: "Einfach sprechen"
+subtitle: "Mit Sicherheit und Freude vor Publikum stehen"
+author: "Jochen Kruppa-Scheetz"
+format:
+  pdf:
+    toc: false
+    section-numbering: 1.1.a
+    columns: 1
+    geometry:
+      - top=20mm
+      - bottom=30mm
+      - left=20mm
+      - right=20mm
+---
+
+> *"There are these two young fish swimming along and they happen to meet an older fish swimming the other way, who nods at them and says 'Morning, boys. How’s the water?' And the two young fish swim on for a bit, and then eventually one of them looks over at the other and goes 'What the hell is water?'" --- [This is Water by David Foster Wallace](https://fs.blog/david-foster-wallace-this-is-water/)*
+
+## Zentrale Idee
+
+Bei einem interessanten Vortrag hat der Vortragende Spaß. Spaß kann man nur verspüren, wenn man sich sicher fühlt. Daher ist das erste Ziel sicher sein beim Vortragen um dann dabei Spaß zu haben.
+
+## Werkzeuge, auf die wir uns konzentrieren
+
+1)  **Atmen:** Das erste Wort ist atmen.
+2)  **Pausen:** Ein Satz endet mit einer Pause.
+
+## Ablauf der Veranstaltung
+
+Grob gesprochen teilt sich die Veranstaltung in zwei Teile. In den morgentlichen Blöcken hälst du den Vortrag, den du am vorherigen Nachmittag selbsständig gebaut hast.
+
+|   | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
+|------------|------------|------------|------------|------------|------------|
+| 09:30--12:00 | *2 Minutenpräsentation* | *Langweile mich!* | Üben *Osna in a nutshell* auf Englisch | Reflexion | *Analog ist das Fax!* |
+| 12:00--13:00 | **Mittag** | **Mittag** | **Mittag** | **Mittag** | **Mittag** |
+| 13:00--15:00 | Eigenständig *Langweile mich!* Präsentation erstellen | Eigenständig *Osna in a nutshell* Präsentation erstellen | Besuch *Fox Valley Technical College* und Vortrag *Osna in a nutshell* | Eigenständig *Analog ist das Fax!* Präsentation erstellen und *PowerPoint Karaoke* raussuchen | *PowerPoint Karaoke* |
+
+Präsentation *Langweile mich!*. 
+
+: Erstelle eine langweilige Präsentation. Dabei muss das selbstgewählte Thema nicht langweilig sein, aber die Folien sind es.
+
+Englische Präsentation *Osna in a nutshell*. 
+
+: Wie ist es in Osnabrück zu leben? Was macht es aus? Wo studiert man, wie studiert man? Was macht man so in Osnabrück? Was ist wichtig zu iwssen über dich oder die Stadt?
+
+Präsentation *Analog ist das Fax!*. 
+
+: Erstelle eine analoge Präsentation ohne PowerPoint und Beamer.
+
+Präsentation *PowerPoint Karaoke*. 
+
+: Suche mit Google und dem Suchbegriff `filetype:pptx whales` zum Beispiel Pärsentationen über einen Wal. Jemand anderes hält dann die Präsentation. 
+
+### Varianten
+
+Hier ein paar Varianten, die mir eingefallen sind und die wir eventuell mal ausprobieren werden.
+
+-   Der Steg
+-   Das Mikrophone
+-   Die Mensa
+-   Die freche Mütze
+-   Die gelangweilte Zuhörerschaft
+-   Die Emotionen oder [Monster des Alltags](https://www.perlentaucher.de/buch/christian-moser/monster-des-alltags-noch-mehr-monster-band-3.html)
+
+## Quellen
+
+Für die Vorbereitung der Veranstaltung habe ich wie immer einiges an Videos und Internetseiten besucht. Dann noch das ein oder andere Buch gelesen und mich gefragt: "Tut das was zur Sache?". Hier also meine Liste an Inspirationen, die du dann vermutlich wieder erkennen wirst.
+
+### YouTube Kanäle & Videos
+
+Hier findest du einmal eine Auswahl an YouTubern und auch Videos, die ich aus unterschiedlichen Gründen spannend finde. Teilweise sind es die Inhalte teilweise der Vortragsstil oder aber auch beides zusammen. Beachte, dass es dann eben häufig keine PowerPoint Präsentationen sind.
+
+1)  [Vinh Giang](https://www.youtube.com/@askvinh)
+2)  [Philipp Humm](https://www.youtube.com/@Philipp-Humm)
+3)  [The School of Life](https://www.youtube.com/@theschooloflifetv)
+4)  [Saying YES! to your Weirdness \| JP Sears \| TEDxCardiffbytheSea](https://www.youtube.com/watch?v=79zra755WgA)
+5)  [Inneren Frieden finden: Widerstand macht unglücklich! // Dieter Lange](https://www.youtube.com/watch?v=RQ1bERqisnw)
+6)  [Willi Weitzel: Vom Wissens-Star zum Träume-Macher | STATIONEN | BR](https://youtu.be/S3yUdiiNkVg)
+7)  [I Will Do It or Die – Jim Rohn’s Most Powerful Lesson on Discipline](https://youtu.be/TgzEY8ZPNso)
+8)  [Why Creativity Means Nothing](https://youtu.be/ytAgHsGt_uA)
+
+### Personen & Unternehmen
+
+Es gibt Menschen und Unternehmen, die natürlich mit Präsentationen und Kommunikation ihr Geld verdienen. Hier habe ich auch einmal eine Sammlung an Personen und Unternehmen oder Organisationen zusammengestellt.
+
+1)  [Andreas Gaertner -- Share Notes](https://www.sharenotes.de/)
+2)  [die Zeichner -- Sehen worüber man spricht!](https://www.die-zeichner.de/)
+3)  [Klima leicht erklärt](https://klima-leicht-erklaert.de/)
+4)  [Die Leichte Sprache](https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/barrierefreie_it/uebergreifende-anforderungen-web-und-app/leichte-sprache/leichte-sprache-artikel.html)
+
+### Bücher
+
+1)  [The Science of Storytelling: Why Stories Make Us Human, and How To Tell Them Better](https://www.goodreads.com/book/show/43183121-the-science-of-storytelling)
+2)  [Make it Stick: The Science of Successful Learning](https://www.goodreads.com/book/show/18770267-make-it-stick)
+
+### Wie weiter?
+
+1)  [Live Action Role Playing](https://de.wikipedia.org/wiki/Live_Action_Role_Playing)
+2)  [Role-playing game](https://en.wikipedia.org/wiki/Role-playing_game)
+3)  [Improvisationstheater](https://de.wikipedia.org/wiki/Improvisationstheater)
+4)  [LearningCenter HS Osnabrück](https://www.hs-osnabrueck.de/learningcenter/fuer-studierende/)
