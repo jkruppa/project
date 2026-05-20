@@ -2,7 +2,7 @@
 title: "Modulpfad Angewandte Statistik und Versuchswesen"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "17. February 2026"
+date: "19. May 2026"
 format:
   html:
     embed-resources: true
@@ -105,11 +105,8 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 13) Ergebnistabelle der zweifaktoriellen ANOVA
 14) Die zweifaktorielle ANOVA in R
 15) Interaktion in der zweifaktoriellen ANOVA
-16) Einfache experimentelle Designs 
-17) Schätzen der Korrelation und des Bestimmtheitsmaßes
-18) Visualisierung der Korrelation und des Bestimmtheitsmaßes 
-19) Interpretation der Ergebnisse einer Korrelationsanalyse in R
-20) Interpretation der Ergebnisse einer linearen Regression in R
+16) Schätzen der Korrelation und des Bestimmtheitsmaßes
+17) Visualisierung der Korrelation und des Bestimmtheitsmaßes 
 
 #### Hausarbeit
 
@@ -124,7 +121,7 @@ Für die Abgabe gehen Sie bitte wie folgt vor:
 
 1)  Laden Sie Ihre PDF-Datei in den ILIAS-Abgabeordner hoch.
 2)  Benennen Sie die Datei mit Ihrem Namen und Ihrer Matrikelnummer.
-3)  Die Abgabe muss bis zum **30. Juni 2026** erfolgen.
+3)  Die Abgabe muss bis zum **05. Juli 2026** erfolgen.
 :::
 
 ##### Datenanalyse in R
