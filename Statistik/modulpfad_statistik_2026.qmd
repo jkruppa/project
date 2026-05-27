@@ -196,13 +196,15 @@ Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
 -   **Materialien und Methoden (2 Punkte):**
     -   Beschreibung des Fragebogens anhand der gegebenen Informationen.
     -   Beschreibung der angewandten statistischen Methoden zur Datenauswertung.
--   **Ergebnisse (6 Punkte):**
-    -   Visualisierung der Daten im Kontext der Fragestellung **(2 Punkte)**.
-    -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse **(4 Punkte)**.
+-   **Ergebnisse (2 Punkte):**
+    -   Visualisierung der Daten im Kontext der Fragestellung.
+    -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse.
 -   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
+-   **Präsentation (6 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag
+
 
 ##### Benotung
 
-Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 10 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
+Ihre Leistung im Bericht und der Datenauswertung wird mit bis zu 12 Punkten bewertet. Diese Punkte fließen direkt in Ihre Gesamtnote ein, indem sie zu Ihrer Klausurpunktzahl addiert werden. Die erreichte Summe bestimmt dann Ihre endgültige Modulnote.
 
 
