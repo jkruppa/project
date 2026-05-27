@@ -160,7 +160,7 @@ Ihre Hausarbeit wird nach folgenden Kriterien bewertet:
     -   Visualisierung der Daten im Kontext der Fragestellung. 
     -   Bericht der Ergebnisse und Erkenntnisse aus der statistischen Analyse.
 -   **Diskussion (1 Punkt):** Bewertung der Ergebnisse im Kontext der Fragestellung.
--   **Präsentation (6 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag
+-   **Präsentation (6 Punkte):** Darstellung der Ergebnisse in einem kurzem Vortrag.
 
 ##### Benotung
 
