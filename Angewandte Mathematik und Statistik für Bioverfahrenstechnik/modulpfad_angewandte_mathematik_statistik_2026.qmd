@@ -2,7 +2,7 @@
 title: "Modulpfad Angewandte Mathematik und Statistik für Bioverfahrenstechnik"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "17. February 2026"
+date: "01. Juni 2026"
 format:
   html:
     embed-resources: true
@@ -99,9 +99,7 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 1) Herodot – der Schimmel aus Ivenack
 2) In der Kartonagenfabrik
 3) Ein Pfund Insekten, bitte!
-4) Armee der Kaninchen
-5) Uckermark. Unendliche Weiten.
-6) Nelken von den Molukken
+4) Nelken von den Molukken
 
 ##### Mögliche Aufgaben aus dem Statistikteil
 
@@ -120,7 +118,6 @@ Die Klausurinhalte werden jedes Sommersemester aktualisiert. Aus diesem Grund be
 12) Visualisierung der einfaktoriellen ANOVA
 13) Ergebnistabelle der einfaktoriellen ANOVA
 14) Die einfaktorielle ANOVA in R
-15) Den Chi-Quadrat-Test berechnen
 
 #### Hausarbeit
 
