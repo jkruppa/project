@@ -2,7 +2,7 @@
 title: "Modulpfad Modellierung landwirtschaftlicher Daten"
 subtitle: "Der folgende Pfad strukturiert das Modul und dient Ihnen als Leitfaden zur besseren Orientierung."
 author: "Jochen Kruppa-Scheetz"
-date: "16. February 2026"
+date: "01. Juni 2026"
 format:
   html:
     embed-resources: true
